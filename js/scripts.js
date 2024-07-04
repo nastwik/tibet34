@@ -78,10 +78,10 @@
 
     // LOGO HOVER
     $(".logo-item").hover(function () {
-        $('.logo-item').not(this).css({
-          "opacity": "0.3"
-        });
-      },
+      $('.logo-item').not(this).css({
+        "opacity": "0.3"
+      });
+    },
       function () {
         $('.logo-item').not(this).css({
           "opacity": "1"
@@ -236,45 +236,45 @@
   });
 
 
-  // SLIDER
-  var mainslider = new Swiper('.slider-main', {
-    spaceBetween: 0,
-    autoplay: {
-      delay: 9500,
-      disableOnInteraction: false,
-    },
-    loop: true,
-    direction: 'vertical',
-    loopedSlides: 1,
-    touchRatio: 0,
-    thumbs: {
-      swiper: slidercontent
-    }
-  });
+  /*   // SLIDER
+    var mainslider = new Swiper('.slider-main', {
+      spaceBetween: 0,
+      autoplay: {
+        delay: 9500,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      direction: 'vertical',
+      loopedSlides: 1,
+      touchRatio: 0,
+      thumbs: {
+        swiper: slidercontent
+      }
+    }); */
 
 
   // SLIDER CONTENT
-  var slidercontent = new Swiper('.slider-content', {
-    spaceBetween: 10,
-    centeredSlides: true,
-    slidesPerView: 1,
-    touchRatio: 0,
-    slideToClickedSlide: true,
-    loop: true,
-    navigation: {
-      nextEl: '.button-next',
-      prevEl: '.button-prev',
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'fraction',
-    },
-  });
-
-  if ($(".slider-main")[0]) {
-    mainslider.controller.control = slidercontent;
-    slidercontent.controller.control = mainslider;
-  } else {}
+  /*   var slidercontent = new Swiper('.slider-content', {
+      spaceBetween: 10,
+      centeredSlides: true,
+      slidesPerView: 1,
+      touchRatio: 0,
+      slideToClickedSlide: true,
+      loop: true,
+      navigation: {
+        nextEl: '.button-next',
+        prevEl: '.button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
+    });
+  
+    if ($(".slider-main")[0]) {
+      mainslider.controller.control = slidercontent;
+      slidercontent.controller.control = mainslider;
+    } else {} */
 
 
   // DATA BACKGROUND IMAGE

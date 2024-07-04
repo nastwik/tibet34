@@ -1,0 +1,7 @@
+/* SECTOR BOX */
+.concrete-box{width: 100%; display: flex; flex-direction: column; justify-content: center; flex-wrap: wrap; padding: 40px; box-shadow: 1px 0 0 0 #eee, 0 1px 0 0 #eee, 1px 1px 0 0 #eee, 1px 0 0 0 #eee inset, 0 1px 0 0 #eee inset; position: relative; color: $color-dark; @include transition;
+	&:hover{ box-shadow: none; z-index: 1; text-decoration: none; background: $color-main; }
+	&:hover i{opacity: 1;}
+	img{padding-bottom: 15px; max-width: 100%; object-fit: contain;}
+	span{font-weight: 600;}
+   .box-content{margin: auto;}}

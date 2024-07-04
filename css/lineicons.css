@@ -267,7 +267,8 @@ Author: lineicons.com
 }
 
 .lni-arrow-right::before {
-  content: "\ea1e";
+  /* content: "\ea1e"; */
+  content: "\e941";
 }
 
 .lni-arrow-top-left::before {
