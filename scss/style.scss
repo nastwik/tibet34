@@ -296,6 +296,20 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 .mt-148{
 	margin-top: 148px;
 }
+.mb-148{
+	margin-bottom: 148px;
+}
+.mt-138{
+	margin-top: 138px;
+}
+.accent-word{
+	color: $color-main;
+}
+.leadform-section{
+	background-image: url("../images/section-bg02.jpg");
+	background-size: cover;
+	background-position: 25% 50%;
+}
 /* WHITE SPACES */
 .white-space-top{ position: relative;
 	&:before{content: ""; width: 100vw; height: 148px; background: #fff; position: absolute; left: 0; top: 0;}}
@@ -364,12 +378,12 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 /* SLIDER */
 .slider{width: 100%; height: 100vh; display: flex; flex-wrap: wrap; min-height: 100vh; background-color:$color-dark; background-image: url("../images/header-pattern.png"); background-size: cover; position: relative;
 	.container{position: relative; padding-top: 150px; display: flex; flex-wrap: wrap;}
-	.slider-content{width: calc(60%); display: flex; flex-wrap:wrap; position: relative; overflow: hidden; margin: 0; margin-right: 40px;
+	.slider-content{width: calc(53%); display: flex; flex-wrap:wrap; position: relative; overflow: hidden; margin: 0; margin-right: 40px;
 		.swiper-slide{ display: flex; align-items: center;}
 		.inner{width: 100%; display: block; color: #fff; padding-bottom: 100px;
 			h2{font-size: 60px; font-weight: 800;
 				b{-webkit-text-stroke: 1px #fff; text-stroke: 1px #fff; -webkit-text-fill-color: transparent; color: transparent;}}
-			p{margin-bottom: 70px;}
+			p{margin-bottom: 28px; font-size: 25px;}
 			a{display: inline-block; height: 68px; line-height: 68px; padding: 0 40px; background: $color-main; color: $color-dark; font-size: 16px; font-weight: 600; @include transition;
 				i{display: inline-block; margin-left: 10px; font-size: 20px; transform: translateY(3px); @include transition;}
 				&:hover{text-decoration: none; box-shadow: 0 20px 20px #000;
@@ -607,9 +621,11 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 
 /* SERVICE LIST BOX */
-.services-list-box{width: 100%; display: block; background: #fff; padding: 50px; transform: translateY(100px); margin-bottom: 100px;
-	h4{font-size: 50px; font-weight: 800;}
-	.form-group{margin: 30px 0;}
+.services-list-box{width: 100%; display: block; background: #fff; padding: 50px; transform: translateY(50px); margin-bottom: 100px;
+	h2{font-size: 47px; font-weight: 600; margin-bottom: 15px;}
+	.form-group{display: flex; flex-wrap: wrap;}
+	.form-item{margin: 15px 0;}
+	input[type=text]{width: 380px; max-width: 100%; height: 68px; border: 2px solid #e8e8e8; padding: 0 30px; margin: 0 15px 0 0;}
 	/* p{width: 100%; display: block; margin-bottom: 20px;}
 	ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
 		li{margin: 10px 0;}} */

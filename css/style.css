@@ -622,6 +622,24 @@ a:hover {
   margin-top: 148px;
 }
 
+.mb-148 {
+  margin-bottom: 148px;
+}
+
+.mt-138 {
+  margin-top: 138px;
+}
+
+.accent-word {
+  color: #feed01;
+}
+
+.leadform-section {
+  background-image: url("../images/section-bg02.jpg");
+  background-size: cover;
+  background-position: 25% 50%;
+}
+
 /* WHITE SPACES */
 .white-space-top {
   position: relative;
@@ -912,7 +930,7 @@ a:hover {
   flex-wrap: wrap;
 }
 .slider .slider-content {
-  width: 60%;
+  width: 53%;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -941,7 +959,8 @@ a:hover {
   color: transparent;
 }
 .slider .slider-content .inner p {
-  margin-bottom: 70px;
+  margin-bottom: 28px;
+  font-size: 25px;
 }
 .slider .slider-content .inner a {
   display: inline-block;
@@ -1940,7 +1959,7 @@ a:hover {
   display: block;
   background: #fff;
   padding: 50px;
-  transform: translateY(100px);
+  transform: translateY(50px);
   margin-bottom: 100px;
   /* p{width: 100%; display: block; margin-bottom: 20px;}
   ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
@@ -1948,12 +1967,25 @@ a:hover {
   /* .button{display: inline-block; height: 68px; line-height: 68px; padding: 0 40px; background: $color-dark; color: #fff; font-size: 13px; font-weight: 600; @include transition;
   	&:hover{text-decoration: none; background: $color-main; color: $color-dark; }} */
 }
-.services-list-box h4 {
-  font-size: 50px;
-  font-weight: 800;
+.services-list-box h2 {
+  font-size: 47px;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 .services-list-box .form-group {
-  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.services-list-box .form-item {
+  margin: 15px 0;
+}
+.services-list-box input[type=text] {
+  width: 380px;
+  max-width: 100%;
+  height: 68px;
+  border: 2px solid #e8e8e8;
+  padding: 0 30px;
+  margin: 0 15px 0 0;
 }
 
 /* CUSTOM LIST */
