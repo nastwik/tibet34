@@ -69,8 +69,8 @@
           <li><a>Каталог</a>
             <ul>
               <li><a href="concrete-delivery.php"><b>Бетон с доставкой</b></a></li>
-              <li><a href="core-values.html">Core Values</a></li>
-              <li><a href="leadership.html">Leadership</a></li>
+              <li><a href="trade-concrete.php">Товарный бетон</a></li>
+              <li><a href="leadership.html">Усиленный бетон</a></li>
               <li><a href="our-history.html">Our History</a></li>
               <li><a href="offices.html">Offices</a></li>
               <li><a href="certificates.html">Certificates</a></li>

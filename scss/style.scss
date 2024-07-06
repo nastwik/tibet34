@@ -405,9 +405,10 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 
 /* PAGE HEADER */
-.page-header{width: 100%; height: 500px; display: flex; flex-wrap: wrap; align-items: center; background-color:$color-dark; background-image: url("../images/header-pattern.png"); background-size: cover; position: relative;
+.page-header{width: 100%; height: 400px; display: flex; flex-wrap: wrap; align-items: center; background-color:$color-dark; background-image: url("../images/header-pattern.png"); background-size: cover; position: relative;
 	.container{position: relative; color: #fff; padding-top: 98px;
 		h6{ width: 100%; display: block; opacity: 0.7; margin-bottom: 50px;}
+		h2{ width: 100%; display: block; font-size: 4vw; font-weight: 800; line-height: 1;}
 		h1{ width: 100%; display: block; font-size: 7vw; font-weight: 800; line-height: 1;}
 		ul{width: 100%; display: block; margin: 0; padding: 0;
 			li{display: inline-block; margin-right: 10px; padding: 0; font-size: 13px; font-weight: 600;
@@ -768,16 +769,16 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 
 /* RECENT NEWS */
-.recent-news{width: 100%; display: block; position: relative; @include transition;
+.rent-container{display: flex; flex-direction: row; flex-wrap: wrap; width: calc(100%/4); position: relative;}
+.recent-news{width: 100%; display: block; @include transition; position: relative; height: auto;
 	&:hover{transform: translateY(-20px); box-shadow: 0 30px 30px #eee;}
 	&:hover:after{content: ""; width: 70%; height: 70px; background: url("../images/pattern-dot.png"); background-size: 12px 12px;  position: absolute; right: -25px; bottom: -25px; z-index: -1; opacity: 0.2;}
-	&:hover figure img{ filter: none;}
 	&:hover .content h3 a{ background-size: 100% 100%;}
-	figure{width: 100%; max-height: 220px;  display: block; margin: 0; position: relative; overflow: hidden; background: $color-main;
-		img{ width: 100%; max-width: inherit; min-height: 220px; filter: grayscale(1); }}
+	figure{width: 100%; max-height: 260px;  display: block; margin: 0; position: relative; overflow: hidden; background: $color-main;
+		img{ width: 100%; height: 100%; object-fit: contain;}}
 	.content{ width: 100%; height: 100%; display: block; padding: 30px; background: #fff; border: 1px solid #e8e8e8; border-top: none;
 		small{display: inline-block; padding: 4px 8px; background: $color-main; margin-bottom: 20px; color: $color-dark;}
-		h3{width: 100%; display: block; margin-bottom: 30px; font-size: 26px; line-height: 1.4;
+		h3{width: 100%; display: block; margin-bottom: 30px; font-size: 25px; line-height: 1.4;
 			a{display: inline; background-image: -moz-linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px);
     background-image: -webkit-linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px);
     background-image: linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px); background-repeat: no-repeat;
@@ -820,7 +821,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 
 /* SIDEBAR */
-.sidebar{width: 100%; display: block; padding-left: 30px;
+.sidebar{width: 100%; display: block; padding-right: 30px;
 	.widget{width: 100%; display: block; border: 1px solid #e8e8e8; padding: 50px; margin-bottom: 50px;
 		&:last-child{margin-bottom: 0;}
 		.widget-title{ width: 100%; display: block; position: relative; z-index: 1; font-weight: 800; letter-spacing: 3px; font-size: 18px; margin-bottom: 30px; padding-bottom: 30px;
@@ -1005,6 +1006,8 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.project-slider .swiper-slide .project-box figcaption{width: 100%; position: static; }
 	.project-slider .swiper-slide .project-box figcaption h5{font-size: 22px;}
 	.project-slider .swiper-slide .project-box figcaption:after{bottom: 0;}
+	.product__container{flex-direction: column;}
+	.product{width: 100% !important;}
 	.calculator .bg-image{display: none;}
 	.row.no-gutters .col{width: 80%; flex-basis: 80%; margin: 15px 10%;}
 	.testimonials-slider{width: 100%; margin: 0;}
