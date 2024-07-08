@@ -3596,28 +3596,18 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   margin: auto;
 }
 
-/* .card-product{display: flex; flex-direction: column; justify-content: center; flex-wrap: wrap; border: 1px gray; padding: 20px; margin: 0 10px 10px 10px; box-shadow: 1px 0 0 0 #eee, 0 1px 0 0 #eee, 1px 1px 0 0 #eee, 1px 0 0 0 #eee inset, 0 1px 0 0 #eee inset; position: relative; color: $color-dark; @include transition;
-	&:hover{ box-shadow: none; z-index: 1; text-decoration: none; background: $color-main; }
-	img{padding-bottom: 15px; max-width: 80%; object-fit: contain; margin: auto;}
-	span{font-weight: 600;}
-   &__content{margin: auto;}} */
-/*    img {
-      height: auto;
-      max-width: 100%;
-  }
-  .content{
-      margin-top: 50px;
-  } */
 .product__container {
   display: flex;
+  width: 100%;
 }
 
 .product {
   width: 33.3333333333%;
+  cursor: pointer;
   border: 1px solid #e8e8e8;
   overflow: hidden;
   padding: 25px 15px;
-  margin: 0 30px 30px 0px;
+  margin: 0 15px 15px 0;
   position: relative;
   text-align: center;
   transition: all 0.5s ease 0s;
@@ -3658,4 +3648,54 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   color: #d51e08;
   font-size: 18px;
   font-weight: 700;
+}
+
+/*   .service__price{
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    color: $color-main;
+    font-size: 18px;
+    border: 1px solid #000;
+    line-height: 30px;
+    padding: 5px 2px;
+    position: absolute;
+    bottom: 0;
+    font-weight: 500;
+} */
+.pricing-section {
+  position: relative;
+  padding: 115px 0px 120px 0px;
+  margin: 0 auto;
+}
+.pricing-section .fl-table {
+  overflow: auto;
+}
+.pricing-section table {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+.pricing-section table th, .pricing-section table td {
+  padding: 16px;
+  margin: auto;
+}
+.pricing-section table th {
+  background-color: #feed01;
+  color: #000;
+}
+.pricing-section table tr.gray {
+  background-color: #efeff6;
+}
+
+.centred {
+  text-align: center;
+}
+
+.concrete-price p {
+  text-align: left;
+}
+.concrete-price i {
+  color: #feed01;
 }
