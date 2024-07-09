@@ -2784,7 +2784,6 @@ a:hover {
 .sidebar {
   width: 100%;
   display: block;
-  padding-right: 30px;
 }
 .sidebar .widget {
   width: 100%;
@@ -2794,7 +2793,7 @@ a:hover {
   margin-bottom: 50px;
 }
 .sidebar .widget:last-child {
-  margin-bottom: 0;
+  margin-bottom: 40px;
 }
 .sidebar .widget .widget-title {
   width: 100%;
@@ -3698,4 +3697,104 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 }
 .concrete-price i {
   color: #feed01;
+}
+
+.main {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #e8e8e8;
+}
+.main ul {
+  list-style-type: none;
+}
+.main a {
+  display: inline-block;
+}
+.main svg {
+  color: #76A565;
+}
+.main button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #feed01;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: background-color 200ms ease-in-out;
+}
+.main-photo {
+  width: 530px;
+  max-width: 100%;
+  margin-right: 30px;
+  padding: 40px;
+}
+.main-details {
+  margin-right: 40px;
+}
+.main-details-desc {
+  overflow: hidden;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.main-details-price {
+  font-size: 24px;
+  font-weight: 700;
+}
+.main-details-application {
+  background-color: #feed01;
+}
+.main-details-question {
+  background-color: #fff;
+}
+.main-details-application:hover {
+  background-color: #CEC21B;
+  border: 2px solid #CEC21B;
+}
+.main-details-question:hover {
+  background-color: #CEC21B;
+  border: 2px solid #CEC21B;
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-flow: column nowrap;
+    align-items: start;
+  }
+  .main button:last-of-type {
+    margin-bottom: 40px;
+  }
+  .main-photo {
+    margin-right: 0px;
+  }
+  .main-details {
+    margin-right: 0px;
+    margin-left: 45px;
+  }
+}
+.characters h4 {
+  margin-top: 40px;
+}
+.characters table {
+  width: 100%;
+}
+.characters table .name {
+  overflow: hidden;
+}
+.characters table .name span {
+  display: inline-block;
+  position: relative;
+}
+.characters table .name span:after {
+  content: "";
+  display: inline-block;
+  border-bottom: 1px dotted #333;
+  position: absolute;
+  left: 100%;
+  right: -9999px;
+  bottom: 0;
+}
+.characters table .cur {
+  width: 30%;
 }

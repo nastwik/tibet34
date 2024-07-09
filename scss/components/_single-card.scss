@@ -1,0 +1,95 @@
+.main{
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   justify-content: space-between;
+   border: 1px solid #e8e8e8;
+      ul{list-style-type: none;}
+      a{display: inline-block;}
+      svg{color: #76A565;}
+      button{
+         display: inline-block;
+         padding: 10px 20px;
+         border: 2px solid $color-main;
+         font-weight: 700;
+         font-size: 14px;
+         margin-top: 10px;
+         transition: background-color 200ms ease-in-out;
+      }
+      &-photo{
+         width: 530px;
+         max-width: 100%;
+         margin-right: 30px;
+         padding: 40px;
+      }
+      &-details{
+         margin-right: 40px;
+      }
+      &-details-desc{
+         overflow: hidden; 
+         font-size: 14px;
+         margin-bottom: 20px;
+      }
+      &-details-price{ 
+         font-size: 24px; 
+         font-weight: 700;
+      }
+      &-details-application{
+         background-color: $color-main;
+      }
+      &-details-question{
+         background-color: #fff;
+      }
+      &-details-application:hover{
+         background-color: #CEC21B;
+         border: 2px solid #CEC21B;
+      }
+      &-details-question:hover{
+         background-color: #CEC21B;
+         border: 2px solid #CEC21B;
+      }
+}
+
+@media (max-width: 768px){
+   .main{
+      flex-flow: column nowrap;
+      align-items: start;
+      button:last-of-type{
+         margin-bottom: 40px;
+      }
+      &-photo{
+         margin-right: 0px;
+      }
+      &-details{
+         margin-right: 0px;
+         margin-left: 45px;
+      }
+   }
+}
+
+.characters{
+   h4{margin-top: 40px;}
+   table {
+      width: 100%;
+      .name {  
+         overflow: hidden;
+         span {
+            display: inline-block;
+            position: relative;
+          }
+          span:after {
+            content: '';
+            display: inline-block;
+            border-bottom: 1px dotted #333;
+            position: absolute;
+            left: 100%;
+            right: -9999px;
+            bottom: 0;
+          }
+       }
+      .cur {
+         width: 30%;
+       }
+    }
+}
+

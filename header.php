@@ -70,10 +70,8 @@
             <ul>
               <li><a href="concrete-delivery.php"><b>Бетон с доставкой</b></a></li>
               <li><a href="trade-concrete.php">Товарный бетон</a></li>
-              <li><a href="leadership.html">Усиленный бетон</a></li>
-              <li><a href="our-history.html">Our History</a></li>
-              <li><a href="offices.html">Offices</a></li>
-              <li><a href="certificates.html">Certificates</a></li>
+              <li><a href="">Усиленный бетон</a></li>
+              <li><a href=""><b>Тротуарная плитка</b></a></li>
             </ul>
           </li>
           <li><a href="projects.html">Услуги спецтехники</a></li>

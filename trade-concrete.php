@@ -34,7 +34,7 @@
                                 <img src="images/concrete01.jpg" alt="concrete">
                             </div>
                             <p class="product-title">
-                                <a href="#">Бетон М-400П3 (В 30)</a>
+                                <a href="single-page-card.php">Бетон М-400П3 (В 30)</a>
                             </p>
                             <div class="product-desc">
                                 <p>В наличии</p>
@@ -56,7 +56,7 @@
                         </div>
                         <div class="product">
                             <div class="product-img">
-                                <a href="#"><img src="images/concrete03.jpg" alt="concrete"></a>
+                                <a href="#"><img src="images/concrete01.jpg" alt="concrete"></a>
                             </div>
                             <p class="product-title">
                                 <a href="#">Бетон М-400П2 (В 30)</a>
@@ -71,7 +71,7 @@
                         <div class="product__container">
                         <div class="product">
                             <div class="product-img">
-                                <a href="#"><img src="images/concrete03.jpg" alt="concrete"></a>
+                                <a href="#"><img src="images/concrete02.jpg" alt="concrete"></a>
                             </div>
                             <p class="product-title">
                                 <a href="#">Бетон М-400П3 (В 30)</a>
