@@ -44,7 +44,6 @@
   <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  
 
 </head>
 
@@ -66,7 +65,7 @@
         <ul>
           <li><a href="index.php">Главная</a></li>
           <li><a href="services.html">О компании</a></li>
-          <li><a>Каталог</a>
+          <li><a href="catalog.php">Каталог</a>
             <ul>
               <li><a href="concrete-delivery.php"><b>Бетон с доставкой</b></a></li>
               <li><a href="trade-concrete.php">Товарный бетон</a></li>

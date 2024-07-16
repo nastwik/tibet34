@@ -8,6 +8,7 @@
             <form>
                <div class="form-group">
                <div class="form-item">
+                  <!-- <input type="text" placeholder="+7(___) __-__-__" name="phone"> -->
                   <input required id="phone" class="form-control" type="text" placeholder="+7(___)___-__-__" /></input>
                </div>
                <div class="form-item">

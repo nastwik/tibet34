@@ -1,6 +1,6 @@
 .catalog-container{display: flex; width: 100%;}
-	.concrete-card{
-	width: calc(100% / 2); 
+	.category{
+	width: calc(100% / 3); 
 	cursor: pointer; 
 	border: 1px solid #e8e8e8; 
 	overflow: hidden; 
@@ -18,7 +18,7 @@
 		.catalog-container{
 		flex-direction: column;
  	   }	
-		.concrete-card{
+		.category{
 		width: 100%;
 		margin-bottom: 40px;
   		}

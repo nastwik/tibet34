@@ -5,6 +5,7 @@
 	  <ul>
 	  	<li><a href="#">Главная</a></li>
 		<li>Каталог</li>
+		<li>Бетон с доставкой</li>
 	  	<li>Товарный бетон</li>
 	  </ul>
   </div> 
@@ -17,13 +18,26 @@
 						<div class="widget">
 							<h6 class="widget-title">КАТЕГОРИИ</h6>
 							<ul class="categories">
-								<li><a href="#">Бетон с доставкой</a></li>
+								<li><a href="concrete-delivery.php">Бетон с доставкой</a></li>
 									<ul class="subcategories">
-										<li><a href="#">Товарный бетон</a></li>
+										<li><a href="trade-concrete.php">Товарный бетон</a></li>
 										<li><a href="#">Усиленный бетон</a></li>
 									</ul>
 								<li><a href="#">Тротуарная плитка</a></li>
 							</ul>
+						</div>
+                        <div class="widget">
+							<h6 class="widget-title">ФИЛЬТР</h6>
+							<!-- <ul class="categories">
+								<li><a href="concrete-delivery.php">Бетон с доставкой</a></li>
+									<ul class="subcategories">
+										<li><a href="trade-concrete.php">Товарный бетон</a></li>
+										<li><a href="#">Усиленный бетон</a></li>
+									</ul>
+								<li><a href="#">Тротуарная плитка</a></li>
+							</ul> -->
+                            
+
 						</div>
 					</aside>
 				</div>
@@ -37,7 +51,8 @@
                                 <a href="single-page-card.php">Бетон М-400П3 (В 30)</a>
                             </p>
                             <div class="product-desc">
-                                <p>В наличии</p>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
+                                В наличии</p>
                             </div>
                             <!-- <div class="service__price">7000 руб/м3 руб.</div> -->
                             <p class="product-price">7000 руб/м3</p>
@@ -50,7 +65,8 @@
                                 <a href="#">Бетон М-350П4 (В 25)</a>
                             </p>
                             <div class="product-desc">
-                                <p>В наличии</p>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
+                                В наличии</p>
                             </div>
                             <p class="product-price">6900 руб/м3</p>
                         </div>
@@ -62,8 +78,10 @@
                                 <a href="#">Бетон М-400П2 (В 30)</a>
                             </p>
                             <div class="product-desc">
-                                <p>В наличии</p>
-                                <p>Подходит для бетононасоса</p>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
+                                В наличии</p>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
+                                Подходит для бетононасоса</p>
                             </div>
                             <p class="product-price">6900 руб/м3</p>
                         </div>
@@ -77,8 +95,10 @@
                                 <a href="#">Бетон М-400П3 (В 30)</a>
                             </p>
                             <div class="product-desc">
-                                <p>В наличии</p>
-                                <p>Подходит для бетононасоса</p>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
+                                В наличии</p>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
+                                Подходит для бетононасоса</p>
                             </div>
                             <p class="product-price">7000 руб/м3</p>
                         </div>
@@ -90,8 +110,10 @@
                                 <a href="#">Бетон М-350П4 (В 25)</a>
                             </p>
                             <div class="product-desc">
-                                <p>В наличии</p>
-                                <p>Подходит для бетононасоса</p>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
+                                В наличии</p>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
+                                Подходит для бетононасоса</p>
                             </div>
                             <p class="product-price">6900 руб/м3</p>
                         </div>
@@ -103,12 +125,13 @@
                                 <a href="#">Бетон М-400П2 (В 30)</a>
                             </p>
                             <div class="product-desc">
-                                <p>В наличии</p>
+                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
+                                В наличии</p>
                             </div>
                             <p class="product-price">6900 руб/м3</p>
                         </div>
                     </div>
-                </div>
+               
                 <section class="pricing-section centred">
                         <div class="col-12">
                             <div class="section-title">
@@ -228,6 +251,7 @@
                             </p>
                         </div>
                     </section>
+                    </div>
             </div>
     </section>
         

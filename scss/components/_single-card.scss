@@ -71,6 +71,7 @@
    h4{margin-top: 40px;}
    table {
       width: 100%;
+      margin-bottom: 20px;
       .name {  
          overflow: hidden;
          span {
@@ -91,5 +92,20 @@
          width: 30%;
        }
     }
+}
+
+.more{ 
+   h3{color:#555555; font-weight: 700; margin-top: 60px;}
+   ul {list-style-type: square; padding: 0 0 0 25px;}
+   a:hover{color: skyblue;}
+   a>b:hover{color: $color-dark;}
+   a b:hover{text-decoration: underline;}
+   &__preamble{display: flex; flex-flow: row nowrap;
+      .img{
+         padding: 20px 20px 0 0;
+         min-width: 200px;
+       img{max-width: 100%; object-fit: contain;}
+      }}
+      p{padding: 20px 0 0 0; text-align: justify;}
 }
 

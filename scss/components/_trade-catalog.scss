@@ -5,6 +5,7 @@
       img{max-height: 140px; max-width: 100%; object-fit: contain;}}
       &-title a {color: #000; font-weight: 700; text-transform: uppercase;}
       &-desc {overflow: hidden; font-size: 14px;
+         svg{color: #FBE41A;}
          p{margin: 0px}
          p:last-child{margin-bottom: 40px}
       /* :before{content:""; position: absolute; top: 4px; display: block; width: 11px; height: 8px; background: no-repeat url("../images/check.png")}*/} 
