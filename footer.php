@@ -1,4 +1,4 @@
-<section class="footer-bar">
+<section class="footer-bar mt-148">
 	  <div class="container">
     <div class="row">
       <div class="col-12">
@@ -27,7 +27,7 @@
         <address><p>г. Волжский, ул. Александрова,<br> 78 г
         </p>
 		  <p>+9(999) 999-99-99</p>
-      <p>tibet134@mail.ru</p>
+      <p>aaaaa@mail.ru</p>
     </address>
       </div>
 		<div class="col-lg-4 col-md-6">

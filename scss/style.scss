@@ -587,13 +587,13 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 /* STEP BOX */
 .step-box{ width: 100%; display: block; position: relative; z-index: 1;
-	&:hover .image img{filter: grayscale(0);}
-	&:hover:after{content: ""; width: 40%; height: 65px; background: url("../images/pattern-dot.png"); background-size: 12px 12px;  position: absolute; right: -25px; bottom: -25px; z-index: 0;}
+	/* &:hover .image img{filter: grayscale(0); }*/
+	/* &:hover:after{content: ""; width: 40%; height: 65px; background: url("../images/pattern-dot.png"); background-size: 12px 12px;  position: absolute; right: -25px; bottom: -25px; z-index: 0;}
 	&:hover .content{bottom: 0;}
-	&:hover .content h6:before{width: 0;}
+	&:hover .content h6:before{width: 0;} */
 	*{@include transition;}
 	.image{width: 100%; display: block; padding-right: 30px;
-		img{width: 100%; filter: grayscale(1);}}
+		/* img{width: 100%; filter: grayscale(1);} */}
 	.content{width: 80%; position: absolute; right: 0; bottom: -30px; z-index: 1; background: #fff; padding: 40px; box-shadow: 0 0 50px rgba(0,0,0,0.1);
 		.icon{width: 100%; display: block; margin-bottom: 20px;
 			img{height: 70px;}}
@@ -624,7 +624,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 /* SERVICE LIST BOX */
 .services-list-box{width: 100%; display: block; background: #fff; padding: 50px; transform: translateY(50px); margin-bottom: 100px;
 	h2{font-size: 47px; font-weight: 600; margin-bottom: 15px;}
-	.form-group{display: flex; flex-wrap: wrap;}
+	.form-group{display: flex; flex-wrap: wrap; width: 100%;}
 	.form-item{margin: 15px 0;}
 	input[type=text]{width: 380px; max-width: 100%; height: 68px; border: 2px solid #e8e8e8; padding: 0 30px; margin: 0 15px 0 0;}
 	/* p{width: 100%; display: block; margin-bottom: 20px;}

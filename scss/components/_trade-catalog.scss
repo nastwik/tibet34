@@ -25,15 +25,15 @@
     font-weight: 500;
 } */
 .pricing-section {position: relative; padding: 115px 0px 120px 0px; margin: 0 auto; 
-    .fl-table {overflow:auto;}
-    table {width: 100%; background-color: #fff; box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); margin-bottom: 30px;
-        th, td {padding: 16px; margin: auto;}
-        th {background-color: $color-main; color: #000;}
-        tr.gray {background-color: #efeff6;}}
+  .fl-table {overflow:auto;}
+  table {width: 100%; background-color: #fff; box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); margin-bottom: 30px;
+      th, td {padding: 16px; margin: auto;}
+      th {background-color: $color-main; color: #000;}
+      tr.gray {background-color: #efeff6;}}
 }
 .centred {text-align: center;}
 
-  .concrete-price{
-    p{text-align: left;}
-    i{color: $color-main;}
-  }
+.concrete-price{
+  p{text-align: left;}
+  i{color: $color-main;}
+}

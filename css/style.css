@@ -1804,26 +1804,10 @@ a:hover {
   display: block;
   position: relative;
   z-index: 1;
-}
-.step-box:hover .image img {
-  filter: grayscale(0);
-}
-.step-box:hover:after {
-  content: "";
-  width: 40%;
-  height: 65px;
-  background: url("../images/pattern-dot.png");
-  background-size: 12px 12px;
-  position: absolute;
-  right: -25px;
-  bottom: -25px;
-  z-index: 0;
-}
-.step-box:hover .content {
-  bottom: 0;
-}
-.step-box:hover .content h6:before {
-  width: 0;
+  /* &:hover .image img{filter: grayscale(0); }*/
+  /* &:hover:after{content: ""; width: 40%; height: 65px; background: url("../images/pattern-dot.png"); background-size: 12px 12px;  position: absolute; right: -25px; bottom: -25px; z-index: 0;}
+  &:hover .content{bottom: 0;}
+  &:hover .content h6:before{width: 0;} */
 }
 .step-box * {
   transition: all 0.25s ease-in-out;
@@ -1832,10 +1816,7 @@ a:hover {
   width: 100%;
   display: block;
   padding-right: 30px;
-}
-.step-box .image img {
-  width: 100%;
-  filter: grayscale(1);
+  /* img{width: 100%; filter: grayscale(1);} */
 }
 .step-box .content {
   width: 80%;
@@ -1982,6 +1963,7 @@ a:hover {
 .services-list-box .form-group {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 .services-list-box .form-item {
   margin: 15px 0;

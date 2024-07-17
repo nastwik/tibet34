@@ -64,7 +64,7 @@
       <div class="site-menu">
         <ul>
           <li><a href="index.php">Главная</a></li>
-          <li><a href="services.html">О компании</a></li>
+          <li><a href="about.php">О компании</a></li>
           <li><a href="catalog.php">Каталог</a>
             <ul>
               <li><a href="concrete-delivery.php"><b>Бетон с доставкой</b></a></li>

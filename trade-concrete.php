@@ -18,8 +18,10 @@
 						<div class="widget">
 							<h6 class="widget-title">КАТЕГОРИИ</h6>
 							<ul class="categories">
+								<li><a href="#">Бетон с доставкой</a></li>
 								<li><a href="concrete-delivery.php">Бетон с доставкой</a></li>
 									<ul class="subcategories">
+										<li><a href="#">Товарный бетон</a></li>
 										<li><a href="trade-concrete.php">Товарный бетон</a></li>
 										<li><a href="#">Усиленный бетон</a></li>
 									</ul>
@@ -36,7 +38,7 @@
 									</ul>
 								<li><a href="#">Тротуарная плитка</a></li>
 							</ul> -->
-                            
+
 
 						</div>
 					</aside>
@@ -131,7 +133,8 @@
                             <p class="product-price">6900 руб/м3</p>
                         </div>
                     </div>
-               
+                
+
                 <section class="pricing-section centred">
                         <div class="col-12">
                             <div class="section-title">
@@ -252,8 +255,8 @@
                         </div>
                     </section>
                     </div>
+                </div>
             </div>
     </section>
-        
 
 <? require_once 'footer.php' ?>	
