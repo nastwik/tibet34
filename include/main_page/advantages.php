@@ -1,31 +1,3 @@
-<!-- <section class="content-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="icon-content">
-            <figure><img src="images/icon01.png" alt="Image"></figure>
-            <h3>We plan with sensetive</h3>
-            <small>The awards for design, creativity and innovation on the Internet</small> <a href="#">+</a>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="icon-content">
-            <figure><img src="images/icon02.png" alt="Image"></figure>
-            <h3>For futuristic buildings</h3>
-            <small>Twenty spring of in esteem spirit likely estate continue new building</small> <a href="#">+</a>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="icon-content">
-            <figure><img src="images/icon03.png" alt="Image"></figure>
-            <h3>Make living beautiful</h3>
-            <small>Sympathize it projection ye insipidity celebrated our pianoforte</small> <a href="#">+</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
   <section class="content-section mt-148">
     <div class="container">
       <div class="row justify-content-center">
@@ -39,7 +11,7 @@
               <div class="icon-content">
                 <figure><img src="images/icons/time.png" alt="Image"></figure>
                 <h3>Долговечность</h3>
-                <small>Мы производим хорошие стройматериалы, разбираемся в добротной технике, отточив навыки работы со всем этим на 5+. Чтобы вы были уверены в прочности постройки.</small>
+                <small>Мы производим хороший бетон, разбираемся в добротной технике, отточив навыки работы со всем этим на 5+. Чтобы вы были уверены в прочности постройки.</small>
               </div>
             </div>
             <div class="col-lg-4">
@@ -76,15 +48,12 @@
             </div>
             <div class="col-lg-4">
               <div class="icon-content icon-content_light">
-                <figure><img src="images/icons/question.png" alt="Image"></figure>
-                <h3>Заголовок</h3>
-                <small>Тут<br>
-                  будет<br>
-                  какой-то<br>
-                  текст.
+                <figure><img src="images/icons/fast-time.png" alt="Image"></figure>
+                <h3>Оперативность</h3>
+                <small>Выполняем заказ в максимально короткие сроки. Технику доставляем в день запроса.
                 </small>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
+      </div>
+    </div>
+  </section>

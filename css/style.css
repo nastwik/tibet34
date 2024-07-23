@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 /*
 
@@ -149,6 +150,7 @@ input[type=text], input[type=email], input[type=search], input[type=password] {
   height: 68px;
   border: 2px solid #e8e8e8;
   padding: 0 30px;
+  margin: 8px;
 }
 
 input[type=submit], input[type=button], button[type=button], button[type=submit] {
@@ -184,6 +186,11 @@ a:hover {
 /* CUSTOM CLASSES */
 .overflow {
   overflow: hidden;
+}
+
+.equality {
+  display: flex;
+  justify-content: center;
 }
 
 /* SPACINGS */
@@ -635,7 +642,7 @@ a:hover {
 }
 
 .leadform-section {
-  background-image: url("../images/section-bg02.jpg");
+  background-image: url("../images/section-bg01.jpg");
   background-size: cover;
   background-position: 25% 50%;
 }
@@ -1100,7 +1107,7 @@ a:hover {
 /* PAGE HEADER */
 .page-header {
   width: 100%;
-  height: 400px;
+  height: 500px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -1287,6 +1294,16 @@ a:hover {
   width: 100%;
   display: block;
   margin: 0;
+  position: relative;
+  /* &::before{
+  	content: ''; 
+  	position: absolute;
+  	width: 80%;
+  	height: 30px;
+  	left: 0px;
+  	bottom: -40px;
+  	background-image: url('../images/vector.png');
+  } */
 }
 .side-image img {
   width: 100%;
@@ -1410,9 +1427,9 @@ a:hover {
 .contact-box {
   width: 100%;
   display: block;
-  border: 1px solid #e8e8e8;
-  padding: 30px;
   position: relative;
+  border: 1px solid #e8e8e8;
+  padding: 30px 30px 120px;
   transition: all 0.25s ease-in-out;
 }
 .contact-box:hover {
@@ -1459,8 +1476,9 @@ a:hover {
   transition: all 0.25s ease-in-out;
 }
 .contact-box p {
-  font-size: 20px;
-  padding-right: 5%;
+  font-size: 20px; /* padding-right: 5%; */
+  position: absolute;
+  top: 165px;
 }
 
 /* GOOGLE MAPS */
@@ -1977,6 +1995,36 @@ a:hover {
   margin: 0 15px 0 0;
 }
 
+.form-list-box {
+  width: 100%;
+  display: block;
+  transform: translateY(50px);
+  margin-bottom: 100px;
+}
+.form-list-box h2 {
+  font-size: 47px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.form-list-box .form-group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.form-list-box input[type=text] {
+  border: 2px solid #e8e8e8;
+}
+.form-list-box input[type=submit] {
+  border: 2px solid #feed01;
+}
+.form-list-box input[type=text], .form-list-box input[type=submit] {
+  width: 380px;
+  max-width: 100%;
+  height: 68px;
+  padding: 0 30px;
+  margin: 8px 0 !important;
+}
+
 /* CUSTOM LIST */
 .custom-list {
   width: 100%;
@@ -2337,7 +2385,7 @@ a:hover {
   display: block;
   background: #0b0b0b;
   color: #fff;
-  padding: 50px;
+  padding: 50px 50px 38px 50px;
 }
 .tab-left h2 {
   width: 100%;
@@ -2345,6 +2393,9 @@ a:hover {
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 30px;
+}
+.tab-left h5 {
+  margin-bottom: -25px;
 }
 .tab-left ul {
   width: 100%;
@@ -2551,6 +2602,43 @@ a:hover {
   width: 100%;
 }
 
+/* RENT CARS */
+.сar-card {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #e8e8e8;
+  height: 330px;
+  overflow: hidden;
+  padding: 25px 15px;
+  transition: all 0.5s ease 0s;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+.сar-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 30px #eee;
+}
+.сar-card h3 {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+  font-size: 22px;
+  line-height: 1.4;
+}
+.сar-card h3 a {
+  display: inline;
+  background-image: linear-gradient(rgba(0, 0, 0, 0) calc(99% - 1px), #0b0b0b 1px);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s;
+}
+.сar-card h3 a:hover {
+  text-decoration: underline;
+}
+.сar-card .car-img {
+  height: 150px;
+  position: relative;
+}
+
 /* RECENT NEWS */
 .rent-container {
   display: flex;
@@ -2565,7 +2653,8 @@ a:hover {
   display: block;
   transition: all 0.25s ease-in-out;
   position: relative;
-  height: auto;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .recent-news:hover {
   transform: translateY(-20px);

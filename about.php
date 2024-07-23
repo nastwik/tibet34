@@ -4,7 +4,7 @@
     <h2>О компании</h2>
 	  <ul>
 	  	<li><a href="#">Главная</a></li>
-		<li>О компании</li>
+		  <li>О компании</li>
 	  </ul>
   </div> 
 </header>
@@ -19,11 +19,12 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <figure class="side-image"><img src="images/strength.png" alt="Image"></figure>
+          <figure class="side-image"><img src="images/cars/betonosmesitel01.jpg" alt="Image"></figure>
         </div>
         <div class="col-lg-6">
           <div class="side-content">
             <p>Наша компания уже около 20 лет специализируется на выпуске бетона и стройматериалов. Чтобы качество нашей продукции оставалось на высоте, мы применяем в производстве бетонных смесей инновационные технологии. Это позволяет улучшить прочность и подвижность, время схватывания, устойчивость к разным температурам. </p>
+            <p>Наши специалисты предоставляют всю нужную информацию, чтобы вы могли спланировать бюджет.</p>
           </div>
         </div>
       </div>
@@ -36,110 +37,85 @@
       <div class="col-lg-7">
         <div class="section-title text-left">
           <!-- <h6>CONSTRUCTION COMPANY</h6> -->
-          <h2>Всегда гарантируем</h2>
+          <h2>Всегда гарантируем...</h2>
         </div>
-        <!-- end section-title --> 
       </div>
-      <!-- end col-7 -->
       <div class="col-lg-5">
         <p>Что касается ценностей, наша команда берет курс на интересы клиента. Мы за долгосрочные и доверительные отношения с заказчиками!</p>
       </div>
-      <!-- end col-5 -->
       <div class="col-lg-3">
         <div class="step-box">
           <figure class="image"><img src="images/step01.jpg" alt="Image"></figure>
           <div class="content"> <span>01.</span>
             <figure class="icon"><img src="images/icon01.png" alt="Image"></figure>
-            <h6>ЗАГОЛОВОК</h6>
+            <h6>Обязательность</h6>
             <p> четкое соблюдение всех условий договора </p>
           </div>
-          <!-- end content --> 
         </div>
-        <!-- end step-box --> 
       </div>
-      <!-- end col-4 -->
       <div class="col-lg-3">
         <div class="step-box">
           <figure class="image"><img src="images/step02.jpg" alt="Image"></figure>
           <div class="content"> <span>02.</span>
             <figure class="icon"><img src="images/icon02.png" alt="Image"></figure>
-            <h6>ЗАГОЛОВОК</h6>
-            <p>следование срокам поставки </p>
+            <h6>Дедлайны</h6>
+            <p>четкое соблюдение сроков поставки </p>
           </div>
-          <!-- end content --> 
         </div>
-        <!-- end step-box --> 
       </div>
-      <!-- end col-4 -->
       <div class="col-lg-3">
         <div class="step-box">
           <figure class="image"><img src="images/step03.jpg" alt="Image"></figure>
           <div class="content"> <span>03.</span>
             <figure class="icon"><img src="images/icon03.png" alt="Image"></figure>
-            <h6>ЗАГОЛОВОК</h6>
+            <h6>Экономию</h6>
             <p>демократичные расценки на услуги и товары </p>
           </div>
-          <!-- end content --> 
         </div>
-        <!-- end step-box --> 
       </div>
-      <!-- end col-4 --> 
       <div class="col-lg-3">
         <div class="step-box">
           <figure class="image"><img src="images/step04.jpg" alt="Image"></figure>
           <div class="content"> <span>04.</span>
             <figure class="icon"><img src="images/icon03.png" alt="Image"></figure>
-            <h6>ЗАГОЛОВОК</h6>
+            <h6>Качество</h6>
             <p>профессиональный уровень всех работ </p>
           </div>
-          <!-- end content --> 
         </div>
-        <!-- end step-box --> 
       </div>
-      <!-- end col-4 --> 
     </div>
-    <!-- end row --> 
   </div>
-  <!-- end container --> 
 </section>
-<div class="container">
-    <div class="row">
-      <div class="col-lg-7">
-        <div class="section-title text-left">
-        </div>
-        <!-- end section-title --> 
-      </div>
-      <!-- end col-7 -->
-      <div class="col-lg-5">
-        <p>Наши специалисты предоставляют всю нужную информацию, чтобы вы могли выбрать наиболее оптимальные схемы строительства и спланировать бюджет.</p>
-      </div>
-   </div>
-</div>
 
 <div class="mt-138"></div>
-<section class="content-section no-spacing leadform-section">
+<section class="content-section no-spacing">
   <div class="container">
-    <div class="row justify-content-end">
-      <div class="col-lg-12">
-        <div class="services-list-box">
-            <h2>Закажите обратный звонок</h2>
-            <h5>Наш менеджер вскорости свяжется и ответит на все вопросы</h5>
+    <div class="row align-items-center no-gutters">
+      <div class="col-lg-5">
+        <div class="tab-left">
+          <h2>Закажите обратный звонок</h2>
+          <h5>Наш менеджер вскорости свяжется и ответит на все вопросы</h5>
+          <div class="form-list-box">
             <form>
-               <div class="form-group">
-               <div class="form-item">
-                  <!-- <input type="text" placeholder="+7(___) __-__-__" name="phone"> -->
-                  <input required id="phone" class="form-control" type="text" placeholder="+7(___)___-__-__" /></input>
-               </div>
-               <div class="form-item">
+              <div class="form-group">
+                <div class="form-item">
+                  <input required id="phone" type="text" placeholder="+7(___)___-__-__" /></input>
+                </div>
+                <div class="form-item">
                   <input type="text" placeholder="Имя"></input>
-               </div>
-               <div class="form-item">
+                </div>
+                <div class="form-item">
                   <input type="submit" value="ОТПРАВИТЬ">
-               </div>
-               </div>
+                </div>
+              </div>
             </form>
             <p>Нажимая кнопку "Отправить", Вы соглашаетесь с Политикой конфиденциальности</p>
-         </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="tab-right">
+        <div id="tab01" class="tab-item active-item"><img src="images/section-bg02.jpg" alt="Image"></div>
       </div>
     </div>
   </div>

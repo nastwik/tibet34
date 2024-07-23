@@ -16,12 +16,12 @@
 						<div class="widget">
 							<h6 class="widget-title">КАТЕГОРИИ</h6>
 							<ul class="categories">
-								<li><a href="#">Бетон с доставкой</a></li>
-									<ul class="subcategories">
-										<li><a href="trade-concrete.php">Товарный бетон</a></li>
-										<li><a href="#">Усиленный бетон</a></li>
-									</ul>
-								<li><a href="#">Тротуарная плитка</a></li>
+								<li><a href="trade-concrete.php">Бетон товарный</a></li>
+								<li><a href="#">Бетон усиленный</a></li>
+								<li><a href="#">Цементный раствор</a></li>
+								<li><a href="#">Плитка, бордюры</a></li>
+								<li><a href="#">Блоки ФБС</a></li>
+								<li><a href="#">Стройматериалы</a></li>
 							</ul>
 						</div>
 					</aside>
@@ -33,7 +33,7 @@
                                 <img src="images/commodity.jpg" alt="concrete">
                             </div>
                             <p class="category__title">
-                                <a href="trade-concrete.php">Товарный бетон</a>
+                                <a href="trade-concrete.php">Бетон товарный</a>
                             </p>
                         </div>
                         <div class="category">
@@ -41,21 +41,46 @@
                                 <img src="images/reinforced.jpeg" alt="concrete">
                             </div>
                             <p class="category__title">
-                                <a href="">Усиленный бетон</a>
+                                <a href="">Бетон усиленный</a>
                             </p>
                         </div>
                         <div class="category">
                             <div class="category__img">
-                                <img src="images/tile.jpeg" alt="tile">
+                                <img src="images/tsement.jpg" alt="tile">
                             </div>
                             <p class="category__title">
-                                <a href="">Тротуарная плитка</a>
+                                <a href="">Цементный раствор</a>
                             </p>
                         </div>
-                        
                     </div>
+                    <div class="catalog-container">
+                        <div class="category">
+                            <div class="category__img">
+                                <img src="images/tile.jpeg" alt="concrete">
+                            </div>
+                            <p class="category__title">
+                                <a href="">Плитка, бордюры</a>
+                            </p>
+                        </div>
+                        <div class="category">
+                            <div class="category__img">
+                                <img src="images/fbs.jpg" alt="concrete">
+                            </div>
+                            <p class="category__title">
+                                <a href="">Блоки ФБС</a>
+                            </p>
+                        </div>
+                        <div class="category">
+                            <div class="category__img">
+                                <img src="images/sand-gravel.jpg" alt="tile">
+                            </div>
+                            <p class="category__title">
+                                <a href="">Стройматериалы</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- прайс из 10 строк -->
                 </div>
-
             </div>
       </section>
 	

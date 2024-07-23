@@ -4,11 +4,11 @@
     <div class="row justify-content-end">
       <div class="col-lg-12">
         <div class="services-list-box">
-            <h2>Нашли бетон дешевле? Снизим цену на заказ!</h2>
+            <h2>Выгодный тариф</h2>
+            <h5>Нашли бетон дешевле? Снизим цену на заказ!</h5>
             <form>
                <div class="form-group">
                <div class="form-item">
-                  <!-- <input type="text" placeholder="+7(___) __-__-__" name="phone"> -->
                   <input required id="phone" class="form-control" type="text" placeholder="+7(___)___-__-__" /></input>
                </div>
                <div class="form-item">

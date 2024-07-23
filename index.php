@@ -10,4 +10,6 @@
 
    <? require_once 'include/main_page/about.php' ?>
 
+   <? require_once 'include/main_page/contact.php' ?>
+
 <? require_once 'footer.php' ?>	

@@ -159,7 +159,7 @@ img{max-width: 100%;}
 figure{margin-bottom: 20px;}
 
 /* FORM ELEMENTS */
-input[type="text"], input[type="email"], input[type="search"], input[type="password"] {width: 420px; max-width: 100%; height: 68px; border: 2px solid #e8e8e8; padding: 0 30px;}
+input[type="text"], input[type="email"], input[type="search"], input[type="password"] {width: 420px; max-width: 100%; height: 68px; border: 2px solid #e8e8e8; padding: 0 30px; margin: 8px;}
 
 input[type="submit"], input[type="button"], button[type="button"], button[type="submit"] { height: 68px; border: none; background: $color-main; color: $color-dark; font-weight: 800; font-size: 13px; padding: 0 50px; letter-spacing: 1px;}
 
@@ -174,6 +174,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 /* CUSTOM CLASSES */
 .overflow{overflow: hidden;}
+.equality{display: flex; justify-content: center;}
 
 /* SPACINGS */
 .no-spacing{ margin: 0 !important; padding: 0 !important;}
@@ -306,7 +307,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 	color: $color-main;
 }
 .leadform-section{
-	background-image: url("../images/section-bg02.jpg");
+	background-image: url("../images/section-bg01.jpg");
 	background-size: cover;
 	background-position: 25% 50%;
 }
@@ -405,7 +406,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 
 /* PAGE HEADER */
-.page-header{width: 100%; height: 400px; display: flex; flex-wrap: wrap; align-items: center; background-color:$color-dark; background-image: url("../images/header-pattern.png"); background-size: cover; position: relative;
+.page-header{width: 100%; height: 500px; display: flex; flex-wrap: wrap; align-items: center; background-color:$color-dark; background-image: url("../images/header-pattern.png"); background-size: cover; position: relative;
 	.container{position: relative; color: #fff; padding-top: 98px;
 		h6{ width: 100%; display: block; opacity: 0.7; margin-bottom: 50px;}
 		h2{ width: 100%; display: block; font-size: 4vw; font-weight: 800; line-height: 1;}
@@ -453,8 +454,17 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 
 /* SIDE IMAGE */
-.side-image{width: 100%; display: block; margin: 0;
-	img{width: 100%;}}
+.side-image{width: 100%; display: block; margin: 0; position: relative;
+	img{width: 100%;}
+	/* &::before{
+		content: ''; 
+		position: absolute;
+		width: 80%;
+		height: 30px;
+		left: 0px;
+		bottom: -40px;
+		background-image: url('../images/vector.png');
+	} */}
 
 
 /* SIDE CONTENT */
@@ -486,7 +496,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 
 /* CONTACT BOX */
-.contact-box{width:100%; display:block; border: 1px solid #e8e8e8; padding: 30px; position: relative; @include transition;
+.contact-box{width:100%;  display: block; position: relative; border: 1px solid #e8e8e8; padding: 30px 30px 120px; @include transition;
 	&:hover{transform: translateY(-20px); box-shadow: 0 30px 30px #eee;}
 	&:hover h6:before{width: 0;}
 	&:after{content: ""; width: 0; height: 0; border-style: solid; border-width: 0 0 14px 14px; border-color: transparent transparent #e8e8e8 transparent; position: absolute; right: 4px; bottom: 4px;}
@@ -494,7 +504,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 		img{height: 80px;}}
 	h6{ display: inline-block; font-weight: 800; letter-spacing: 2px; position: relative;
 		&:before{content: ""; width: 100%; height: 6px; background: $color-main; position: absolute; left: 0; bottom: 0; mix-blend-mode: multiply; @include transition;}}
-	p{font-size: 20px; padding-right: 5%;}}
+	p{font-size: 20px;/* padding-right: 5%; */ position: absolute; top: 165px;}}
 
 
 /* GOOGLE MAPS */
@@ -633,6 +643,12 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 	/* .button{display: inline-block; height: 68px; line-height: 68px; padding: 0 40px; background: $color-dark; color: #fff; font-size: 13px; font-weight: 600; @include transition;
 		&:hover{text-decoration: none; background: $color-main; color: $color-dark; }} */}
 
+		.form-list-box{width: 100%; display: block; transform: translateY(50px); margin-bottom: 100px;
+			h2{font-size: 47px; font-weight: 600; margin-bottom: 15px;}
+			.form-group{display: flex; flex-wrap: wrap; width: 100%;}
+			input[type=text]{border: 2px solid #e8e8e8; }
+			input[type=submit]{border: 2px solid $color-main; }
+			input[type=text],input[type=submit]{width: 380px; max-width: 100%; height: 68px; padding: 0 30px; margin: 8px 0 !important;}}
 
 /* CUSTOM LIST */
 .custom-list{width: 100%; display: block; margin: 0; padding: 0;
@@ -717,8 +733,9 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 
 /* TAB CONTENT */
-.tab-left{width: 100%; display: block; background: $color-dark; color: #fff; padding: 50px;
+.tab-left{width: 100%; display: block; background: $color-dark; color: #fff; padding: 50px 50px 38px 50px;
 	h2{ width: 100%; display: block; font-size: 40px; font-weight: 800; margin-bottom: 30px;}
+	h5{margin-bottom: -25px;}
 	ul{width: 100%; display: block; margin-bottom: 50px; padding: 0;
 		li{width: 100%; display: block; margin: 0; padding: 8px 0; list-style: none;
 			&.active a:before{width: 100%;}
@@ -767,10 +784,35 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 
 
+/* RENT CARS */
+.сar-card {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #e8e8e8;
+	height: 330px;
+	overflow: hidden;
+	padding: 25px 15px;
+	transition: all 0.5s ease 0s;
+	margin-bottom: 20px;
+	z-index: 1;
+	&:hover{transform: translateY(-10px); box-shadow: 0 30px 30px #eee;}
+	h3{width: 100%; display: block; margin-bottom: 30px; font-size: 22px; line-height: 1.4;
+		a{display: inline; background-image: -moz-linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px);
+			background-image: -webkit-linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px);
+			background-image: linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px); background-repeat: no-repeat;
+			background-size: 0% 100%;
+			transition: background-size 0.5s;
+			&:hover{text-decoration: underline;}}}
+		.car-img {
+		height: 150px;
+		position: relative;
+	}
+}
+
+
 
 /* RECENT NEWS */
 .rent-container{display: flex; flex-direction: row; flex-wrap: wrap; width: calc(100%/4); position: relative;}
-.recent-news{width: 100%; display: block; @include transition; position: relative; height: auto;
+.recent-news{width: 100%; display: block; @include transition; position: relative; height:fit-content;
 	&:hover{transform: translateY(-20px); box-shadow: 0 30px 30px #eee;}
 	&:hover:after{content: ""; width: 70%; height: 70px; background: url("../images/pattern-dot.png"); background-size: 12px 12px;  position: absolute; right: -25px; bottom: -25px; z-index: -1; opacity: 0.2;}
 	&:hover .content h3 a{ background-size: 100% 100%;}
@@ -789,6 +831,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 			img{height: 50px; display: inline-block; border-radius: 50%; margin-right: 15px;}
 			b{font-weight: 600;}}
 		}}
+
 
 
 /* NEWS BOX */

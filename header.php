@@ -6,10 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#feed01" />
   <title>ВАРЯГ - Качественный бетон и спецтехника в Волгограде и Волжском</title>
-  <meta name="author" content="Themezinho">
-  <meta name="description" content="For all kind of construction company website">
-  <meta name="keywords"
-    content="consto, business, construction, company, industrial, building, projects, corporate, apartments, flat, condo, brick, website, design, animation, transition, themezinho">
 
   <!-- SOCIAL MEDIA META -->
   <!-- <meta property="og:description" content="Consto | Industrial Construction Company">
@@ -19,22 +15,10 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://www.themezinho.net/consto">-->
 
-  <!-- TWITTER META -->
-  <!-- <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@consto">
-  <meta name="twitter:creator" content="@consto">
-  <meta name="twitter:title" content="consto">
-  <meta name="twitter:description" content="Consto | Industrial Construction Company">
-  <meta name="twitter:image" content="http://www.themezinho.net/consto/preview.png"> -->
-
   <!-- GOOGLE FONTS FILES -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
   <!-- FAVICON FILES -->
-  <!-- <link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
-  <link href="ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
-  <link href="ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
-  <link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon"> -->
   <link href="images/logo/favicon.png" rel="shortcut icon">
 
   <!-- CSS FILES -->
@@ -80,6 +64,6 @@
         </ul>
       </div>
       <div class="search"> <span class="material-symbols-outlined">search</span></div>
-      <a href="#sales-specialist-form" class="navbar-button" data-fancybox><span>+7(777)777-77-77</span></a>
+      <a href="tel:8443337908" class="navbar-button" data-fancybox><span>(8443) 33-79-08</span></a>
     </div>
   </nav>

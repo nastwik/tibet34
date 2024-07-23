@@ -26,8 +26,8 @@
         <h6 class="widget-title">HEADQUARTER</h6>
         <address><p>г. Волжский, ул. Александрова,<br> 78 г
         </p>
-		  <p>+9(999) 999-99-99</p>
-      <p>aaaaa@mail.ru</p>
+		  <p>(8443) 33-79-08, (8443) 33-84-66</p>
+      <p>beton.volga@mail.ru</p>
     </address>
       </div>
 		<div class="col-lg-4 col-md-6">
@@ -81,8 +81,6 @@ Minneapolis MN 55402</p>
 
 
 <script src="js/jquery.min.js"></script>
-<!-- <script src="js/jquery/jquery-3.7.1.js"></script> -->
-<!-- <script src="js/jquery.maskedinput.js"></script> -->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/swiper.min.js"></script>
   <script src="js/fancybox.min.js"></script>
@@ -94,30 +92,5 @@ Minneapolis MN 55402</p>
       $("#phone").inputmask("9(999)999-99-99");
     })
   </script>
-  <!-- <script>
-jQuery(document).on('click', 'form [type="submit"]', function() {
-    var m = jQuery(this).closest('form');
-    var fio = m.find('input[name*="name"]').val();
-    var phone = m.find('input[type*="tel"],input[name*="phone"],input[data-type*="phone"]').val();
-    var mail = m.find('input[name*="email"],input[name*="senderEmail"]').val();
-    var ct_site_id = '51044';
-    var sub = 'Заявка c '+ location.hostname;
-    var ct_data = {            
-        fio: fio,
-        phoneNumber: phone,
-        email: mail,
-        subject: sub,
-        requestUrl: location.href,
-        sessionId: window.call_value
-    };
-    console.log(ct_data);
-    if (!!phone||!!mail){
-        jQuery.ajax({ 
-          url: 'https://api.calltouch.ru/calls-service/RestAPI/requests/'+ct_site_id+'/register/',
-          dataType: 'json', type: 'POST', data: ct_data, async: false
-        });
-    };
-});
-</script> -->
 </body>
 </html>
