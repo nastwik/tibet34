@@ -53,13 +53,12 @@
             <ul>
               <li><a href="concrete-delivery.php"><b>Бетон с доставкой</b></a></li>
               <li><a href="trade-concrete.php">Товарный бетон</a></li>
-              <li><a href="">Усиленный бетон</a></li>
+              <li><a href="reinforced-concrete.php">Усиленный бетон</a></li>
               <li><a href=""><b>Тротуарная плитка</b></a></li>
             </ul>
           </li>
           <li><a href="projects.html">Услуги спецтехники</a></li>
           <li><a href="news.html">Статьи</a></li>
-          <li><a href="news.html">Доставка</a></li>
           <li><a href="contact.html">Контакты</a></li>
         </ul>
       </div>

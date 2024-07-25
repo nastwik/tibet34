@@ -1,4 +1,4 @@
-<section class="content-section mt-148 mb-148">
+<section class="content-section mt-80 mb-80">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -7,70 +7,35 @@
             <h2>В срок, заявленная модель, без перебоев</h2>
           </div>
         </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="recent-news">
+        <div class="catalog">
+          <div class="cell">
+          <div class="recent-news">
               <figure> <img src="images/cars/bet_01.jpg" alt="Image"> </figure>
               <div class="content">
                 <h3><a href="#">Бетононасос Putzmeister на шасси «Мерседес» Zoomlion 43X-5RZ</a></h3>
               </div>
             </div>
           </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="recent-news">
+          <div class="cell">
+          <div class="recent-news">
                   <figure> <img src="images/cars/bet_02.jpg" alt="Image"> </figure>
                   <div class="content">
                     <h3><a href="#">Бетононасос Putzmeister M 38-5 на шасси «МАН»</a></h3>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="recent-news">
+          </div>
+          <div class="cell">
+          <div class="recent-news">
                   <figure> <img src="images/cars/bet_03.jpg" alt="Image"> </figure>
                   <div class="content">
                     <h3><a href="#">Бетононасос Putzmeister M 36-4 на шасси «Мерседес» Z</a></h3>
                   </div>
                 </div>
-              </div>
-          <div class="col-12 text-center justify-content-center">
+          </div>
+        </div>
+        <div class="col-12 text-center justify-content-center">
             <a href="#" class="custom-button top-spacing">Выбрать машину <i class="material-symbols-outlined">arrow_right_alt</i></a>
           </div>
-
-          <!-- <div class="col-md-3">
-                <div class="сar-card">
-                    <div class="car-img">
-                        <a href="#"><img src="images/cars/bet_01.jpg" alt="betononasos_03"></a>
-                    </div>
-                    <h3><a href="#">Бетононасос Putzmeister на шасси «Мерседес» Zoomlion 43X-5RZ</a></h3>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="сar-card">
-                    <div class="car-img">
-                        <a href="#"><img src="images/cars/bet_02.jpg" alt="betononasos_03"></a>
-                    </div>
-                    <h3><a href="#">Бетононасос Putzmeister M 38-5 на шасси «МАН»</a></h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="сar-card">
-                    <div class="car-img">
-                        <a href="#"><img src="images/cars/bet_03.jpg" alt="betononasos_03"></a>
-                    </div>
-                    <h3><a href="#">Бетононасос Putzmeister M 36-4 на шасси «Мерседес» Z</a></h3>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="сar-card">
-                    <div class="car-img">
-                        <a href="#"><img src="images/cars/mixer-blue.jpg" alt="betononasos_03"></a>
-                    </div>
-                    <h3><a href="#">Миксер</a></h3>
-                </div>
-            </div>
-            <div class="col-12 text-center justify-content-center">
-            <a href="#" class="custom-button top-spacing">Выбрать машину <i class="material-symbols-outlined">arrow_right_alt</i></a>
-          </div> -->
         </div>
     </div>
   </section>

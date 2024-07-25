@@ -5,7 +5,7 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="inner">
-              <h2>Качественный бетон и <span class="accent-word">спецтехника</span> в Волгограде и Волжском</h2>
+              <h2>Качественный бетон <br>и <span class="accent-word">спецтехника</span><br> в Волгограде и Волжском</h2>
               <p>Наш арсенал — ваш крепкий фундамент спокойствия</p>
               <div class="inner__button">
                 <a href="tel:8443337908">(8443) 33-79-08</a>

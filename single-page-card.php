@@ -20,7 +20,7 @@
 							<h6 class="widget-title">КАТЕГОРИИ</h6>
 							<ul class="categories">
 								<li><a href="trade-concrete.php">Бетон товарный</a></li>
-								<li><a href="#">Бетон усиленный</a></li>
+								<li><a href="reinforced-concrete.php">Бетон усиленный</a></li>
 								<li><a href="#">Цементный раствор</a></li>
 								<li><a href="#">Плитка, бордюры</a></li>
 								<li><a href="#">Блоки ФБС</a></li>

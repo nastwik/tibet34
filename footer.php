@@ -1,4 +1,4 @@
-<section class="footer-bar mt-148">
+<section class="footer-bar">
 	  <div class="container">
     <div class="row">
       <div class="col-12">

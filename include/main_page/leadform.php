@@ -1,25 +1,17 @@
-<div class="mt-138"></div>
+<div class="mt-70"></div>
 <section class="content-section no-spacing leadform-section">
   <div class="container">
     <div class="row justify-content-end">
       <div class="col-lg-12">
-        <div class="services-list-box">
+        <div class="form-list-box">
             <h2>Выгодный тариф</h2>
             <h5>Нашли бетон дешевле? Снизим цену на заказ!</h5>
-            <form>
-               <div class="form-group">
-               <div class="form-item">
-                  <input required id="phone" class="form-control" type="text" placeholder="+7(___)___-__-__" /></input>
-               </div>
-               <div class="form-item">
-                  <input type="text" placeholder="Имя"></input>
-               </div>
-               <div class="form-item">
-                  <input type="submit" value="ПОЛУЧИТЬ СКИДКУ">
-               </div>
-               </div>
+            <form class="form-inline" action="/action_page.php">
+               <input type="text" id="email" class="form-inline__item" placeholder="+7(___)___-__-__">
+               <input type="password" id="pwd" class="form-inline__item" placeholder="Имя">
+               <button type="submit" class="form-inline__item">Получить скидку</button>
             </form>
-            <p>Нажимая кнопку "Отправить", Вы соглашаетесь с Политикой конфиденциальности</p>
+            <p>Нажимая кнопку "Получить скидку", Вы соглашаетесь с <span class="text-yellow">Политикой конфиденциальности</span></p>
          </div>
       </div>
     </div>

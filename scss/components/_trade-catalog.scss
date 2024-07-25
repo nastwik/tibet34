@@ -5,7 +5,7 @@
       img{max-height: 140px; max-width: 100%; object-fit: contain;}}
       &-title a {color: #000; font-weight: 700; text-transform: uppercase;}
       &-desc {overflow: hidden; font-size: 14px;
-         svg{color: #FBE41A;}
+         svg{color: #2ed653;}
          p{margin: 0px}
          p:last-child{margin-bottom: 40px}
       /* :before{content:""; position: absolute; top: 4px; display: block; width: 11px; height: 8px; background: no-repeat url("../images/check.png")}*/} 
@@ -24,7 +24,7 @@
     bottom: 0;
     font-weight: 500;
 } */
-.pricing-section {position: relative; padding: 115px 0px 120px 0px; margin: 0 auto; 
+.pricing-section {position: relative; padding: 115px 0px 0px 0px; margin: 0 auto; 
   .fl-table {overflow:auto;}
   table {width: 100%; background-color: #fff; box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); margin-bottom: 30px;
       th, td {padding: 16px; margin: auto;}
@@ -36,4 +36,16 @@
 .concrete-price{
   p{text-align: left;}
   i{color: $color-main;}
+}
+.line-card{
+ padding: 0 30px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; border:1px solid #e8e8e8;
+  .box-1{display: flex; padding: 40px 0 0 0;}
+  .line-img{ width: 100px;
+    img{width: 100%; object-fit: contain;}}
+  .card-status{margin-left: 30px;}
+  button{margin: 0 50px;}
+  .card-price{color: $color-dark; font-size: 18px; font-weight: 700;}
+  .card-button{height: 58px; line-height: 58px; padding: 0 30px; color:$color-dark; background: $color-main; font-size: 14px; font-weight: 700;
+		i{font-size: 20px; display: inline-block; transform: translateY(3px); margin-right: 5px; }
+		&:hover{text-decoration: none;}}
 }
