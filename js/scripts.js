@@ -156,7 +156,7 @@
 
   // OUR HISTORY
   var swiper = new Swiper('.our-history', {
-    slidesPerView: 5,
+    slidesPerView: 3,
     spaceBetween: 0,
     pagination: {
       el: '.swiper-pagination',
@@ -172,11 +172,11 @@
         spaceBetween: 0,
       },
       768: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 30,
       },
       1024: {
-        slidesPerView: 4,
+        slidesPerView: 2,
         spaceBetween: 30,
       },
     }

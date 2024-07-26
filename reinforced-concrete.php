@@ -14,7 +14,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
-					<aside class="sidebar">
+					<aside class="sidebar hide">
                     <div class="widget">
 							<h6 class="widget-title">КАТЕГОРИИ</h6>
 							<ul class="categories">

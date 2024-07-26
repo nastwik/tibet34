@@ -1,5 +1,5 @@
 <? require_once 'header.php' ?>
-<header class="page-header mb-148">
+<header class="page-header mb-160">
   <div class="container">
     <h2>О компании</h2>
 	  <ul>
@@ -9,7 +9,7 @@
   </div> 
 </header>
 
-<section class="content-section no-spacing">
+<section class="content-section no-spacing mb-60">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-12">
@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <figure class="side-image"><img src="images/cars/betonosmesitel01.jpg" alt="Image"></figure>
+          <figure class="side-image"><img src="images/side-image03.png" alt="Image"></figure>
         </div>
         <div class="col-lg-6">
           <div class="side-content">
@@ -31,7 +31,7 @@
     </div>
   </section>
 
-  <section class="content-section mt-148 white-space-bottom" data-background="#f7f6f1">
+  <section class="content-section mt-160 white-space-bottom" data-background="#f7f6f1">
   <div class="container">
     <div class="row">
       <div class="col-lg-7">
@@ -87,7 +87,7 @@
   </div>
 </section>
 
-<div class="mt-138"></div>
+<div class="mt-80"></div>
 <section class="content-section no-spacing">
   <div class="container">
     <div class="row align-items-center no-gutters">
@@ -95,21 +95,13 @@
         <div class="tab-left">
           <h2>Закажите обратный звонок</h2>
           <h5>Наш менеджер вскорости свяжется и ответит на все вопросы</h5>
-          <div class="form-list-box">
+          <div class="form-list">
             <form>
-              <div class="form-group">
-                <div class="form-item">
-                  <input required id="phone" type="text" placeholder="+7(___)___-__-__" /></input>
-                </div>
-                <div class="form-item">
-                  <input type="text" placeholder="Имя"></input>
-                </div>
-                <div class="form-item">
-                  <input type="submit" value="ОТПРАВИТЬ">
-                </div>
-              </div>
+              <input type="text" id="fname" name="firstname" placeholder="Имя">
+              <input type="text" id="lname" name="lastname" placeholder="Телефон">
+              <input type="submit" value="Отправить">
             </form>
-            <p>Нажимая кнопку "Отправить", Вы соглашаетесь с Политикой конфиденциальности</p>
+            <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <div class="accent-word">Политикой конфиденциальности</div></p>
           </div>
         </div>
       </div>
@@ -120,5 +112,6 @@
     </div>
   </div>
 </section>
+<div class="mb-160"></div>
 
 <? require_once 'footer.php' ?>	

@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-12">
 		  
-          <figure class="logo"> <img src="images/logo.png" alt="Image"> </figure>
+          <figure class="logo"> <img src="images/logo/logo.png" alt="Image"> </figure>
           <h2>Live <b>better</b> and <b>beautiful</b></h2>
           <a href="#" class="button">GET A CONSULTATION <i class="lni lni-arrow-right"></i></a> 
 		  <div class="sales-representive">
@@ -23,43 +23,46 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-6">
-        <h6 class="widget-title">HEADQUARTER</h6>
-        <address><p>г. Волжский, ул. Александрова,<br> 78 г
+        <h6 class="widget-title">КОНТАКТЫ</h6>
+        <!-- <address><p>г. Волжский,<br> ул. Александрова, 78 г
         </p>
 		  <p>(8443) 33-79-08, (8443) 33-84-66</p>
       <p>beton.volga@mail.ru</p>
-    </address>
+    </address> -->
+	 <ul>
+				<li class="single-list">г. Волжский,<br> ул. Александрова, 78 г</li>
+				<li class="single-list"><a class="single-link" href="">(8443) 33-79-08</a></li>
+				<li class="single-list"><a class="single-link" href="">(8443) 33-84-66</a></li>
+				<li class="single-list"><a class="single-link" href="">beton.volga@mail.ru</a></li>
+		  </ul>
       </div>
 		<div class="col-lg-4 col-md-6">
-        <h6 class="widget-title">SALES OFFICES</h6>
-        <address><p>121 South 8th Street, Suite 1200<br>
-Minneapolis MN 55402</p>
-		  <p>+1 (850) 344 0 66 #20</p>
-			<a href="https://www.google.com/maps/search/?api=1&query=centurylink+field" data-fancybox data-width="640" data-height="360">FIND US ON MAP</a>
-			</address>
+        <h6 class="widget-title">МЕНЮ</h6>
+		  <ul>
+				<li class="single-list"><a class="single-link" href="">О компании</a></li>
+				<li class="single-list"><a class="single-link" href="">Аренда спецтехники</a></li>
+				<li class="single-list"><a class="single-link" href="">Статьи</a></li>
+				<li class="single-list"><a class="single-link" href="">Контакты</a></li>
+		  </ul>
       </div>
 		<div class="col-lg-4">
-        <h6 class="widget-title">SUBSCRIPTION</h6>
-       <p>For more information, please join us.</p>
-			<form>
-			<input type="email" placeholder="Type your e-mail">
-				<input type="submit" value="JOIN NOW">
-			</form>
+        <h6 class="widget-title">БЕЗОПАСНОСТЬ</h6>
+       <p>Политика конфиденциальности</p>
       </div>
 		<div class="col-12">
 			<div class="footer-bottom">
-				<span>© 2020 Consto | Industrial Construction Company</span>
+				<span>© 2024 Варяг | Industrial Construction Company</span>
 				<ul>
-				<li><a href="#">Facebook</a></li>
-				<li><a href="#">Instagram</a></li>
-				<li><a href="#">Twitter</a></li>
+				<li><a href="#">WhatsApp</a></li>
+				<li><a href="#">Viber</a></li>
+				<li><a href="#">Telegram</a></li>
 				</ul>
 			</div>
 		</div>
     </div>
   </div>
 </footer>
-	<div id="sales-specialist-form">
+	<!-- <div id="sales-specialist-form">
 		<form>
 			<div class="form-group">
 			<span>Full Name</span>
@@ -77,7 +80,7 @@ Minneapolis MN 55402</p>
 				<input type="submit" value="REQUEST A CALL">
 			</div>
 		</form>
-	</div>	
+	</div> -->	
 
 
 <script src="js/jquery.min.js"></script>

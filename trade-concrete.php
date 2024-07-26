@@ -14,7 +14,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
-					<aside class="sidebar">
+					<aside class="sidebar hide">
                     <div class="widget">
 							<h6 class="widget-title">КАТЕГОРИИ</h6>
 							<ul class="categories">
@@ -76,140 +76,59 @@
                 <div class="col-lg-9">
                     <div class="line-card">
                         <div class="box-1">
-                            <div class="line-img">
-                                <img src="images/concrete01.jpg" alt="">
-                            </div>
-                            <div class="card-status">
-                                <p class="product-title"><a href="single-page-card.php">Бетон М-400П3 (В 30)</a></p>
-                                <div class="product-desc">
-                                    <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
-                                    В наличии</p>
+                            <div class="box-1-1">
+                                <div class="line-img">
+                                    <img src="images/concrete01.jpg" alt="">
+                                </div>
+                                <div class="card-status">
+                                    <div class="product-title"><a href="single-card.php">Бетон М-400П3 (В 30)</a></div>
+                                    <div class="product-desc">
+                                        <div><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
+                                        В наличии</div>
+                                        <div><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
+                                Подходит для бетононасоса</div>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="card-price">7000 руб/м3</div>
+                            <div><a href="" class="card-button">Оставить заявку</span></a></div>
                         </div>
-                            <p class="card-price">7000 руб/м3</p>
-                            <a href="" class="card-button"><span>Оставить заявку</span></a>
                     </div>
-                    <div class="line-card">
-                        <div class="box-1">
-                            <div class="line-img">
+
+                    <div class="line-card2">
+                        <div class="box-container">
+                            <div class="image">
                                 <img src="images/concrete01.jpg" alt="">
                             </div>
-                            <div class="card-status">
-                                <p class="product-title"><a href="single-page-card.php">Бетон М-400П3 (В 30)</a></p>
-                                <div class="product-desc">
-                                    <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
-                                    В наличии</p>
+                            <div class="line-card2-desc">
+                                <div class="card-status">
+                                    <div class="product-title"><a href="single-card.php">Бетон М-400П3 (В 30)</a></div>
+                                    <div class="product-desc">
+                                        <div><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
+                                        В наличии</div>
+                                        <div><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
+                                    Подходит для бетононасоса</div>
+                                    </div>
                                 </div>
+                                <p class="card-price">7000 руб/м3</p>
+                                <a href="" class="card-button"><span>Оставить заявку</span></a>
                             </div>
                         </div>
-                            <p class="card-price">7000 руб/м3</p>
-                            <a href="" class="card-button"><span>Оставить заявку</span></a>
                     </div>
-                    <div class="line-card">
-                        <div class="box-1">
-                            <div class="line-img">
-                                <img src="images/concrete01.jpg" alt="">
-                            </div>
-                            <div class="card-status">
-                                <p class="product-title"><a href="single-page-card.php">Бетон М-400П3 (В 30)</a></p>
-                                <div class="product-desc">
-                                    <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
-                                    В наличии</p>
-                                </div>
-                            </div>
-                        </div>
-                            <p class="card-price">7000 руб/м3</p>
-                            <a href="" class="card-button"><span>Оставить заявку</span></a>
+                    <br>
+                    <p>Бетон доставляют в бетоносмесителе. Дополнительно доступны услуги бетононасоса.</p>
+
+                    <div class="form-list-section">
+                        <h2>Оставьте заявку</h2>
+                        <h5>Наш специалист перезвонит и сориентирует по стоимости!</h5>
+                        <form class="form-inline" action="/action_page.php">
+                        <input type="text" id="email" class="form-inline__item" placeholder="+7(___)___-__-__">
+                        <input type="password" id="pwd" class="form-inline__item" placeholder="Имя">
+                        <button type="submit" class="form-inline__item">Отправить</button>
+                        </form>
+                        <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <span class="decorate"><a href="">Политикой конфиденциальности</a></span></p>
                     </div>
-                    <!-- <div class="product__container">
-                        <div class="product">
-                            <div class="product-img">
-                                <img src="images/concrete01.jpg" alt="concrete">
-                            </div>
-                            <p class="product-title">
-                                <a href="single-page-card.php">Бетон М-400П3 (В 30)</a>
-                            </p>
-                            <div class="product-desc">
-                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
-                                В наличии</p>
-                            </div>
-                            <p class="product-price">7000 руб/м3</p>
-                        </div>
-                        <div class="product">
-                            <div class="product-img">
-                                <a href="#"><img src="images/concrete02.jpg" alt="concrete"></a>
-                            </div>
-                            <p class="product-title">
-                                <a href="#">Бетон М-350П4 (В 25)</a>
-                            </p>
-                            <div class="product-desc">
-                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
-                                В наличии</p>
-                            </div>
-                            <p class="product-price">6900 руб/м3</p>
-                        </div>
-                        <div class="product">
-                            <div class="product-img">
-                                <a href="#"><img src="images/concrete01.jpg" alt="concrete"></a>
-                            </div>
-                            <p class="product-title">
-                                <a href="#">Бетон М-400П2 (В 30)</a>
-                            </p>
-                            <div class="product-desc">
-                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
-                                В наличии</p>
-                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
-                                Подходит для бетононасоса</p>
-                            </div>
-                            <p class="product-price">6900 руб/м3</p>
-                        </div>
-                        </div>
-                        <div class="product__container">
-                        <div class="product">
-                            <div class="product-img">
-                                <a href="#"><img src="images/concrete02.jpg" alt="concrete"></a>
-                            </div>
-                            <p class="product-title">
-                                <a href="#">Бетон М-400П3 (В 30)</a>
-                            </p>
-                            <div class="product-desc">
-                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
-                                В наличии</p>
-                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
-                                Подходит для бетононасоса</p>
-                            </div>
-                            <p class="product-price">7000 руб/м3</p>
-                        </div>
-                        <div class="product">
-                            <div class="product-img">
-                                <a href="#"><img src="images/concrete01.jpg" alt="concrete"></a>
-                            </div>
-                            <p class="product-title">
-                                <a href="#">Бетон М-350П4 (В 25)</a>
-                            </p>
-                            <div class="product-desc">
-                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
-                                В наличии</p>
-                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
-                                Подходит для бетононасоса</p>
-                            </div>
-                            <p class="product-price">6900 руб/м3</p>
-                        </div>
-                        <div class="product">
-                            <div class="product-img">
-                                <a href="#"><img src="images/concrete02.jpg" alt="concrete"></a>
-                            </div>
-                            <p class="product-title">
-                                <a href="#">Бетон М-400П2 (В 30)</a>
-                            </p>
-                            <div class="product-desc">
-                                <p><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
-                                В наличии</p>
-                            </div>
-                            <p class="product-price">6900 руб/м3</p>
-                        </div>
-                    </div> -->
+                   
                     </div>
                 </div>
             </div>

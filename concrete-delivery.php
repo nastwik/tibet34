@@ -14,7 +14,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
-					<aside class="sidebar">
+					<aside class="sidebar hide">
 					<div class="widget">
 							<h6 class="widget-title">КАТЕГОРИИ</h6>
 							<ul class="categories">
@@ -34,17 +34,17 @@
                             <div class="concrete-card__img">
                                 <img src="images/commodity.jpg" alt="concrete">
                             </div>
-                            <p class="concrete-card__title">
-                                <a href="trade-concrete.php">Товарный бетон</a>
-                            </p>
+                            <div class="content">
+                                <span><a href="trade-concrete.php">Бетон товарный</a></span>
+                            </div>
                         </div>
                         <div class="concrete-card">
                             <div class="concrete-card__img">
                                 <img src="images/reinforced.jpeg" alt="concrete">
                             </div>
-                            <p class="concrete-card__title">
-                                <a href="">Усиленный бетон</a>
-                            </p>
+                            <div class="content">
+                                <span><a href="trade-concrete.php">Бетон усиленный</a></span>
+                            </div>
                         </div>
                     </div>
                 </div>

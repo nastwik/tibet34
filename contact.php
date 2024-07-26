@@ -1,12 +1,16 @@
+<? require_once 'header.php' ?>
+<header class="page-header">
+  <div class="container">
+    <h2>Контакты</h2>
+	  <ul>
+	  	<li><a href="#">Главная</a></li>
+		<li>Контакты</li>
+	  </ul>
+  </div> 
+</header>
 <section class="content-section mt-80 mb-80">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <div class="section-title">
-          <h6>Контакты для связи</h6>
-          <h2>Вдумчиво проконсультируем!</h2>
-        </div>
-      </div>
       <div class="col-lg-3 col-md-6">
         <div class="contact-box"> 
 			    <figure><img src="images/icons/location.png" alt="Image"></figure>
@@ -39,3 +43,5 @@
     </div>
   </div>
 </section>
+
+<? require_once 'footer.php' ?>	

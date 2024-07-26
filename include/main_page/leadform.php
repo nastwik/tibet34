@@ -11,7 +11,7 @@
                <input type="password" id="pwd" class="form-inline__item" placeholder="Имя">
                <button type="submit" class="form-inline__item">Получить скидку</button>
             </form>
-            <p>Нажимая кнопку "Получить скидку", Вы соглашаетесь с <span class="text-yellow">Политикой конфиденциальности</span></p>
+            <p>Нажимая кнопку "Получить скидку", Вы соглашаетесь с <span class="accent-word">Политикой конфиденциальности</span></p>
          </div>
       </div>
     </div>

@@ -11,74 +11,58 @@
    <section class="content-section ">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3">
-					<aside class="sidebar">
-						<div class="widget">
-							<h6 class="widget-title">КАТЕГОРИИ</h6>
-							<ul class="categories">
-								<li><a href="trade-concrete.php">Бетон товарный</a></li>
-								<li><a href="reinforced-concrete.php">Бетон усиленный</a></li>
-								<li><a href="#">Цементный раствор</a></li>
-								<li><a href="#">Плитка, бордюры</a></li>
-								<li><a href="#">Блоки ФБС</a></li>
-								<li><a href="#">Стройматериалы</a></li>
-							</ul>
-						</div>
-					</aside>
-				</div>
-                <div class="col-lg-9">
+                <div class="col-lg-12">
                     <div class="catalog-container">
                         <div class="category">
                             <div class="category__img">
                                 <img src="images/commodity.jpg" alt="concrete">
                             </div>
-                            <p class="category__title">
-                                <a href="trade-concrete.php">Бетон товарный</a>
-                            </p>
+                            <div class="content">
+                                <span><a href="trade-concrete.php">Бетон товарный</a></span>
+                            </div>
                         </div>
                         <div class="category">
                             <div class="category__img">
                                 <img src="images/reinforced.jpeg" alt="concrete">
                             </div>
-                            <p class="category__title">
-                                <a href="">Бетон усиленный</a>
-                            </p>
+                            <div class="content">
+                                <span><a href="trade-concrete.php">Бетон усиленный</a></span>
+                            </div>
                         </div>
                         <div class="category">
                             <div class="category__img">
                                 <img src="images/tsement.jpg" alt="tile">
                             </div>
-                            <p class="category__title">
-                                <a href="">Цементный раствор</a>
-                            </p>
+                            <div class="content">
+                                <span><a href="trade-concrete.php">Цементный раствор</a></span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="catalog-container">
                         <div class="category">
                             <div class="category__img">
                                 <img src="images/tile.jpeg" alt="concrete">
                             </div>
-                            <p class="category__title">
-                                <a href="">Плитка, бордюры</a>
-                            </p>
+                            <div class="content">
+                                <span><a href="trade-concrete.php">Плитка, бордюры</a></span>
+                            </div>
                         </div>
                         <div class="category">
                             <div class="category__img">
                                 <img src="images/fbs.jpg" alt="concrete">
                             </div>
-                            <p class="category__title">
-                                <a href="">Блоки ФБС</a>
-                            </p>
+                            <div class="content">
+                                <span><a href="trade-concrete.php">Блоки ФБС</a></span>
+                            </div>
                         </div>
                         <div class="category">
                             <div class="category__img">
                                 <img src="images/sand-gravel.jpg" alt="tile">
                             </div>
-                            <p class="category__title">
-                                <a href="">Стройматериалы</a>
-                            </p>
+                            <div class="content">
+                                <span><a href="trade-concrete.php">Стройматериалы</a></span>
+                            </div>
                         </div>
                     </div>
+
                     <section class="pricing-section centred">
                         <div class="col-12">
                             <div class="section-title">
@@ -143,9 +127,6 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <p>
-                            Бетон доставляют в бетоносмесителе. Дополнительно доступны услуги бетононасоса.
-                            </p>
                         </div>
                     </section>
                 </div>
@@ -155,32 +136,24 @@
 <section class="content-section" data-background="#f7f6f1">
   <div class="container">
     <div class="row">
-      <div class="col-lg-7">
+    <div class="col-lg-7">
         <div class="section-title text-left">
-          <!-- <h6>CONSTRUCTION COMPANY</h6> -->
-          <h2>Заголовок</h2>
+          <h6>ЗАГОЛОВОК</h6>
+          <h2>Подзаголовок</h2>
         </div>
       </div>
       <div class="col-lg-5">
         <p>Широкий ассортимент товаров и спецтехника для вашего объекта! Наш специалист поможет с выбором подходящей марки для конкретных конструкций.</p>
       </div>
-      <div class="services-list-box">
+      <div class="form-list-section">
             <h2>Заголовок</h2>
             <h5>Оставьте свой номер — менеджер свяжется.</h5>
-            <form>
-               <div class="form-group">
-               <div class="form-item">
-                  <input required id="phone" class="form-control" type="text" placeholder="+7(___)___-__-__" /></input>
-               </div>
-               <div class="form-item">
-                  <input type="text" placeholder="Имя"></input>
-               </div>
-               <div class="form-item">
-                  <input type="submit" value="ПОЛУЧИТЬ СКИДКУ">
-               </div>
-               </div>
+            <form class="form-inline" action="/action_page.php">
+               <input type="text" id="email" class="form-inline__item" placeholder="+7(___)___-__-__">
+               <input type="password" id="pwd" class="form-inline__item" placeholder="Имя">
+               <button type="submit" class="form-inline__item">Отправить</button>
             </form>
-            <p>Нажимая кнопку "Отправить", Вы соглашаетесь с Политикой конфиденциальности</p>
+            <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <span class="decorate"><a href="">Политикой конфиденциальности</a></span></p>
          </div>
     </div>
   </div>

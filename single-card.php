@@ -15,7 +15,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
-					<aside class="sidebar">
+					<aside class="sidebar hide">
                <div class="widget">
 							<h6 class="widget-title">КАТЕГОРИИ</h6>
 							<ul class="categories">
@@ -61,20 +61,71 @@
                   </tbody>
                   </table>
                   </div>
-                  <div class="more">
-                  <h3>Также Вас может заинтересовать:</h3>
-                  <ul>
-                     <li><a>Купить <b>Бетон М-400П2 (В 30)</b> стоимостью 6900 руб. за кубометр</a></li>
-                     <li><a>Бетон <b>М-350П3 (В 25)</b> с доставкой в Волгограде и Волжском</a></li>
-                     <li><a>Бетон <b>М-400П3 (В 30)</b> по цене 7000 руб. за куб</a></li>
-                     <li><a>Заказать <b>Бетон М-450П2 (В35)</b> недорого</a></li>
-                  </ul>
-                  <div class="more__preamble">
-                     <div class="img"><img src=images/cars/betonosmesitel.jpg></div>
-                     <p>Высокое качество обслуживания и профессиональное консультирование наших клиентов обеспечивает команда профессионалов, располагающая весомым опытом работы на рынке производства товарного бетона и раствора. Мы поможем Вам подобрать наилучшее решение по Вашему вопросу.<br><br>Подробные варианты доставки можете просмотреть в разделе <a>«Доставка»</a>.</p>
-                  </div>
-               </div>
             </div>
+            <section class="content-section">
+  <div class="container">
+  </div>
+	 <div class="our-history">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+		  <b>April 2010</b>
+		  <figure><img src="images/slide01.jpg" alt="Image"></figure>
+		  <p>We know our customers are real people with specific goals and unique preferences.</p>
+		</div>
+		<!-- end swiper-slide -->
+      <div class="swiper-slide">
+		  <b>June 2011</b>
+		  <figure><img src="images/slide02.jpg" alt="Image"></figure>
+		  <p>We know our customers are real people with specific goals and unique preferences.</p>
+		</div>
+		<!-- end swiper-slide -->
+		<div class="swiper-slide">
+		  <b>September 2012</b>
+		  <figure><img src="images/slide03.jpg" alt="Image"></figure>
+		  <p>We know our customers are real people with specific goals and unique preferences.</p>
+		</div>
+		<!-- end swiper-slide -->
+		<div class="swiper-slide">
+		  <b>February 2013</b>
+		  <figure><img src="images/slide02.jpg" alt="Image"></figure>
+		  <p>We know our customers are real people with specific goals and unique preferences.</p>
+		</div>
+		<!-- end swiper-slide -->
+		<div class="swiper-slide">
+		  <b>November 2017</b>
+		  <figure><img src="images/slide01.jpg" alt="Image"></figure>
+		  <p>We know our customers are real people with specific goals and unique preferences.</p>
+		</div>
+		<!-- end swiper-slide -->
+		<div class="swiper-slide">
+		  <b>November 2018</b>
+		  <figure><img src="images/slide02.jpg" alt="Image"></figure>
+		  <p>We know our customers are real people with specific goals and unique preferences.</p>
+		</div>
+		<!-- end swiper-slide -->
+		<div class="swiper-slide">
+		  <b>March 2020</b>
+		  <figure><img src="images/slide01.jpg" alt="Image"></figure>
+		  <p>We know our customers are real people with specific goals and unique preferences.</p>
+		</div>
+		<!-- end swiper-slide -->
+    </div>
+    <!-- end swiper-wrapper -->
+     <div class="swiper-pagination"></div>
+        <!-- end swiper-pagination -->
+    <div class="controls">
+        <div class="button-prev"><i class="lni lni-arrow-left"></i></div>
+        <!-- end button-prev -->
+        <div class="button-next"><i class="lni lni-arrow-right"></i></div>
+        <!-- end button-next --> 
+      </div>
+      <!-- end controls --> 
+  </div>
+	<!-- end our-history -->
+	
+	
+</section>
+<!-- end content-section -->
             </div>
          </div>
     </section>

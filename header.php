@@ -57,12 +57,13 @@
               <li><a href=""><b>Тротуарная плитка</b></a></li>
             </ul>
           </li>
-          <li><a href="projects.html">Услуги спецтехники</a></li>
-          <li><a href="news.html">Статьи</a></li>
-          <li><a href="contact.html">Контакты</a></li>
+          <li><a href="rental-equipment.php">Аренда спецтехники</a></li>
+          <li><a href="articles.php">Статьи</a></li>
+          <li><a href="contact.php">Контакты</a></li>
         </ul>
       </div>
       <div class="search"> <span class="material-symbols-outlined">search</span></div>
       <a href="tel:8443337908" class="navbar-button" data-fancybox><span>(8443) 33-79-08</span></a>
+      
     </div>
   </nav>

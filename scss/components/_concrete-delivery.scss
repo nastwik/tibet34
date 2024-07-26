@@ -1,25 +1,35 @@
-.catalog-container{display: flex; width: 100%;}
-	.concrete-card{
-	width: calc(100% / 2); 
+.concrete-card{
+	width: calc(100% / 2 - 20px); 
 	cursor: pointer; 
 	border: 1px solid #e8e8e8; 
 	overflow: hidden; 
-	padding: 25px 15px; 
+	/* padding: 25px 15px;  */
 	position: relative; 
+	@include transition;
 	text-align: center; 
 	transition: all 0.5s ease 0s;
-		&:hover{ box-shadow: none; z-index: 1; text-decoration: none; background: $color-main; }
-		&__img {height: 170px;
-			img{max-height: 140px; max-width: 100%; object-fit: contain;}}
-		&__title a {font-size: 19px;}
-	}
+	&:hover{transform: translateY(-20px); box-shadow: 0 30px 30px #eee;}
+	&:hover .content span a{ background-size: 100% 100%;}
+	.content { width: 100%; align-self: stretch; display: block; margin-bottom: 1rem; background: #fff;
+		small {display: inline-block; padding: 4px 8px; background: $color-main; margin-bottom: 20px; color: $color-dark;}
+		span {width: 100%; display: block; margin-bottom: 30px; font-size: 20px; font-weight: 600;
+			a {display: inline; background-image: -moz-linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px);
+		background-image: -webkit-linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px);
+		background-image: linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px); background-repeat: no-repeat;
+		background-size: 0% 100%;
+		transition: background-size 0.5s;
+				&:hover{text-decoration: none;}}}}
+	&__img {height: 260px; margin-bottom: 1.5rem;
+		img {height: 100%; width: 100%; object-fit: cover;}}
+	&__title a {font-size: 20px; font-weight: 600;}
+}
 
-	@media (max-width: 768px) {
-		.catalog-container{
-		flex-direction: column;
- 	   }	
-		.concrete-card{
-		width: 100%;
-		margin-bottom: 40px;
-  		}
-  }
+@media (max-width: 768px) {
+	.catalog-container{
+	flex-direction: column;
+	}	
+	.concrete-card{
+	width: 100%;
+	margin-bottom: 40px;
+	}
+}
