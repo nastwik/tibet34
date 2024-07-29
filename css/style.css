@@ -158,11 +158,11 @@ figure {
 }
 
 /* FORM ELEMENTS */
-input[type=text], input[type=email], input[type=search], input[type=password] { /* width: 420px; */
+input[type=text], input[type=tel], input[type=email], input[type=search], input[type=password] {
   max-width: 100%;
   height: 68px;
   border: 2px solid #e8e8e8;
-  padding: 0 30px; /* margin: 8px; */
+  padding: 0 30px;
 }
 
 input[type=submit], input[type=button], button[type=button], button[type=submit] {
@@ -171,10 +171,10 @@ input[type=submit], input[type=button], button[type=button], button[type=submit]
   background: #feed01;
   color: #0b0b0b;
   font-weight: 800;
-  font-size: 13px;
+  font-size: 16px;
   padding: 0 50px;
   letter-spacing: 1px;
-  margin: 10px 0;
+  margin: 10px 0 20px 0;
 }
 
 textarea {
@@ -648,24 +648,40 @@ a:hover {
   margin-top: 30px;
 }
 
+.mt-70 {
+  margin-top: 70px;
+}
+
 .mt-80 {
   margin-top: 80px;
 }
 
-.mb-80 {
-  margin-bottom: 80px;
+.mt-95 {
+  margin-top: 95px;
 }
 
 .mt-160 {
   margin-top: 160px;
 }
 
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
 .mb-160 {
   margin-bottom: 160px;
 }
 
-.mt-70 {
-  margin-top: 70px;
+.open {
+  display: none;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 /* WHITE SPACES */
@@ -909,6 +925,7 @@ a:hover {
   color: #fff;
   font-size: 24px;
   cursor: pointer;
+  padding-top: 12px;
 }
 .navbar .hamburger {
   display: inline-block;
@@ -1366,6 +1383,16 @@ a:hover {
   opacity: 0.2;
 }
 .side-image img {
+  width: 100%;
+}
+
+.left-image {
+  width: 100%;
+  display: block;
+  margin: 0;
+  position: relative;
+}
+.left-image img {
   width: 100%;
 }
 
@@ -2014,7 +2041,7 @@ a:hover {
   padding: 0 40px;
   background: #0b0b0b;
   color: #feed01;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 600;
   transition: all 0.25s ease-in-out;
 }
@@ -2054,7 +2081,7 @@ a:hover {
 .form-inline__item {
   width: calc(33.3333333333% - 20px);
 }
-.form-inline button {
+.form-inline .btn {
   padding: 10px;
   background-color: #feed01;
   border: 1px solid #feed01;
@@ -2063,7 +2090,7 @@ a:hover {
   color: #0b0b0b;
   font-size: 16px;
 }
-.form-inline button :hover {
+.form-inline .btn :hover {
   background-color: rgb(236, 194, 53);
 }
 
@@ -2102,6 +2129,15 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
 }
 
 .form-list input[type=text] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-list input[type=tel] {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
@@ -3053,7 +3089,7 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
   padding: 0 40px;
   background: #feed01;
   color: #0b0b0b;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 600;
   transition: all 0.25s ease-in-out;
 }
@@ -3182,7 +3218,7 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
   background: #feed01;
   border: none;
   padding: 0 40px;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 600;
 }
 .footer .footer-bottom {
@@ -3378,8 +3414,16 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   border: 0;
 }
 
+@media only screen and (max-width: 1279px), only screen and (max-device-width: 1279px) {
+  .hiden {
+    display: none;
+  }
+}
 /* RESPONSIVE MEDIUM  */
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
+  .hiden {
+    display: none;
+  }
   .navbar .navbar-button {
     padding: 0 15px;
     margin-left: 20px;
@@ -3414,6 +3458,9 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 }
 /* RESPONSIVE TABLET  */
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+  .open {
+    display: block;
+  }
   .hide {
     display: none;
   }
@@ -3479,11 +3526,15 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     display: inline-block;
     margin-left: 6px;
   }
+  .navbar .search {
+    padding-top: 5px;
+  }
   .slider {
     height: auto;
   }
+  /* were pt-120px; I did it`s for offer img */
   .slider .container {
-    padding-top: 120px;
+    padding: 120px 0;
   }
   .slider .slider-main {
     width: 100%;
@@ -3494,7 +3545,6 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   .slider .slider-content {
     width: 100%;
     margin-right: 0;
-    padding-bottom: 50px;
   }
   .slider .slider-content .inner {
     padding-bottom: 0;
@@ -3593,8 +3643,12 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   .navbar .navbar-button {
     margin-left: 0;
   }
+  .slider .container {
+    padding: 0;
+  }
   .slider .slider-content {
-    margin-bottom: 30px;
+    padding: 120px 15px 40px;
+    margin-bottom: 0px;
   }
   /* .slider .slider-content .controls{padding: 0; width: 100%; }
   .slider .slider-content .controls .button-prev{order:1; margin: 0;}
@@ -3638,6 +3692,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   }
   .cell {
     width: 100% !important;
+    margin: 0 15px;
   }
   .product__container {
     flex-direction: column;
@@ -4017,6 +4072,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 .line-card {
   padding: 30px;
   border: 1px solid #e8e8e8;
+  transition: all 0.25s ease-in-out;
 }
 .line-card .box-1 {
   display: flex;
@@ -4046,13 +4102,12 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   font-weight: 700;
 }
 .line-card .card-button {
-  height: 58px;
-  line-height: 58px;
   padding: 15px 30px;
   color: #0b0b0b;
   background: #feed01;
   font-size: 14px;
   font-weight: 700;
+  border: 1px solid #feed01;
 }
 .line-card .card-button i {
   font-size: 20px;
@@ -4062,6 +4117,14 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 }
 .line-card .card-button:hover {
   text-decoration: none;
+}
+.line-card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 30px 30px #eee;
+  border-top: none;
+}
+.line-card:hover .content span a {
+  background-size: 100% 100%;
 }
 
 @media (max-width: 767px) {
@@ -4075,56 +4138,6 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   }
   .box-1-1 {
     flex-direction: column;
-  }
-}
-.line-card2 {
-  padding: 30px 30px 65px 30px;
-  width: 100%;
-  height: auto;
-  border: 1px solid #e8e8e8;
-}
-.line-card2 .image {
-  height: 100px;
-  float: left;
-}
-.line-card2 .image img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-.line-card2-desc {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.line-card2-desc .card-status {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-.line-card2-desc .card-price {
-  color: #0b0b0b;
-  font-size: 18px;
-  font-weight: 700;
-}
-.line-card2-desc .card-button {
-  height: 58px;
-  line-height: 58px;
-  padding: 0 30px;
-  color: #0b0b0b;
-  background: #feed01;
-  font-size: 14px;
-  font-weight: 700;
-}
-.line-card2-desc .card-button:hover {
-  text-decoration: none;
-}
-
-@media (max-width: 768px) {
-  .line-card2-desc {
-    flex-direction: column;
-    justify-content: flex-start;
   }
 }
 .main {

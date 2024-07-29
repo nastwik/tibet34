@@ -149,8 +149,8 @@
             <h2>Заголовок</h2>
             <h5>Оставьте свой номер — менеджер свяжется.</h5>
             <form class="form-inline" action="/action_page.php">
-               <input type="text" id="email" class="form-inline__item" placeholder="+7(___)___-__-__">
-               <input type="password" id="pwd" class="form-inline__item" placeholder="Имя">
+                <input type="tel" required name="phone" id="phone" class="phone form-inline__item" placeholder="+7(___)___-__-__">
+                <input type="text" id="pwd" class="form-inline__item" placeholder="Имя">
                <button type="submit" class="form-inline__item">Отправить</button>
             </form>
             <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <span class="decorate"><a href="">Политикой конфиденциальности</a></span></p>

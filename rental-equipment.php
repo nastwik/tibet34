@@ -42,8 +42,8 @@
           <h5> Менеджер расскажет, какая модель подойдет в вашем случае и проинструктирует, как подготовить площадку для подачи.</h5>
           <div class="form-list">
             <form>
-              <input type="text" id="fname" name="firstname" placeholder="Имя">
-              <input type="text" id="lname" name="lastname" placeholder="Телефон">
+              <input type="tel" required name="phone" id="phone" class="phone" placeholder="+7(___)___-__-__">
+              <input type="text" placeholder="Имя">
               <input type="submit" value="Отправить">
             </form>
             <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <div class="accent-word">Политикой конфиденциальности</div></p>
@@ -98,6 +98,6 @@
         </div>
     </div>
   </section>
-  <div class="mb-160"></div>
+  <div class="mb-80"></div>
 
 <? require_once 'footer.php' ?>	

@@ -38,16 +38,18 @@
   i{color: $color-main;}
 }
 .line-card{
- padding: 30px; border:1px solid #e8e8e8;
+ padding: 30px; border:1px solid #e8e8e8; @include transition;
   .box-1{display: flex; justify-content: space-between; align-items: center;
   .box-1-1{display: flex; gap: 30px}}
   .line-img { width: 150px;
     img{width: 100%; object-fit: cover;}}
   .card-status{display: flex; flex-direction: column; gap: 10px;}
   .card-price{color: $color-dark; font-size: 18px; font-weight: 700;}
-  .card-button{height: 58px; line-height: 58px; padding: 15px 30px; color:$color-dark; background: $color-main; font-size: 14px; font-weight: 700;
+  .card-button{padding: 15px 30px; color:$color-dark; background: $color-main; font-size: 14px; font-weight: 700; border: 1px solid $color-main;
 		i{font-size: 20px; display: inline-block; transform: translateY(3px); margin-right: 5px; }
 		&:hover{text-decoration: none;}}
+    &:hover{transform: translateY(-20px); box-shadow: 0 30px 30px #eee; border-top: none;}
+    &:hover .content span a{ background-size: 100% 100%;}
 }
 
 @media (max-width: 767px) {
@@ -57,19 +59,3 @@
   .box-1-1{flex-direction: column;}
   }
 
-
- .line-card2{ padding: 30px 30px 65px 30px; width: 100%; height: auto; border:1px solid #e8e8e8;
-      .image{height: 100px; float: left;
-        img {width: 100%; height: 100%; object-fit: contain;}}
-      &-desc{display: flex; justify-content: space-around; align-items: center;
-      .card-status{display: flex; flex-direction: column; gap: 25px}
-      .card-price{color: $color-dark; font-size: 18px; font-weight: 700;}
-      .card-button{height: 58px; line-height: 58px; padding: 0 30px; color:$color-dark; background: $color-main; font-size: 14px; font-weight: 700;
-        &:hover{text-decoration: none;}}}} 
-
-@media (max-width: 768px) {
-	.line-card2-desc{
-    flex-direction: column;
-    justify-content: flex-start;
-	  }	
-  }

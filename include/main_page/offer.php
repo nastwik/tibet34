@@ -15,7 +15,7 @@
         </div>
       </div>
 
-      <div class="swiper-container slider-main hide">
+      <div class="swiper-container slider-main">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="slide-image">

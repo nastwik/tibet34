@@ -8,7 +8,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <figure class="side-image"><img src="images/side-image01.png" alt="Image"></figure>
+          <figure class="left-image"><img src="images/side-image01.png" alt="Image"></figure>
         </div>
         <div class="col-lg-6">
           <div class="side-content">

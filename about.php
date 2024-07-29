@@ -9,7 +9,7 @@
   </div> 
 </header>
 
-<section class="content-section no-spacing mb-60">
+<section class="content-section no-spacing mb-100">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-12">
@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <figure class="side-image"><img src="images/side-image03.png" alt="Image"></figure>
+          <figure class="side-image"><img src="images/side-image03.jpg" alt="Image"></figure>
         </div>
         <div class="col-lg-6">
           <div class="side-content">
@@ -36,7 +36,7 @@
     <div class="row">
       <div class="col-lg-7">
         <div class="section-title text-left">
-          <!-- <h6>CONSTRUCTION COMPANY</h6> -->
+          <h6>Заголовок</h6>
           <h2>Всегда гарантируем...</h2>
         </div>
       </div>
@@ -87,7 +87,7 @@
   </div>
 </section>
 
-<div class="mt-80"></div>
+<div class="mt-95"></div>
 <section class="content-section no-spacing">
   <div class="container">
     <div class="row align-items-center no-gutters">
@@ -97,8 +97,8 @@
           <h5>Наш менеджер вскорости свяжется и ответит на все вопросы</h5>
           <div class="form-list">
             <form>
-              <input type="text" id="fname" name="firstname" placeholder="Имя">
-              <input type="text" id="lname" name="lastname" placeholder="Телефон">
+              <input type="tel" required name="phone" id="phone" class="phone" placeholder="+7(___)___-__-__">
+              <input type="text" placeholder="Имя">
               <input type="submit" value="Отправить">
             </form>
             <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <div class="accent-word">Политикой конфиденциальности</div></p>
