@@ -51,7 +51,7 @@
       </div>
 		<div class="col-12">
 			<div class="footer-bottom">
-				<span>© 2024 Варяг | Industrial Construction Company</span>
+				<span>© 2024 Варяг | Разработка сайта <img src='images/flamingo_logo.svg'><a href="https://flamingo.expert" target="_blank">Flamingo.expert</a></span>
 				<ul>
 				<li><a href="#">WhatsApp</a></li>
 				<li><a href="#">Viber</a></li>

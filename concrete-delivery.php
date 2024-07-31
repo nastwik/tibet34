@@ -1,8 +1,7 @@
 <? require_once 'header.php' ?>
 <header class="page-header">
   <div class="container">
-  <h2>Бетон с доставкой в день обращения</h2>
-  <h6>Произведен строго по ГОСТ, на базе собственной лаборатории</h6>
+  <h2>Бетон</h2>
 	  <ul>
 	  	<li><a href="#">Главная</a></li>
 		<li>Каталог</li>

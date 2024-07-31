@@ -630,6 +630,7 @@ a:hover {
   font-size: 16px;
   font-weight: 600;
   transition: all 0.25s ease-in-out;
+  /* &.top-spacing{margin-top: 30px;} */
 }
 .custom-button i {
   display: inline-block;
@@ -643,9 +644,6 @@ a:hover {
 }
 .custom-button:hover i {
   margin-left: 20px;
-}
-.custom-button.top-spacing {
-  margin-top: 30px;
 }
 
 .mt-70 {
@@ -1043,6 +1041,9 @@ a:hover {
   z-index: 1;
   padding: 30px;
 }
+.slider .slider-content .controls i {
+  padding-top: 10px;
+}
 .slider .slider-content .controls .swiper-pagination {
   width: auto;
   display: inline-block;
@@ -1289,7 +1290,6 @@ a:hover {
   width: calc(33.3333333333% - 30px);
   display: flex;
   flex-wrap: wrap;
-  overflow: hidden;
 }
 
 .icon-content {
@@ -1297,9 +1297,8 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   border: 1px solid #e8e8e8;
-  padding: 45px 30px; /* box-shadow: 7px 7px 0 #f9f9f9; */
+  padding: 45px 30px;
   position: relative;
-  margin: 15px 0;
   /* &:hover{ border-color: $color-main;}
   &:hover:after{content: ""; width: 30%; height: 70px; background: url("../images/pattern-dot.png"); background-size: 12px 12px;  position: absolute; right: -25px; bottom: -25px;}
   &:hover:before{transform: scale(1.05); opacity: 1;} */
@@ -2076,21 +2075,19 @@ a:hover {
   padding: 10px;
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 4px;
 }
 .form-inline__item {
-  width: calc(33.3333333333% - 20px);
+  width: calc(33.3333333333% - 7px);
 }
-.form-inline .btn {
+.form-inline .btn-form {
   padding: 10px;
   background-color: #feed01;
   border: 1px solid #feed01;
   margin: 10px 0px 20px 0px;
-  border-radius: 4px;
   color: #0b0b0b;
   font-size: 16px;
 }
-.form-inline .btn :hover {
+.form-inline .btn-form :hover {
   background-color: rgb(236, 194, 53);
 }
 
@@ -2134,7 +2131,6 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
   margin: 10px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
   box-sizing: border-box;
 }
 .form-list input[type=tel] {
@@ -2143,7 +2139,6 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
   margin: 10px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
   box-sizing: border-box;
 }
 .form-list input[type=submit] {
@@ -2154,7 +2149,6 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
   padding: 10px;
   margin: 10px 0;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
 }
 .form-list input[type=submit]:hover {
@@ -2244,6 +2238,9 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
   display: block;
   padding: 0 15px;
   font-size: 14px;
+}
+.our-history a {
+  margin-left: 15px;
 }
 .our-history b {
   width: 100%;
@@ -2761,8 +2758,7 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
 .recent-news:hover:after {
   content: "";
   width: 70%;
-  height: 70px;
-  background: url("../images/pattern-dot.png");
+  height: 70px; /* background: url("../images/pattern-dot.png"); */
   background-size: 12px 12px;
   position: absolute;
   right: -25px;
@@ -2772,6 +2768,26 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
 }
 .recent-news:hover .content h3 a {
   background-size: 100% 100%;
+}
+.recent-news .recent-price {
+  width: 100%;
+  text-align: center;
+  background-color: #feed01;
+  color: #0b0b0b;
+  font-size: 16px;
+  font-weight: 800;
+  border: 1px solid #feed01;
+  line-height: 30px;
+  height: 58px;
+  line-height: 58px;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.25s ease-in-out;
+}
+.recent-news .recent-price:hover {
+  background-color: #0b0b0b;
+  color: #feed01;
+  border: 1px solid transparent;
 }
 .recent-news figure {
   width: 100%;
@@ -2805,7 +2821,7 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
 .recent-news .content h3 {
   width: 100%;
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   font-size: 25px;
   line-height: 1.4;
 }
@@ -2955,6 +2971,7 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
 }
 .sidebar .widget .widget-title {
   width: 100%;
+  color: #feed01;
   display: block;
   position: relative;
   z-index: 1;
@@ -3160,10 +3177,10 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
 }
 .footer .widget-title {
   width: 100%;
+  color: #feed01;
   display: block;
   margin-bottom: 20px;
   font-weight: 600;
-  opacity: 0.7;
   letter-spacing: 2px;
 }
 .footer ul {
@@ -3231,6 +3248,16 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
 .footer .footer-bottom span {
   opacity: 0.7;
   font-size: 13px;
+}
+.footer .footer-bottom span img {
+  width: 32px;
+  height: 32px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 0 8px;
+}
+.footer .footer-bottom span a {
+  color: #fff;
 }
 .footer .footer-bottom ul {
   float: right;
@@ -3441,7 +3468,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     font-size: 55px;
   }
   .cell {
-    width: 50% !important;
+    width: calc(50% - 30px) !important;
   }
   .project-slider .swiper-slide {
     max-width: 70vw;
@@ -3565,9 +3592,6 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   }
   .slider.white-space-bottom:after {
     display: none;
-  }
-  .icon-content {
-    margin: 15px 0;
   }
   .side-content {
     padding-left: 0;

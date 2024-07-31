@@ -2,10 +2,10 @@
 
 <header class="page-header">
   <div class="container">
-    <h2>Статьи</h2>
+    <h2>Аренда спецтехники</h2>
 	  <ul>
 	  	<li><a href="#">Главная</a></li>
-	  	<li>Статьи</li>
+	  	<li>Аренда спецтехники</li>
 	  </ul>
 		
   </div>
@@ -92,9 +92,6 @@
                 </div>
           </div>
         </div>
-        <div class="col-12 text-center justify-content-center">
-            <a href="#" class="custom-button top-spacing">Выбрать машину <i class="material-symbols-outlined">arrow_right_alt</i></a>
-          </div>
         </div>
     </div>
   </section>

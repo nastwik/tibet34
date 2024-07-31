@@ -62,51 +62,61 @@
                   </table>
                   </div>
             </div>
-            <section class="content-section">
+				
+<section class="content-section">
   <div class="container">
+  <div class="row no-gutters">
+      <div class="col-12">
+        <div class="section-title text-left">
+          <h6>ESTIMATIED PRICE</h6>
+          <h2>Также Вас может заинтересовать</h2>
+        </div>
+        <!-- end section-title --> 
+      </div>
+</div>
   </div>
 	 <div class="our-history">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-		  <b>April 2010</b>
-		  <figure><img src="images/slide01.jpg" alt="Image"></figure>
-		  <p>We know our customers are real people with specific goals and unique preferences.</p>
+		  <b></b>
+		  <figure><img src="images/concrete01.jpg" alt="Image"></figure>
+		  <a>Бетон М-550П2 (В40)</a>
 		</div>
 		<!-- end swiper-slide -->
       <div class="swiper-slide">
-		  <b>June 2011</b>
-		  <figure><img src="images/slide02.jpg" alt="Image"></figure>
-		  <p>We know our customers are real people with specific goals and unique preferences.</p>
+		  <b></b>
+		  <figure><img src="images/concrete02.jpg" alt="Image"></figure>
+		  <a>Бетон М-400П4 (В 30)</a>
 		</div>
 		<!-- end swiper-slide -->
 		<div class="swiper-slide">
-		  <b>September 2012</b>
-		  <figure><img src="images/slide03.jpg" alt="Image"></figure>
-		  <p>We know our customers are real people with specific goals and unique preferences.</p>
+		  <b></b>
+		  <figure><img src="images/concrete02.jpg" alt="Image"></figure>
+		  <a>Бетон М-350П4 (В 25)</a>
 		</div>
 		<!-- end swiper-slide -->
 		<div class="swiper-slide">
-		  <b>February 2013</b>
-		  <figure><img src="images/slide02.jpg" alt="Image"></figure>
-		  <p>We know our customers are real people with specific goals and unique preferences.</p>
+		  <b></b>
+		  <figure><img src="images/concrete01.jpg" alt="Image"></figure>
+		  <a>Бетон М-550П2 (В40)</a>
 		</div>
 		<!-- end swiper-slide -->
 		<div class="swiper-slide">
-		  <b>November 2017</b>
-		  <figure><img src="images/slide01.jpg" alt="Image"></figure>
-		  <p>We know our customers are real people with specific goals and unique preferences.</p>
+		  <b></b>
+		  <figure><img src="images/concrete02.jpg" alt="Image"></figure>
+		  <a>Бетон М-400П4 (В 30)</a>
 		</div>
 		<!-- end swiper-slide -->
 		<div class="swiper-slide">
-		  <b>November 2018</b>
-		  <figure><img src="images/slide02.jpg" alt="Image"></figure>
-		  <p>We know our customers are real people with specific goals and unique preferences.</p>
+		  <b></b>
+		  <figure><img src="images/concrete01.jpg" alt="Image"></figure>
+		  <a>Бетон М-350П4 (В 25)</a>
 		</div>
 		<!-- end swiper-slide -->
 		<div class="swiper-slide">
-		  <b>March 2020</b>
-		  <figure><img src="images/slide01.jpg" alt="Image"></figure>
-		  <p>We know our customers are real people with specific goals and unique preferences.</p>
+		  <b></b>
+		  <figure><img src="images/concrete02.jpg" alt="Image"></figure>
+		  <<a>Бетон М-400П4 (В 30)</a>
 		</div>
 		<!-- end swiper-slide -->
     </div>
@@ -114,9 +124,9 @@
      <div class="swiper-pagination"></div>
         <!-- end swiper-pagination -->
     <div class="controls">
-        <div class="button-prev"><i class="lni lni-arrow-left"></i></div>
+        <div class="button-prev"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M14.75 8a.75.75 0 0 1-.75.75H3.81l2.72 2.72a.75.75 0 1 1-1.06 1.06l-4-4a.75.75 0 0 1 0-1.06l4-4a.75.75 0 0 1 1.06 1.06L3.81 7.25H14a.75.75 0 0 1 .75.75" clip-rule="evenodd"/></svg></div>
         <!-- end button-prev -->
-        <div class="button-next"><i class="lni lni-arrow-right"></i></div>
+        <div class="button-next"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M1.25 8A.75.75 0 0 1 2 7.25h10.19L9.47 4.53a.75.75 0 0 1 1.06-1.06l4 4a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 1 1-1.06-1.06l2.72-2.72H2A.75.75 0 0 1 1.25 8" clip-rule="evenodd"/></svg></div>
         <!-- end button-next --> 
       </div>
       <!-- end controls --> 

@@ -5,7 +5,7 @@
 
     //INPUT MASK
     let phoneInput = document.querySelector(".phone");
-    let btn = document.querySelector(".btn");
+    let btn = document.querySelector(".btn-form");
 
     const phoneMask = new IMask(phoneInput, {
       mask: "+{7}(000)000-00-00",
@@ -30,7 +30,7 @@
       });
     }
 
-    
+
     // BACK BUTTON RELOAD
     window.onpageshow = function (event) {
       if (event.persisted) {
@@ -184,7 +184,7 @@
 
   // OUR HISTORY
   var swiper = new Swiper('.our-history', {
-    slidesPerView: 3,
+    slidesPerView: 5,
     spaceBetween: 0,
     pagination: {
       el: '.swiper-pagination',
@@ -200,11 +200,11 @@
         spaceBetween: 0,
       },
       768: {
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 30,
       },
       1024: {
-        slidesPerView: 2,
+        slidesPerView: 4,
         spaceBetween: 30,
       },
     }

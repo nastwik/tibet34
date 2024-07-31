@@ -301,7 +301,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 				i{display: inline-block; margin-left: 10px; font-size: 20px; transform: translateY(4px); @include transition;}
 				&:hover{text-decoration: none;
 					i{margin-left: 20px;}}
-	&.top-spacing{margin-top: 30px;}}
+	/* &.top-spacing{margin-top: 30px;} */}
 
 
 
@@ -413,7 +413,8 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 				&:hover{text-decoration: none; box-shadow: 0 20px 20px #000;
 					i{margin-left: 20px;}}}}
 		.controls{width: 90%; display: flex; flex-wrap: wrap; align-items: center; position: absolute; left: 0; bottom: 0; z-index: 1; padding: 30px;
-		.swiper-pagination{width: auto; display: inline-block; position: static; font-size: 26px; color: #9a9a9a;
+			i{padding-top: 10px;}
+			.swiper-pagination{width: auto; display: inline-block; position: static; font-size: 26px; color: #9a9a9a;
 			.swiper-pagination-current{font-size: 54px; color: $color-dark;}}
 			.button-prev{ width: 80px; height: 80px; line-height: 80px; display: inline-block; text-align: center; background: #f2f3f5; border-radius: 50%; color: $color-dark; @include transition; margin-left: auto;
 				&:hover{background: $color-main;}}
@@ -475,10 +476,9 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 		width: calc(100% / 3 - 30px);
 		display: flex;
 		flex-wrap: wrap;
-		overflow: hidden;
 	}
 }
-.icon-content{width: 100%; display: flex; flex-wrap: wrap; border: 1px solid #e8e8e8; padding:45px 30px; /* box-shadow: 7px 7px 0 #f9f9f9; */ position: relative; margin: 15px 0;
+.icon-content{width: 100%; display: flex; flex-wrap: wrap; border: 1px solid #e8e8e8; padding:45px 30px; position: relative;
 	&_light{background-color: $color-main;}
 	&:before{content: ""; width: 100%; height: 100%; background: $color-main; position: absolute; left: 0; top: 0; @include transition; opacity: 0; z-index: -1; box-shadow: 0 30px 30px #eee;}
 	/* &:hover{ border-color: $color-main;}
@@ -700,15 +700,13 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 	padding: 10px;
 	background-color: #fff;
 	border: 1px solid #ddd;
-	border-radius: 4px;
  }
- 	&__item{width: calc(100%/3 - 20px);}
-	 .btn {
+ 	&__item{width: calc(100%/3 - 7px);}
+	 .btn-form {
 	padding: 10px;
 	background-color: $color-main;
 	border: 1px solid $color-main;
 	margin: 10px 0px 20px 0px;
-	border-radius: 4px;
 	color: $color-dark;
 	font-size: 16px;
 		:hover {
@@ -743,7 +741,6 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 		margin: 10px 0;
 		display: inline-block;
 		border: 1px solid #ccc;
-		border-radius: 4px;
 		box-sizing: border-box;
 	 }
 	 input[type=tel]{
@@ -752,7 +749,6 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 		margin: 10px 0;
 		display: inline-block;
 		border: 1px solid #ccc;
-		border-radius: 4px;
 		box-sizing: border-box;
 	 }
 	 input[type=submit] {
@@ -763,7 +759,6 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 		padding: 10px;
 		margin: 10px 0;
 		border: none;
-		border-radius: 4px;
 		cursor: pointer;
 	 }
 	 input[type=submit]:hover {
@@ -796,6 +791,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 	.swiper-slide{z-index: 1;}
 	figure{width: 100%; padding: 0 15px;}
 	p{width: 100%; display: block; padding: 0 15px; font-size: 14px;}
+	a{margin-left: 15px;}
 	b{ width: 100%; height: 50px; display: inline-block; margin-bottom: 20px; text-align: center; position: relative;
 		&:after{content: ""; width: 12px; height: 12px; background: #eee; border-radius: 50%; position: absolute; left:calc(50% - 6px); bottom: -6px;}}
 	.controls{width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; text-align: center; margin-top: 30px;
@@ -908,13 +904,15 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 .rent-container{display: flex; align-items: stretch; flex-wrap: wrap; width: calc(100%/3); position: relative;}
 .recent-news{width: 100%; margin-bottom:25px; align-self: stretch; display: block; @include transition; position: relative; border: 1px solid #e8e8e8;
 	&:hover{transform: translateY(-20px); box-shadow: 0 30px 30px #eee;}
-	&:hover:after{content: ""; width: 70%; height: 70px; background: url("../images/pattern-dot.png"); background-size: 12px 12px;  position: absolute; right: -25px; bottom: -25px; z-index: -1; opacity: 0.2;}
+	&:hover:after{content: ""; width: 70%; height: 70px; /* background: url("../images/pattern-dot.png"); */ background-size: 12px 12px;  position: absolute; right: -25px; bottom: -25px; z-index: -1; opacity: 0.2;}
 	&:hover .content h3 a{ background-size: 100% 100%;}
+	.recent-price{width: 100%; text-align: center; background-color: $color-main; color: $color-dark; font-size: 16px; font-weight: 800; border: 1px solid $color-main; line-height: 30px; height: 58px; line-height: 58px; position: absolute; bottom: 0; @include transition;
+		&:hover{background-color: $color-dark; color: $color-main; border: 1px solid transparent;}}
 	figure{width: 100%; max-height: 260px;  display: block; margin: 0; position: relative; overflow: hidden; background: $color-main;
 		img{ width: 100%; height: 100%; object-fit: contain;}}
 	.content{ width: 100%; align-self: stretch; display: block; padding: 30px; background: #fff;
 		small{display: inline-block; padding: 4px 8px; background: $color-main; margin-bottom: 20px; color: $color-dark;}
-		h3{width: 100%; display: block; margin-bottom: 30px; font-size: 25px; line-height: 1.4;
+		h3{width: 100%; display: block; margin-bottom: 60px; font-size: 25px; line-height: 1.4;
 			a{display: inline; background-image: -moz-linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px);
     background-image: -webkit-linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px);
     background-image: linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px); background-repeat: no-repeat;
@@ -961,7 +959,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 			li{list-style-type: none;}
 		}
 		&:last-child{margin-bottom: 40px;}
-		.widget-title{ width: 100%; display: block; position: relative; z-index: 1; font-weight: 800; letter-spacing: 3px; font-size: 18px; margin-bottom: 30px; padding-bottom: 30px;
+		.widget-title{ width: 100%; color: $color-main; display: block; position: relative; z-index: 1; font-weight: 800; letter-spacing: 3px; font-size: 18px; margin-bottom: 30px; padding-bottom: 30px;
 			&:before{content: ""; width: 100%; height: 6px; background: $color-main; position: absolute; left: 0; bottom: 0; z-index: -1; mix-blend-mode: difference;}}
 		form{width:100%; display: block;
 			input[type="submit"]{margin-top: 10px; background: $color-dark; color: #fff;}}
@@ -1007,7 +1005,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 .footer{width: 100%; display: block; background-color:$color-dark; position: relative; padding-top: 80px; color: #fff;
 	.scroll-top{width: 100px; background: $color-main; position: absolute; right: 30px; top: -30px; z-index: 1; color: $color-dark; text-align: center; padding: 15px 0;
 		small{width: 100%; display: block;}}
-	.widget-title{width: 100%; display: block; margin-bottom: 20px; font-weight: 600; opacity: 0.7; letter-spacing: 2px;}
+	.widget-title{width: 100%; color: $color-main; display: block; margin-bottom: 20px; font-weight: 600; letter-spacing: 2px;}
 	ul{margin: 0; padding: 0; list-style-type: none;
 		li {margin-bottom: 15px;
 			a{color: #fff !important; font-size: 16px; font-weight: 400; line-height: 25px;}}}
@@ -1020,7 +1018,9 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 		input[type="submit"]{height: 60px; background: $color-main; border: none; padding: 0 40px; font-size: 16px; font-weight: 600;}}
 	
 		.footer-bottom{width: 100%; display: block; margin-top: 50px; border-top: 1px dotted rgba(255,255,255,0.2); padding: 40px 0;
-		span{opacity: 0.7; font-size: 13px;}
+		span{opacity: 0.7; font-size: 13px;
+			img{width: 32px; height: 32px; object-fit: contain; margin: 0 8px;}
+		a{color: #fff; }}
 		ul{ float: right; margin: 0; padding: 0;
 			li{display: inline-block; margin-left: 20px; padding: 0; list-style: none;
 				a{opacity: 0.7; font-size: 13px; color: #fff;
@@ -1077,7 +1077,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.navbar .navbar-button span{display: none;}
 	.slider .slider-content .inner h2{font-size: 50px;}
 	.counter-box .odometer{font-size: 55px;}
-	.cell{width: calc(100% / 2) !important;}
+	.cell{width: calc(100% / 2 - 30px) !important;}
 	.project-slider .swiper-slide{max-width: 70vw;}
 	.calculator .form .info-box{width: 60%;}
 	.logo-item{padding: 0 15px;}
@@ -1119,7 +1119,6 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.slider .slider-content .controls .swiper-pagination .swiper-pagination-current{color: #fff;}
 	.slider .slider-content .controls{ width:100%; display:flex; padding:0; position:static; transform: translateY(-100%);}
 	.slider.white-space-bottom:after{display:none;}
-	.icon-content{margin: 15px 0;}
 	.side-content{padding-left: 0; margin-top: 30px;}
 	.col-lg-3:nth-child(even) .counter-box{margin-top: 0;}
 	.counter-box{margin: 15px 0;}

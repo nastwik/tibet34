@@ -14,6 +14,7 @@
               <div class="content">
                 <h3><a href="#">Бетононасос Putzmeister на шасси «Мерседес» Zoomlion 43X-5RZ</a></h3>
               </div>
+              <a><div class="recent-price">Заказать</div></a>
             </div>
           </div>
           <div class="cell">
@@ -22,6 +23,7 @@
                   <div class="content">
                     <h3><a href="#">Бетононасос Putzmeister M 38-5 на шасси «МАН»</a></h3>
                   </div>
+                  <a><div class="recent-price">Заказать</div></a>
                 </div>
           </div>
           <div class="cell">
@@ -30,12 +32,10 @@
                   <div class="content">
                     <h3><a href="#">Бетононасос Putzmeister M 36-4 на шасси «Мерседес» Z</a></h3>
                   </div>
+                  <a><div class="recent-price">Заказать</div></a>
                 </div>
           </div>
         </div>
-        <div class="col-12 text-center justify-content-center">
-            <a href="#" class="custom-button top-spacing">Выбрать машину <i class="material-symbols-outlined">arrow_right_alt</i></a>
-          </div>
         </div>
     </div>
   </section>
