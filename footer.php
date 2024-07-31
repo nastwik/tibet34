@@ -4,14 +4,10 @@
       <div class="col-12">
 		  
           <figure class="logo"> <img src="images/logo/logo.png" alt="Image"> </figure>
-          <h2>Live <b>better</b> and <b>beautiful</b></h2>
-          <a href="#" class="button">GET A CONSULTATION <i class="lni lni-arrow-right"></i></a> 
+          <h2>Есть вопросы по заказу?</h2>
+          <a href="#" class="button">Оставить заявку</a> 
 		  <div class="sales-representive">
-		  	<figure>
-			  	<img src="images/author01.jpg" alt="Image">
-			  </figure>Sales representative
-			  
-			  <b>+1 (850) 344 0 66 #20</b> free call !
+			  <a href="tel:8443337908"><b>(8443) 33-79-08</a>, <a href="tel:8443338466"><b>(8443) 33-84-66</b></a>
 		  </div>
 		</div>
     </div>

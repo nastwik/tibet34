@@ -15,7 +15,7 @@
                     <div class="catalog-container">
                         <div class="category">
                             <div class="category__img">
-                                <img src="images/commodity.jpg" alt="concrete">
+                                <img src="images/category01.jpg" alt="concrete">
                             </div>
                             <div class="content">
                                 <span><a href="trade-concrete.php">Бетон товарный</a></span>
@@ -23,7 +23,7 @@
                         </div>
                         <div class="category">
                             <div class="category__img">
-                                <img src="images/reinforced.jpeg" alt="concrete">
+                                <img src="images/category02.jpeg" alt="concrete">
                             </div>
                             <div class="content">
                                 <span><a href="trade-concrete.php">Бетон усиленный</a></span>
@@ -31,7 +31,7 @@
                         </div>
                         <div class="category">
                             <div class="category__img">
-                                <img src="images/tsement.jpg" alt="tile">
+                                <img src="images/category03.jpg" alt="tile">
                             </div>
                             <div class="content">
                                 <span><a href="trade-concrete.php">Цементный раствор</a></span>
@@ -39,7 +39,7 @@
                         </div>
                         <div class="category">
                             <div class="category__img">
-                                <img src="images/tile.jpeg" alt="concrete">
+                                <img src="images/category04.jpeg" alt="concrete">
                             </div>
                             <div class="content">
                                 <span><a href="trade-concrete.php">Плитка, бордюры</a></span>
@@ -47,7 +47,7 @@
                         </div>
                         <div class="category">
                             <div class="category__img">
-                                <img src="images/fbs.jpg" alt="concrete">
+                                <img src="images/category05.jpg" alt="concrete">
                             </div>
                             <div class="content">
                                 <span><a href="trade-concrete.php">Блоки ФБС</a></span>
@@ -55,7 +55,7 @@
                         </div>
                         <div class="category">
                             <div class="category__img">
-                                <img src="images/sand-gravel.jpg" alt="tile">
+                                <img src="images/category06.jpg" alt="tile">
                             </div>
                             <div class="content">
                                 <span><a href="trade-concrete.php">Стройматериалы</a></span>
@@ -139,22 +139,22 @@
     <div class="col-lg-7">
         <div class="section-title text-left">
           <h6>ЗАГОЛОВОК</h6>
-          <h2>Подзаголовок</h2>
+          <h2>Оставьте свой номер — менеджер свяжется.</h2>
         </div>
       </div>
       <div class="col-lg-5">
         <p>Широкий ассортимент товаров и спецтехника для вашего объекта! Наш специалист поможет с выбором подходящей марки для конкретных конструкций.</p>
       </div>
-      <div class="form-list-section">
-            <h2>Заголовок</h2>
-            <h5>Оставьте свой номер — менеджер свяжется.</h5>
-            <form class="form-inline" action="/action_page.php">
-                <input type="tel" required name="phone" id="phone" class="phone form-inline__item" placeholder="+7(___)___-__-__">
-                <input type="text" id="pwd" class="form-inline__item" placeholder="Имя">
-               <button type="submit" class="form-inline__item">Отправить</button>
-            </form>
-            <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <span class="decorate"><a href="">Политикой конфиденциальности</a></span></p>
-         </div>
+      <div class="col-12">
+            <div class="form-list-section">
+                <form class="form-inline" action="/action_page.php">
+                    <input type="tel" required name="phone" id="phone" class="phone form-inline__item" placeholder="+7(___)___-__-__">
+                    <input type="text" id="pwd" class="form-inline__item" placeholder="Имя">
+                <button type="submit" class="form-inline__item">Отправить</button>
+                </form>
+                <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <span class="decorate"><a href="">Политикой конфиденциальности</a></span></p>
+            </div>
+        </div>
     </div>
   </div>
 </section>

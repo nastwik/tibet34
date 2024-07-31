@@ -389,7 +389,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 						&:hover:after { width: 100%; background: transparent; transition: all 0s ease;}}}}}
 	.search{display: inline-block; color: #fff; font-size: 24px; cursor: pointer; padding-top: 12px;}
 	.hamburger{display: inline-block; color: #fff;}
-	.navbar-button{height: 58px; line-height: 58px; padding: 0 40px; color:$color-dark; background: $color-main; font-size: 16px; font-weight: 600;
+	.navbar-button{height: 58px; line-height: 58px; padding: 0 40px; color:$color-dark; background: $color-main; font-size: 16px; font-weight: 800;
 		i{font-size: 20px; display: inline-block; transform: translateY(3px); margin-right: 5px; }
 		&:hover{text-decoration: none;}}}
 
@@ -408,7 +408,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 			h2{font-size: 50px; font-weight: 800;
 				b{-webkit-text-stroke: 1px #fff; text-stroke: 1px #fff; -webkit-text-fill-color: transparent; color: transparent;}}
 			p{margin-bottom: 28px; font-size: 25px;}
-			a{display: inline-block; height: 68px; line-height: 68px; padding: 0 40px; background: $color-main; color: $color-dark; font-size: 16px; font-weight: 600; @include transition;
+			a{display: inline-block; height: 68px; line-height: 68px; padding: 0 40px; background: $color-main; color: $color-dark; font-size: 16px; font-weight: 800; @include transition;
 				i{display: inline-block; margin-left: 10px; font-size: 20px; transform: translateY(3px); @include transition;}
 				&:hover{text-decoration: none; box-shadow: 0 20px 20px #000;
 					i{margin-left: 20px;}}}}
@@ -850,6 +850,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 
 /* TAB CONTENT */
+.tab-content{background-color: $color-dark;}
 .tab-left{width: 100%; height: auto; display: block; background: $color-dark; color: #fff; padding: 80px 50px 80px 50px;
 	h2{ width: 100%; display: block; font-size: 40px; font-weight: 800; margin-bottom: 30px;}
 	ul{width: 100%; display: block; margin-bottom: 50px; padding: 0;
@@ -859,10 +860,10 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 				&:hover{text-decoration: none; color: $color-main;}
 				&:before{content: ""; width: 0; height: 5px; background: $color-main; position: absolute; left: 0; bottom: 0; @include transition;}}}}
 	p{width: 100%; display: block; margin: 0;}}
-.tab-right{width: 100%; display: block;
+.tab-right{width: 100%; display: block; 
 	.tab-item{display: none;
 		img{width: 100%;}
-		&:first-child{display: block;}}}
+		&:first-child{display: block; filter: grayscale(1);}}}
 
 
 
@@ -954,12 +955,12 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 /* SIDEBAR */
 .sidebar{width: 100%; display: block;
-	.widget{width: 100%; display: block; border: 1px solid #e8e8e8; padding: 50px; margin-bottom: 50px;
+	.widget{width: 100%; display: block; border: 1px solid #e8e8e8; padding: 50px; margin-bottom: 33px;
 		ul{ margin-left: 0; padding-left: 0;
 			li{list-style-type: none;}
 		}
 		&:last-child{margin-bottom: 40px;}
-		.widget-title{ width: 100%; color: $color-main; display: block; position: relative; z-index: 1; font-weight: 800; letter-spacing: 3px; font-size: 18px; margin-bottom: 30px; padding-bottom: 30px;
+		.widget-title{ width: 100%; color: $color-dark; display: block; position: relative; z-index: 1; font-weight: 800; letter-spacing: 3px; font-size: 18px; margin-bottom: 30px; padding-bottom: 30px;
 			&:before{content: ""; width: 100%; height: 6px; background: $color-main; position: absolute; left: 0; bottom: 0; z-index: -1; mix-blend-mode: difference;}}
 		form{width:100%; display: block;
 			input[type="submit"]{margin-top: 10px; background: $color-dark; color: #fff;}}
@@ -988,13 +989,14 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 		img{height: 50px;}}
 	h2{font-size: 60px; font-weight: 800; padding-right: 20%; margin-bottom: 50px;
 				b{-webkit-text-stroke: 1px #fff; text-stroke: 1px #fff; -webkit-text-fill-color: transparent; color: transparent;}}
-	.button{display: inline-block; float: left; height: 68px; line-height: 68px; padding: 0 40px; background: $color-main; color: $color-dark; font-size: 16px; font-weight: 600; @include transition;
+	.button{display: inline-block; float: left; height: 68px; line-height: 68px; padding: 0 40px; background: $color-main; color: $color-dark; font-size: 16px; font-weight: 800; @include transition;
 				i{display: inline-block; margin-left: 10px; font-size: 20px; transform: translateY(3px); @include transition;}
 				&:hover{text-decoration: none;
 					i{margin-left: 20px;}}}
 	.sales-representive{display: inline-block; margin-left: 5vw; line-height: 68px;
 		figure{float: left; margin-right: 10px;
 			img{height: 60px; border-radius: 50%;}}
+		a{color: #fff !important; display: inline-block; position: relative;}
 		b{display: inline-block; font-weight: 600; position: relative;
 			&:before{content: ""; width: 100%; height: 4px; background: $color-main; position: absolute; left: 0; bottom: 20px;}}}}
 
@@ -1132,7 +1134,8 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.form-inline{flex-direction: column; align-items: stretch;}
 	.form-inline input {margin: 10px 0;}
 	.form-inline__item{width: 100%;}
-	.footer-bar .sales-representive{margin-left: 0; margin-top: 30px;}
+	.footer-bar .sales-representive{margin-left: 0;}
+	.footer-bar .button{margin-right: 30px;}
 	.footer address{margin-bottom: 50px;}
 }
 
@@ -1182,8 +1185,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.cta-box-yellow h4{font-size: 34px;}
 	.calculator .form{padding: 30px;}
 	.footer-bar h2{font-size: 40px;}
-	.footer-bar .sales-representive{line-height: inherit;}
-	.footer-bar .sales-representive b{color: $color-main;}
+	.footer-bar .sales-representive{line-height: inherit;  margin-top: 30px;}
 	.footer-bar .sales-representive b:before{display: none;}
 	.footer-bar .sales-representive figure{width: 100%;}
 	.footer .scroll-top{right: auto; left: 15px;}

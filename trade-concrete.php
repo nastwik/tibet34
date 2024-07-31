@@ -29,45 +29,45 @@
                         <div class="widget">
 							<h6 class="widget-title">ФИЛЬТР</h6>
                             <ul>
-                                <li> <input type="checkbox" id="check1" name="check1"/>
+                                <li> <input type="checkbox" class="custom-checkbox" id="check1" name="check1"/>
                                 <label for="check1">В 12,5</label></li>
-                                <li> <input type="checkbox" id="check2" name="check2"/>
+                                <li> <input type="checkbox" class="custom-checkbox" id="check2" name="check2"/>
                                 <label for="check2">В 15</label></li>
-                                <li><input type="checkbox" id="check3" name="check3"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="check3" name="check3"/>
                                 <label for="check3">В 20</label></li>
-                                <li><input type="checkbox" id="check4" name="check4"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="check4" name="check4"/>
                                 <label for="check4">В 22,5</label></li>
-                                <li><input type="checkbox" id="check5" name="check5"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="check5" name="check5"/>
                                 <label for="check5">В 25</label></li>
-                                <li><input type="checkbox" id="check6" name="check6"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="check6" name="check6"/>
                                 <label for="check6">В 30</label></li>
-                                <li><input type="checkbox" id="check7" name="check7"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="check7" name="check7"/>
                                 <label for="check7">В 35</label></li>
-                                <li><input type="checkbox" id="check8" name="check8"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="check8" name="check8"/>
                                 <label for="check8">В 40</label></li>
-                                <li><input type="checkbox" id="check9" name="check9"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="check9" name="check9"/>
                                 <label for="check9">В 7,5</label></li>
                             </ul>
                             <ul>
-                                <li><input type="checkbox" id="option1" name="option1"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="option1" name="option1"/>
                                 <label for="option1">М-100</label></li>
-                                <li><input type="checkbox" id="option2" name="option2"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="option2" name="option2"/>
                                 <label for="option2">М-150</label></li>
-                                <li><input type="checkbox" id="option3" name="option3"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="option3" name="option3"/>
                                 <label for="option3">М-200</label></li>
-                                <li><input type="checkbox" id="option4" name="option4"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="option4" name="option4"/>
                                 <label for="option4">М-250</label></li>
-                                <li><input type="checkbox" id="option5" name="option5"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="option5" name="option5"/>
                                 <label for="option5">М-300</label></li>
-                                <li><input type="checkbox" id="option6" name="option6"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="option6" name="option6"/>
                                 <label for="option6">М-350</label></li>
-                                <li><input type="checkbox" id="option7" name="option7"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="option7" name="option7"/>
                                 <label for="option7">М-400</label></li>
-                                <li><input type="checkbox" id="option8" name="option8"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="option8" name="option8"/>
                                 <label for="option8">М-450</label></li>
-                                <li><input type="checkbox" id="option9" name="option9"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="option9" name="option9"/>
                                 <label for="option9">М-500</label></li>
-                                <li><input type="checkbox" id="option10" name="option10"/>
+                                <li><input type="checkbox" class="custom-checkbox" id="option10" name="option10"/>
                                 <label for="option10">М-550</label></li>
                             </ul>
 						</div>

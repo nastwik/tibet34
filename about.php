@@ -90,25 +90,25 @@
 <div class="mt-95"></div>
 <section class="content-section no-spacing">
   <div class="container">
-    <div class="row align-items-center no-gutters">
-      <div class="col-lg-5">
-        <div class="tab-left">
-          <h2>Закажите обратный звонок</h2>
-          <h5>Наш менеджер вскорости свяжется и ответит на все вопросы</h5>
-          <div class="form-list">
-            <form>
-              <input type="tel" required name="phone" id="phone" class="phone" placeholder="+7(___)___-__-__">
-              <input type="text" placeholder="Имя">
-              <input type="submit" value="Отправить">
-            </form>
-            <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <div class="accent-word">Политикой конфиденциальности</div></p>
+    <div class="row align-items-center no-gutters tab-content">
+        <div class="col-lg-5">
+          <div class="tab-left">
+            <h2>Закажите обратный звонок</h2>
+            <h5>Наш менеджер вскорости свяжется и ответит на все вопросы</h5>
+            <div class="form-list">
+              <form>
+                <input type="tel" required name="phone" id="phone" class="phone" placeholder="+7(___)___-__-__">
+                <input type="text" placeholder="Имя">
+                <input type="submit" value="Отправить">
+              </form>
+              <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <div class="accent-word">Политикой конфиденциальности</div></p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-7">
-        <div class="tab-right">
-        <div id="tab01" class="tab-item active-item"><img src="images/section-bg02.jpg" alt="Image"></div>
-      </div>
+        <div class="col-lg-7">
+          <div class="tab-right">
+          <div id="tab01" class="tab-item active-item"><img src="images/section-bg02.jpg" alt="Image"></div>
+        </div>
     </div>
   </div>
 </section>
