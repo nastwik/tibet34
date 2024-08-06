@@ -1,7 +1,7 @@
 <? require_once 'header.php' ?>
 <header class="page-header">
   <div class="container">
-  <h2>Бетон</h2>
+  <h2>Бетон с доставкой</h2>
 	  <ul>
 	  	<li><a href="#">Главная</a></li>
 		<li>Каталог</li>

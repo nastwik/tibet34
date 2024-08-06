@@ -8,6 +8,19 @@
 	  </ul>
   </div> 
 </header>
+ <!-- <div class="loader"></div> 
+ <style>
+.loader {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 30px;
+  animation: l1 1s linear infinite alternate;
+}
+.loader:before {
+  content:"Loading..."
+}
+@keyframes l1 {to{opacity: 0}}
+</style> -->
 
 <section class="content-section no-spacing mb-100">
     <div class="container">
@@ -36,7 +49,7 @@
     <div class="row">
       <div class="col-lg-7">
         <div class="section-title text-left">
-          <h6>Заголовок</h6>
+          <h6>Факторы, за которые вы можете быть спокойны</h6>
           <h2>Всегда гарантируем...</h2>
         </div>
       </div>
@@ -47,7 +60,7 @@
         <div class="step-box">
           <figure class="image"><img src="images/step01.jpg" alt="Image"></figure>
           <div class="content"> <span>01.</span>
-            <figure class="icon"><img src="images/icon01.png" alt="Image"></figure>
+            <figure class="icon"><img src="images/icons/stamp.png" alt="Image"></figure>
             <h6>Обязательность</h6>
             <p> четкое соблюдение всех условий договора </p>
           </div>
@@ -57,7 +70,7 @@
         <div class="step-box">
           <figure class="image"><img src="images/step02.jpg" alt="Image"></figure>
           <div class="content"> <span>02.</span>
-            <figure class="icon"><img src="images/icon02.png" alt="Image"></figure>
+            <figure class="icon"><img src="images/icons/time.png" alt="Image"></figure>
             <h6>Дедлайны</h6>
             <p>четкое соблюдение сроков поставки </p>
           </div>
@@ -67,7 +80,7 @@
         <div class="step-box">
           <figure class="image"><img src="images/step03.jpg" alt="Image"></figure>
           <div class="content"> <span>03.</span>
-            <figure class="icon"><img src="images/icon03.png" alt="Image"></figure>
+            <figure class="icon"><img src="images/icons/economy.png" alt="Image"></figure>
             <h6>Экономию</h6>
             <p>демократичные расценки на услуги и товары </p>
           </div>
@@ -77,7 +90,7 @@
         <div class="step-box">
           <figure class="image"><img src="images/step04.jpg" alt="Image"></figure>
           <div class="content"> <span>04.</span>
-            <figure class="icon"><img src="images/icon03.png" alt="Image"></figure>
+            <figure class="icon"><img src="images/icons/quality.png" alt="Image"></figure>
             <h6>Качество</h6>
             <p>профессиональный уровень всех работ </p>
           </div>
@@ -94,14 +107,14 @@
         <div class="col-lg-5">
           <div class="tab-left">
             <h2>Закажите обратный звонок</h2>
-            <h5>Наш менеджер вскорости свяжется и ответит на все вопросы</h5>
+            <h5>Наш менеджер свяжется с вами в ближайшее время</h5>
             <div class="form-list">
               <form>
                 <input type="tel" required name="phone" id="phone" class="phone" placeholder="+7(___)___-__-__">
                 <input type="text" placeholder="Имя">
                 <input type="submit" value="Отправить">
               </form>
-              <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <div class="accent-word">Политикой конфиденциальности</div></p>
+              <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <div class="accent-word"><a href="privacy-policy.php">Политикой конфиденциальности</a></div></p>
             </div>
           </div>
         </div>

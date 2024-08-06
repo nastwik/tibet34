@@ -66,8 +66,8 @@
                     <section class="pricing-section centred">
                         <div class="col-12">
                             <div class="section-title">
-                                <h6>Предоставляем</h6>
-                                <h2>только выгодные цены</h2>
+                                <h6>Наши цены</h6>
+                                <h2>Демократичный прайс на выбранные позиции</h2>
                             </div>
                         </div>
                         <div class="concrete-price">
@@ -138,8 +138,8 @@
     <div class="row">
     <div class="col-lg-7">
         <div class="section-title text-left">
-          <h6>ЗАГОЛОВОК</h6>
-          <h2>Оставьте свой номер — менеджер свяжется.</h2>
+          <h6>Оставьте заявку</h6>
+          <h2 style="margin-bottom: -50px">Оставьте свой номер — менеджер свяжется.</h2>
         </div>
       </div>
       <div class="col-lg-5">

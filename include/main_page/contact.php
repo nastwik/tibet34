@@ -26,7 +26,7 @@
         <div class="contact-box"> 	
 			    <figure><img src="images/icons/email.png" alt="Image"></figure>
           <h6>Email</h6>
-          <p><a href="#">beton.volga@mail.ru</a></p>
+          <p><a href="mailto:beton.volga@mail.ru">beton.volga@mail.ru</a></p>
         </div>
       </div>
       <div class="col-lg-3 col-md-6">

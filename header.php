@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
   <meta name="theme-color" content="#feed01" />
   <title>ВАРЯГ - Качественный бетон и спецтехника в Волгограде и Волжском</title>
 
@@ -32,8 +33,16 @@
 </head>
 
 <body>
-  <div class="first-transition"></div>
-  <div class="page-transition"></div>
+  <!-- <div class="first-transition"></div>
+  <div class="page-transition">Loading...</div> -->
+  <!-- <div class="loading-page" id="preloader-active">
+      <div class="counter">
+          <p class="text text-capitalize">Загрузка...</p>
+          <span class="number">0%</span>
+          <span class="line"></span>
+      </div>
+    </div> -->
+
   <div class="search-box">
     <div class="inner">
       <form>
@@ -65,7 +74,7 @@
         </ul>
       </div>
 			</div>
-		<small>© 2020 Consto | Industrial Construction Company</small>
+		<small>© 2024 Варяг | Разработка сайта <a href="https://flamingo.expert" target="_blank">Flamingo.expert</a></small>
 		</div>
 	</aside>
 
@@ -93,7 +102,7 @@
 
       <div style="display: flex; gap: 30px; justify-content: center">
         <div class="search"> <span class="material-symbols-outlined">search</span></div>
-        <a href="tel:8443337908" class="navbar-button hiden" data-fancybox><span>(8443) 33-79-08</span></a>
+        <a href="tel:8443337908" class="navbar-button hiden"><span>(8443) 33-79-08</span></a>
       
         <div class="open">
           <div class="hamburger">

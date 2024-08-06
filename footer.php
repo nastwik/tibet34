@@ -2,8 +2,7 @@
 	  <div class="container">
     <div class="row">
       <div class="col-12">
-		  
-          <figure class="logo"> <img src="images/logo/logo.png" alt="Image"> </figure>
+          <figure class="logo"> <a href="index.php"><img src="images/logo/logo.png" alt="Image"></a> </figure>
           <h2>Есть вопросы по заказу?</h2>
           <a href="#" class="button">Оставить заявку</a> 
 		  <div class="sales-representive">
@@ -20,30 +19,25 @@
     <div class="row">
       <div class="col-lg-4 col-md-6">
         <h6 class="widget-title">КОНТАКТЫ</h6>
-        <!-- <address><p>г. Волжский,<br> ул. Александрова, 78 г
-        </p>
-		  <p>(8443) 33-79-08, (8443) 33-84-66</p>
-      <p>beton.volga@mail.ru</p>
-    </address> -->
 	 <ul>
 				<li class="single-list">г. Волжский,<br> ул. Александрова, 78 г</li>
-				<li class="single-list"><a class="single-link" href="">(8443) 33-79-08</a></li>
-				<li class="single-list"><a class="single-link" href="">(8443) 33-84-66</a></li>
-				<li class="single-list"><a class="single-link" href="">beton.volga@mail.ru</a></li>
+				<li class="single-list"><a class="single-link" href="tel:8443337908">(8443) 33-79-08</a></li>
+				<li class="single-list"><a class="single-link" href="tel:8443338466">(8443) 33-84-66</a></li>
+				<li class="single-list"><a class="single-link" href="mailto:beton.volga@mail.ru">beton.volga@mail.ru</a></li>
 		  </ul>
       </div>
 		<div class="col-lg-4 col-md-6">
         <h6 class="widget-title">МЕНЮ</h6>
 		  <ul>
-				<li class="single-list"><a class="single-link" href="">О компании</a></li>
-				<li class="single-list"><a class="single-link" href="">Аренда спецтехники</a></li>
-				<li class="single-list"><a class="single-link" href="">Статьи</a></li>
-				<li class="single-list"><a class="single-link" href="">Контакты</a></li>
+				<li class="single-list"><a class="single-link" href="about.php">О компании</a></li>
+				<li class="single-list"><a class="single-link" href="rental-equipment.php">Аренда спецтехники</a></li>
+				<li class="single-list"><a class="single-link" href="articles.php">Статьи</a></li>
+				<li class="single-list"><a class="single-link" href="contact.php">Контакты</a></li>
 		  </ul>
       </div>
 		<div class="col-lg-4">
         <h6 class="widget-title">БЕЗОПАСНОСТЬ</h6>
-       <p>Политика конфиденциальности</p>
+       <a class="single-link" href="privacy-policy.php">Политика конфиденциальности</a>
       </div>
 		<div class="col-12">
 			<div class="footer-bottom">
@@ -57,26 +51,7 @@
 		</div>
     </div>
   </div>
-</footer>
-	<!-- <div id="sales-specialist-form">
-		<form>
-			<div class="form-group">
-			<span>Full Name</span>
-				<input type="text">
-			</div>
-			<div class="form-group">
-			<span>Phone Number</span>
-				<input type="text">
-			</div>
-			<div class="form-group">
-			<span>Current E-mail</span>
-				<input type="email">
-			</div>
-			<div class="form-group">
-				<input type="submit" value="REQUEST A CALL">
-			</div>
-		</form>
-	</div> -->	
+</footer>	
 
 	<script src="https://unpkg.com/imask"></script>
 <script src="js/jquery.min.js"></script>
@@ -91,5 +66,5 @@
       $("#phone").inputmask("9(999)999-99-99");
     })
   </script>
-</body>
+	</body>
 </html>

@@ -3,7 +3,7 @@
       <div class="row align-items-center">
         <div class="col-12">
           <div class="section-title">
-            <h6>О “Варяге”</h6>
+            <h6>О компании</h6>
             <h2>Краткая справка</h2>
           </div>
         </div>

@@ -1,5 +1,4 @@
 <? require_once 'header.php' ?>
-
 <header class="page-header">
   <div class="container">
     <h2>Аренда спецтехники</h2>
@@ -35,7 +34,7 @@
   <div class="mt-160"></div>
 <section class="content-section no-spacing">
   <div class="container">
-    <div class="row align-items-center no-gutters">
+    <div class="row align-items-center no-gutters tab-content">
       <div class="col-lg-5">
         <div class="tab-left">
           <h2>Нужна машина — обращайтесь!</h2>
@@ -52,7 +51,7 @@
       </div>
       <div class="col-lg-7">
         <div class="tab-right">
-        <div id="tab01" class="tab-item active-item"><img src="images/mashina.jpg" alt="Image"></div>
+        <div id="tab01" class="tab-item active-item"><img src="images/section-bg03.jpg" alt="Image"></div>
       </div>
     </div>
   </div>
@@ -62,33 +61,36 @@
       <div class="row">
         <div class="col-12">
           <div class="section-title">
-            <h6>Автобетононасосы на вашем объекте</h6>
-            <h2>В срок, заявленная модель, без перебоев</h2>
+            <h6>Автобетононасосы</h6>
+            <h2>Наши модели спецтехники под задачу</h2>
           </div>
         </div>
         <div class="catalog">
           <div class="cell">
-          <div class="recent-news">
+          <div class="concrete-pump">
               <figure> <img src="images/cars/bet_01.jpg" alt="Image"> </figure>
               <div class="content">
                 <h3><a href="#">Бетононасос Putzmeister на шасси «Мерседес» Zoomlion 43X-5RZ</a></h3>
               </div>
+              <a><div class="button-order">Заказать</div></a>
             </div>
           </div>
           <div class="cell">
-          <div class="recent-news">
+          <div class="concrete-pump">
                   <figure> <img src="images/cars/bet_02.jpg" alt="Image"> </figure>
                   <div class="content">
                     <h3><a href="#">Бетононасос Putzmeister M 38-5 на шасси «МАН»</a></h3>
                   </div>
+                  <a><div class="button-order">Заказать</div></a>
                 </div>
           </div>
           <div class="cell">
-          <div class="recent-news">
+          <div class="concrete-pump">
                   <figure> <img src="images/cars/bet_03.jpg" alt="Image"> </figure>
                   <div class="content">
                     <h3><a href="#">Бетононасос Putzmeister M 36-4 на шасси «Мерседес» Z</a></h3>
                   </div>
+                  <a><div class="button-order">Заказать</div></a>
                 </div>
           </div>
         </div>

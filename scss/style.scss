@@ -172,7 +172,8 @@ figure{margin-bottom: 20px;}
 /* FORM ELEMENTS */
 input[type="text"], input[type="tel"], input[type="email"], input[type="search"], input[type="password"] {max-width: 100%; height: 68px; border: 2px solid #e8e8e8; padding: 0 30px;}
 
-input[type="submit"], input[type="button"], button[type="button"], button[type="submit"] { height: 68px; border: none; background: $color-main; color: $color-dark; font-weight: 800; font-size: 16px; padding: 0 50px; letter-spacing: 1px; margin: 10px 0 20px 0;}
+input[type="submit"], input[type="button"], button[type="button"], button[type="submit"] { height: 68px; border: none; background: $color-main; color: $color-dark; font-weight: 800; font-size: 16px; padding: 0 50px; letter-spacing: 1px; margin: 10px 0 20px 0; @include transition;
+&:hover{background-color: $color-dark; color: $color-main;}}
 
 textarea{width: 420px; max-width: 100%; height: 128px; border: 2px solid #e8e8e8; padding: 30px;}
 
@@ -196,7 +197,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 @media (min-width: 1280px) { .container { max-width: 1260px; } }
 
 .accent-word{color: $color-main;}
-.decorate{text-decoration: underline; text-decoration-color: $color-main; text-decoration-thickness: 5px;}
+.decorate{text-decoration: underline; text-decoration-color: $color-main; text-decoration-thickness: 5px; margin-top: -5px;}
 
 /* ODOMETER */
 .odometer-formatting-mark{display: none;}
@@ -206,6 +207,55 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-car .odometer-digit .odometer-digit-inner{left: 0;}
 .odometer.odometer-auto-theme .odometer-digit .odometer-value, .odometer.odometer-theme-car .odometer-digit .odometer-value{text-indent: 0;}
 
+/*PRELOADER*/
+.loading-page {
+	background: #feed01;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: center;
+	  justify-content: center;
+	-webkit-box-align: center;
+	  align-items: center;
+ 
+	  width: 100%;
+	  height: 100%;
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  z-index: 999999;
+	  -webkit-transition: .6s;
+	  -o-transition: .6s;
+	  transition: .6s;
+	  margin: 0 auto;
+	  .counter {
+			text-align: center;
+			position: relative;
+			width: 200px;
+			.text {
+				 font-size: 40px;
+				 font-weight: 700;
+				 color: $color-dark;
+			  }
+	  .number {
+				 color: white;
+				 font-size: 60px;
+				 margin-top: -10px;
+				 &.abs {
+					  position: absolute;
+					  top: 0;
+					  width: 100%;
+		 }
+			}
+	  .line{
+		 display: block;
+		 border: 2px solid #fff;
+		 width: 0;
+	  }
+	  }
+ }
+ 
 
 
 /* SWIPER BULLETS */
@@ -267,7 +317,8 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 /* SIDE WIDGET */
 .side-widget{width: 400px; height: 100vh; max-width: 100%; display: flex; flex-wrap: wrap; align-items: center; position: fixed; left: -100%; top: 0; @include transition-cubic; background: #232222; background-image: url("../images/header-pattern.png"); background-position: center; background-size: cover; z-index: 5; box-shadow: 0 0 60px #000; padding:20px 30px; color: #fff;
-	.inner{display: inline-block; overflow-y: auto;}
+	.inner{display: inline-block; overflow-y: auto;
+		a{color: #fff !important;}}
 	.logo{width: 100%; display: block; margin-bottom: 40px;
 		img{height: 40px;}}
 	.show-mobile{display: none;}
@@ -304,7 +355,9 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 	/* &.top-spacing{margin-top: 30px;} */}
 
 
-
+.mt-30{
+	margin-top: 30px;
+}
 .mt-70{
 	margin-top: 70px;
 }
@@ -344,12 +397,13 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 
 /* PAGE TRANSITION */
-.first-transition{width: 100%; height: 100%; position: fixed; z-index: 9; right: 0; top:0; background: $color-main; animation: first-transition 1s; animation-fill-mode: forwards;}
+.first-transition{width: 100%; height: 100%; position: fixed; z-index: 9; right: 0; top:0; background: $color-main; animation: first-transition 1s; animation-fill-mode: forwards; color: $color-dark}
 @keyframes first-transition {
    from {right: 0;}
   to {right: -100%;}
 }
 .page-transition{width: 0; height: 100%; position: fixed; z-index: 9; left: 0; top:0; background: $color-main; transition: all ease 1s;
+	 color: $color-dark; font-size: 25px; text-align: center; align-items: center;
 	&.active{width: 100%;}}
 
 
@@ -389,10 +443,10 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 						&:hover:after { width: 100%; background: transparent; transition: all 0s ease;}}}}}
 	.search{display: inline-block; color: #fff; font-size: 24px; cursor: pointer; padding-top: 12px;}
 	.hamburger{display: inline-block; color: #fff;}
-	.navbar-button{height: 58px; line-height: 58px; padding: 0 40px; color:$color-dark; background: $color-main; font-size: 16px; font-weight: 800;
+	.navbar-button{height: 58px; line-height: 58px; @include transition; padding: 0 40px; color:$color-dark; background: $color-main; font-size: 16px; font-weight: 800;
 		i{font-size: 20px; display: inline-block; transform: translateY(3px); margin-right: 5px; }
-		&:hover{text-decoration: none;}}}
-
+		&:hover{text-decoration: none; background-color: #0b0b0b; color: #feed01;}}
+	}
 
 .wrapper{
 	min-height: 100vh;
@@ -405,13 +459,11 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 	.slider-content{width: calc(53%); display: flex; flex-wrap:wrap; position: relative; overflow: hidden; margin: 0; margin-right: 40px;
 		.swiper-slide{ display: flex; align-items: center;}
 		.inner{width: 100%; display: block; color: #fff; padding-bottom: 100px;
-			h2{font-size: 50px; font-weight: 800;
-				b{-webkit-text-stroke: 1px #fff; text-stroke: 1px #fff; -webkit-text-fill-color: transparent; color: transparent;}}
+			.inner__title{font-size: 50px; font-weight: 800; line-height: 1.2;}
 			p{margin-bottom: 28px; font-size: 25px;}
 			a{display: inline-block; height: 68px; line-height: 68px; padding: 0 40px; background: $color-main; color: $color-dark; font-size: 16px; font-weight: 800; @include transition;
 				i{display: inline-block; margin-left: 10px; font-size: 20px; transform: translateY(3px); @include transition;}
-				&:hover{text-decoration: none; box-shadow: 0 20px 20px #000;
-					i{margin-left: 20px;}}}}
+				&:hover{text-decoration: none; box-shadow: 0 20px 20px #000; background-color: #0b0b0b; color: #feed01;}}}
 		.controls{width: 90%; display: flex; flex-wrap: wrap; align-items: center; position: absolute; left: 0; bottom: 0; z-index: 1; padding: 30px;
 			i{padding-top: 10px;}
 			.swiper-pagination{width: auto; display: inline-block; position: static; font-size: 26px; color: #9a9a9a;
@@ -473,7 +525,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 	gap: 30px;
 	.cell {
 		/* flex: 0 0 calc( 100% / 3 ); */
-		width: calc(100% / 3 - 30px);
+		width: calc(100% / 3 - 20px);
 		display: flex;
 		flex-wrap: wrap;
 	}
@@ -696,12 +748,12 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 	flex-flow: row wrap;
 	input {
 	vertical-align: middle;
-	margin: 10px 10px 20px 0;
+	margin: 10px 20px 20px 0;
 	padding: 10px;
 	background-color: #fff;
 	border: 1px solid #ddd;
  }
- 	&__item{width: calc(100%/3 - 7px);}
+ 	&__item{width: calc(100%/3 - 14px);}
 	 .btn-form {
 	padding: 10px;
 	background-color: $color-main;
@@ -709,8 +761,10 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 	margin: 10px 0px 20px 0px;
 	color: $color-dark;
 	font-size: 16px;
+	@include transition;
 		:hover {
-			background-color: rgb(236, 194, 53);
+			background-color: $color-dark;
+			color: $color-main;
 		}}}
 
  
@@ -729,6 +783,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 		.form-list-box{width: 100%; color: #fff; display: block; transform: translateY(50px); margin-bottom: 100px; padding: 80px 0;
 			h2{font-size: 47px; font-weight: 800; margin-bottom: 15px;}
+			h5{margin-bottom: 50px;}
 			.form-group{display: flex; flex-wrap: wrap; justify-content: stretch; gap: 15px;}
 			/* input[type=text]{border: 2px solid #e8e8e8; }
 			input[type=submit]{border: 2px solid $color-main; }
@@ -760,10 +815,9 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 		margin: 10px 0;
 		border: none;
 		cursor: pointer;
-	 }
-	 input[type=submit]:hover {
-		background-color: rgb(236, 194, 53);
-	 }
+		@include transition;
+	 &:hover{background-color: $color-dark;  color: $color-main; border: 1px solid $color-main;}
+	}
 }
 
 /* CUSTOM LIST */
@@ -788,16 +842,17 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 	.swiper-pagination{position: absolute; height: 1px; left:0; top: 50px; background: #eee;}
 	.swiper-pagination-progressbar-fill{background: $color-main;}
 	.swiper-slide:hover b:after{background: $color-main;}
-	.swiper-slide{z-index: 1;}
+	.swiper-slide{z-index: 1; @include transition;
+		a:hover{text-decoration: underline; text-decoration-color: $color-main; text-decoration-thickness: 5px;}}
 	figure{width: 100%; padding: 0 15px;}
 	p{width: 100%; display: block; padding: 0 15px; font-size: 14px;}
 	a{margin-left: 15px;}
 	b{ width: 100%; height: 50px; display: inline-block; margin-bottom: 20px; text-align: center; position: relative;
 		&:after{content: ""; width: 12px; height: 12px; background: #eee; border-radius: 50%; position: absolute; left:calc(50% - 6px); bottom: -6px;}}
-	.controls{width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; text-align: center; margin-top: 30px;
-			.button-prev{ width: 80px; height: 80px; line-height: 80px; display: inline-block; text-align: center; background: #f2f3f5; border-radius: 50%; color: $color-dark; @include transition; margin: 0 2px;
+	.controls{width: 100%; gap: 10px; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; text-align: center; margin: 30px 0 0 10px;
+			.button-prev{ width: 60px; height: 60px; line-height: 60px; cursor: pointer; display: inline-block; text-align: center; background: #f2f3f5; color: $color-dark; @include transition; margin: 0 2px;
 				&:hover{background: $color-main;}}
-			.button-next{ width: 80px; height: 80px; line-height: 80px; display: inline-block; text-align: center; background: #f2f3f5; border-radius: 50%; color: $color-dark; @include transition; margin: 0 2px; margin-right: 0;
+			.button-next{ width: 60px; height: 60px; line-height: 60px; cursor: pointer; display: inline-block; text-align: center; background: #f2f3f5; color: $color-dark; @include transition; margin: 0 2px; margin-right: 0;
 				&:hover{background: $color-main;}}}}
 
 
@@ -851,7 +906,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 /* TAB CONTENT */
 .tab-content{background-color: $color-dark;}
-.tab-left{width: 100%; height: auto; display: block; background: $color-dark; color: #fff; padding: 80px 50px 80px 50px;
+.tab-left{width: 100%; height: auto; display: flex; flex-direction: column; background: $color-dark; color: #fff; padding: 80px 50px 80px 50px;
 	h2{ width: 100%; display: block; font-size: 40px; font-weight: 800; margin-bottom: 30px;}
 	ul{width: 100%; display: block; margin-bottom: 50px; padding: 0;
 		li{width: 100%; display: block; margin: 0; padding: 8px 0; list-style: none;
@@ -901,13 +956,12 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 
 
-/* RECENT NEWS */
-.rent-container{display: flex; align-items: stretch; flex-wrap: wrap; width: calc(100%/3); position: relative;}
-.recent-news{width: 100%; margin-bottom:25px; align-self: stretch; display: block; @include transition; position: relative; border: 1px solid #e8e8e8;
+/* CONCRETE PUMP */
+.concrete-pump{width: 100%; margin-bottom:25px; align-self: stretch; display: block; @include transition; position: relative; border: 1px solid #e8e8e8;
 	&:hover{transform: translateY(-20px); box-shadow: 0 30px 30px #eee;}
 	&:hover:after{content: ""; width: 70%; height: 70px; /* background: url("../images/pattern-dot.png"); */ background-size: 12px 12px;  position: absolute; right: -25px; bottom: -25px; z-index: -1; opacity: 0.2;}
 	&:hover .content h3 a{ background-size: 100% 100%;}
-	.recent-price{width: 100%; text-align: center; background-color: $color-main; color: $color-dark; font-size: 16px; font-weight: 800; border: 1px solid $color-main; line-height: 30px; height: 58px; line-height: 58px; position: absolute; bottom: 0; @include transition;
+	.button-order{width: 100%; text-align: center; background-color: $color-main; color: $color-dark; font-size: 16px; font-weight: 800; border: 1px solid $color-main; line-height: 30px; height: 58px; line-height: 58px; position: absolute; bottom: 0; @include transition;
 		&:hover{background-color: $color-dark; color: $color-main; border: 1px solid transparent;}}
 	figure{width: 100%; max-height: 260px;  display: block; margin: 0; position: relative; overflow: hidden; background: $color-main;
 		img{ width: 100%; height: 100%; object-fit: contain;}}
@@ -922,6 +976,26 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 				&:hover{text-decoration: none;}}}
 		}}
 
+
+/* RECENT ARTICLES */
+.recent-article{width: 100%; margin-bottom:25px; align-self: stretch; display: block; @include transition; position: relative; border: 1px solid #e8e8e8;
+	&:hover{transform: translateY(-20px); box-shadow: 0 30px 30px #eee;}
+	&:hover:after{content: ""; width: 70%; height: 70px; /* background: url("../images/pattern-dot.png"); */ background-size: 12px 12px;  position: absolute; right: -25px; bottom: -25px; z-index: -1; opacity: 0.2;}
+	&:hover .content h3 a{ background-size: 100% 100%;}
+	.button-order{width: 100%; text-align: center; background-color: $color-main; color: $color-dark; font-size: 16px; font-weight: 800; border: 1px solid $color-main; line-height: 30px; height: 58px; line-height: 58px; position: absolute; bottom: 0; @include transition;
+		&:hover{background-color: $color-dark; color: $color-main; border: 1px solid transparent;}}
+	figure{width: 100%; max-height: 260px;  display: block; margin: 0; position: relative; overflow: hidden; background: $color-main;
+		img{ width: 100%; height: 100%; object-fit: contain;}}
+	.content{ width: 100%; align-self: stretch; display: block; padding: 30px; background: #fff;
+		small{display: inline-block; padding: 4px 8px; background: $color-main; margin-bottom: 20px; color: $color-dark;}
+		h3{width: 100%; display: block; font-size: 25px; line-height: 1.4;
+			a{display: inline; background-image: -moz-linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px);
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px);
+    background-image: linear-gradient(rgba(0,0,0,0) calc(99% - 1px),$color-dark 1px); background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 0.5s;
+				&:hover{text-decoration: none;}}}
+		}}
 
 
 /* NEWS BOX */
@@ -950,6 +1024,14 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 		ul{padding-left: 20px;
 			li{margin: 4px 0;}}
 		}}
+
+
+/* POLICY BOX */
+.policy-box{width: 100%; display: block; position: relative; @include transition; margin-bottom: 100px;
+	.title{font-size: 47px; width: 100%; display: block; line-height: 1.4; font-weight: 800;}
+	.subtitle{width: 100%; display: block; margin:60px 0 30px; font-size: 38px; line-height: 1.4; font-weight: 700;}
+	ul{padding-left: 20px; list-style-type: none;
+		li{margin: 4px 0;}}}
 
 
 
@@ -982,16 +1064,16 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 			&:focus{outline: none !important;}}}}
 
 
-
+.single-link{color: #fff !important;}
 /* FOOTER BAR */
 .footer-bar{width: 100%; display: block; padding: 80px 0; position: relative; overflow: hidden; color: #fff; background-color:#232222; background-image: url("../images/header-pattern.png"); background-position: center; background-size: cover;
 	.logo{width: 100%; display: block; margin-bottom: 30px;
 		img{height: 50px;}}
-	h2{font-size: 60px; font-weight: 800; padding-right: 20%; margin-bottom: 50px;
+		h2{font-size: 60px; font-weight: 800; padding-right: 20%; margin-bottom: 50px;
 				b{-webkit-text-stroke: 1px #fff; text-stroke: 1px #fff; -webkit-text-fill-color: transparent; color: transparent;}}
 	.button{display: inline-block; float: left; height: 68px; line-height: 68px; padding: 0 40px; background: $color-main; color: $color-dark; font-size: 16px; font-weight: 800; @include transition;
 				i{display: inline-block; margin-left: 10px; font-size: 20px; transform: translateY(3px); @include transition;}
-				&:hover{text-decoration: none;
+				&:hover{text-decoration: none; background-color: $color-dark; color: $color-main;
 					i{margin-left: 20px;}}}
 	.sales-representive{display: inline-block; margin-left: 5vw; line-height: 68px;
 		figure{float: left; margin-right: 10px;
@@ -1020,7 +1102,9 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 		input[type="submit"]{height: 60px; background: $color-main; border: none; padding: 0 40px; font-size: 16px; font-weight: 600;}}
 	
 		.footer-bottom{width: 100%; display: block; margin-top: 50px; border-top: 1px dotted rgba(255,255,255,0.2); padding: 40px 0;
-		span{opacity: 0.7; font-size: 13px;
+		span{ font-size: 13px;
+			a{color:#fff;
+				&:hover{text-decoration-color: $color-main;}}
 			img{width: 32px; height: 32px; object-fit: contain; margin: 0 8px;}
 		a{color: #fff; }}
 		ul{ float: right; margin: 0; padding: 0;
@@ -1077,7 +1161,6 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.navbar .navbar-button {padding: 0 15px; margin-left: 20px;}
 	.navbar .navbar-button i{margin: 0;}
 	.navbar .navbar-button span{display: none;}
-	.slider .slider-content .inner h2{font-size: 50px;}
 	.counter-box .odometer{font-size: 55px;}
 	.cell{width: calc(100% / 2 - 30px) !important;}
 	.project-slider .swiper-slide{max-width: 70vw;}
@@ -1116,7 +1199,8 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.slider .container{ padding:120px 0;}
 	.slider .slider-main{width: 100%; height:600px; position: static; margin-bottom:40px;}
 	.slider .slider-content{width: 100%; margin-right: 0;}
-	.slider .slider-content .inner{padding-bottom:0;}
+	.slider .slider-content {padding:120px 15px 40px; margin-bottom: 0px;}
+	.slider .slider-content .inner{padding-bottom: 30px;}
 	.slider .slider-content .swiper-slide{ align-items: flex-start; height:auto;}
 	.slider .slider-content .controls .swiper-pagination .swiper-pagination-current{color: #fff;}
 	.slider .slider-content .controls{ width:100%; display:flex; padding:0; position:static; transform: translateY(-100%);}
@@ -1130,7 +1214,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.row.no-gutters .col{width: 33%; flex-basis: 33%; flex-grow: inherit; margin: 0 auto;}
 	.sales-team{margin: 15px 0;}
 	.logo-item{margin: 15px 0;}
-	.col-lg-5 .recent-news{margin-bottom: 30px;}
+	.col-lg-5 .concrete-pump{margin-bottom: 30px;}
 	.form-inline{flex-direction: column; align-items: stretch;}
 	.form-inline input {margin: 10px 0;}
 	.form-inline__item{width: 100%;}
@@ -1149,31 +1233,31 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.navbar .languages{display: none;}
 	.navbar .navbar-button{margin-left: 0;}
 	.slider .container{ padding: 0;}
-	.slider .slider-content {padding:120px 15px 40px; margin-bottom: 0px;}
 	/* .slider .slider-content .controls{padding: 0; width: 100%; }
 	.slider .slider-content .controls .button-prev{order:1; margin: 0;}
 	.slider .slider-content .controls .swiper-pagination{ margin:0 auto; order:2;}
 	.slider .slider-content .controls .button-next{order:3;} */
-	.slider .slider-content .inner{padding-bottom: 30px;}
-	.slider .slider-content .inner h2{font-size: 40px;}
-	.slider .slider-content .inner p{margin-bottom: 30px;}
-	.slider .slider-main { height:400px; margin-bottom:15px;}
-	.icon-content{width: 100%; margin: 15px 0;}
+	.slider .slider-content {padding-bottom:0px;}
+	.slider .slider-content .inner .inner__title{font-size: 38px;}
+	.slider .slider-content .inner p{margin-bottom: 30px; font-size: 20px;}
+	.slider .slider-main { height:435px; margin-bottom:15px;}
+	.icon-content{width: 100%;}
 	.icon-content small{margin-bottom: 30px;}
 	.icon-content h3{font-size: 26px;}
 	.project-slider .swiper-slide .project-box figcaption{width: 100%; position: static; }
 	.project-slider .swiper-slide .project-box figcaption h5{font-size: 22px;}
 	.project-slider .swiper-slide .project-box figcaption:after{bottom: 0;}
 	.catalog{flex-direction: column;}
-	.cell{width: 100% !important; margin: 0 15px;}
+	.cell{width: 100% !important;}
 	.product__container{flex-direction: column;}
 	.product{width: 100% !important;}
 	.calculator .bg-image{display: none;}
 	.row.no-gutters .col{width: 80%; flex-basis: 80%; margin: 15px 10%;}
 	.testimonials-slider{width: 100%; margin: 0;}
 	.testimonials-slider .controls{display: none;}
-	.recent-news{margin: 15px 0 !important;}
+	.concrete-pump{margin: 15px;}
 	.contact-form{padding: 30px;}
+	.characters{padding: 20px 30px; gap: 15px;}
 	.news-box .content h3{font-size: 26px;}
 	.sidebar .widget{padding: 30px;}
 	.isotope-filter li{font-size: 15px; margin-right: 20px;}

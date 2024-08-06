@@ -38,6 +38,26 @@
       }
     };
 
+    /*PRELOADER*/
+   /*  $(window).on('load', function () {
+      $('#preloader-active').delay(450).fadeOut('slow');
+      $('body').delay(450).css({
+          'overflow': 'visible'
+      });
+      var counter = 0;
+      var c = 0;
+      var i = setInterval(function () {
+          $(".loading-page .counter .number").html(c + "%");
+          $(".loading-page .counter .line").css("width", c + "%");
+
+          counter++; c++;
+          if (counter == 101) {
+              clearInterval(i);
+          }
+      }, 10);
+  });
+ */
+
 
     /* MENU TOGGLE */
     $('.side-widget .site-menu ul li i').on('click', function (e) {
