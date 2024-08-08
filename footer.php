@@ -3,17 +3,33 @@
     <div class="row">
       <div class="col-12">
           <figure class="logo"> <a href="index.php"><img src="images/logo/logo.png" alt="Image"></a> </figure>
-          <h2>Есть вопросы по заказу?</h2>
-          <a href="#" class="button">Оставить заявку</a> 
+          <h2>Нужен бетон?</h2>
+          <a href="#" class="button section__button section__button1">Оставить заявку</a> 
 		  <div class="sales-representive">
 			  <a href="tel:8443337908"><b>(8443) 33-79-08</a>, <a href="tel:8443338466"><b>(8443) 33-84-66</b></a>
 		  </div>
 		</div>
     </div>
   </div>
-		
 		</section>
-        <!-- end footer-bar --> 
+    
+    <div class="modal modal1">
+  <div class="modal__main">
+    <div class="modal__title">Оставьте заявку</div>
+    <div class="modal__container">
+      <div class="modal-form">
+          <form>
+            <input type="tel" required name="phone" id="phone" class="phone" placeholder="+7(___)___-__-__">
+            <input type="text" placeholder="Имя">
+            <input type="submit" value="Отправить">
+          </form>
+        </div>
+        <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <a href="privacy-policy.php"><span class="decorate-dark">Политикой конфиденциальности</span></a></p>
+    </div>
+    <button class="modal__close">&#10006;</button>
+  </div>
+</div>
+
 <footer class="footer">
   <div class="container">
     <div class="row">
@@ -44,8 +60,6 @@
 				<span>© 2024 Варяг | Разработка сайта <img src='images/flamingo_logo.svg'><a href="https://flamingo.expert" target="_blank">Flamingo.expert</a></span>
 				<ul>
 				<li><a href="#">WhatsApp</a></li>
-				<li><a href="#">Viber</a></li>
-				<li><a href="#">Telegram</a></li>
 				</ul>
 			</div>
 		</div>
@@ -54,12 +68,13 @@
 </footer>	
 
 	<script src="https://unpkg.com/imask"></script>
-<script src="js/jquery.min.js"></script>
+  <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/swiper.min.js"></script>
   <script src="js/fancybox.min.js"></script>
   <script src="js/odometer.min.js"></script>
   <script src="js/isotope.min.js"></script>
+  <script src="js/modal.js"></script>
   <script src="js/scripts.js"></script>
   <script>
     $(document).ready(function(){

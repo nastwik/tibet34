@@ -75,8 +75,8 @@
 				</div>
                 <div class="col-lg-9">
                     <div class="line-card">
-                        <div class="box-1">
-                            <div class="box-1-1">
+                        <div class="line-card__content">
+                            <div class="line-card__left">
                                 <div class="line-img">
                                     <img src="images/concrete01.jpg" alt="">
                                 </div>
@@ -89,12 +89,12 @@
                                 </div>
                             </div>
                             <div class="card-price">7500 руб/м3</div>
-                            <button class="card-button"><a href="">Оставить заявку</a></button>
+                            <button class="card-button section__button section__button2"><a href="#">Оставить заявку</a></button>
                         </div>
                     </div>
                     <div class="line-card">
-                        <div class="box-1">
-                            <div class="box-1-1">
+                        <div class="line-card__content">
+                            <div class="line-card__left">
                                 <div class="line-img">
                                     <img src="images/concrete02.jpg" alt="">
                                 </div>
@@ -113,8 +113,8 @@
                         </div>
                     </div>
                     <div class="line-card">
-                        <div class="box-1">
-                            <div class="box-1-1">
+                        <div class="line-card__content">
+                            <div class="line-card__left">
                                 <div class="line-img">
                                     <img src="images/concrete01.jpg" alt="">
                                 </div>
@@ -133,8 +133,8 @@
                         </div>
                     </div>
                     <div class="line-card">
-                        <div class="box-1">
-                            <div class="box-1-1">
+                        <div class="line-card__content">
+                            <div class="line-card__left">
                                 <div class="line-img">
                                     <img src="images/concrete01.jpg" alt="">
                                 </div>
@@ -151,8 +151,8 @@
                         </div>
                     </div>
                     <div class="line-card">
-                        <div class="box-1">
-                            <div class="box-1-1">
+                        <div class="line-card__content">
+                            <div class="line-card__left">
                                 <div class="line-img">
                                     <img src="images/concrete02.jpg" alt="">
                                 </div>
@@ -171,8 +171,8 @@
                         </div>
                     </div>
                     <div class="line-card">
-                        <div class="box-1">
-                            <div class="box-1-1">
+                        <div class="line-card__content">
+                            <div class="line-card__left">
                                 <div class="line-img">
                                     <img src="images/concrete01.jpg" alt="">
                                 </div>
@@ -193,7 +193,6 @@
 
                     <br>
                     <p>Бетон доставляют в бетоносмесителе. Дополнительно доступны услуги бетононасоса.</p>
-                                       
                     </div>
                 </div>
             </div>
@@ -214,5 +213,25 @@
     </div>
   </div>
 </section>
+
+<div class="modal modal2">
+  <div class="modal__main">
+    <div class="modal__title">Товарный бетон</div>
+    <div class="modal__container">
+      <div class="modal-subtitle">Оставьте свой телефон, наш менеджер свяжется с вами</div>
+      <div class="modal-form">
+          <form>
+            <input type="tel" required name="phone" id="phone" class="phone" placeholder="+7(___)___-__-__">
+            <input type="text" placeholder="Имя">
+            <input type="submit" value="Отправить">
+          </form>
+        </div>
+        <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <a href="privacy-policy.php"><span class="decorate-dark">Политикой конфиденциальности</span></a></p>
+    </div>
+    <button class="modal__close">&#10006;</button>
+  </div>
+</div>
+
+
 
 <? require_once 'footer.php' ?>	

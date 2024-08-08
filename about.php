@@ -27,8 +27,8 @@
       <div class="row align-items-center">
         <div class="col-12">
           <div class="section-title">
-            <h6>Наши принципы</h6>
-            <h2>Следуем традициям и сохраняем твердость!</h2>
+            <div class="subtitle">Наши принципы</div>
+            <div class="title">Следуем традициям и сохраняем твердость!</div>
           </div>
         </div>
         <div class="col-lg-6">
@@ -36,7 +36,7 @@
         </div>
         <div class="col-lg-6">
           <div class="side-content">
-            <p>Наша компания уже около 20 лет специализируется на выпуске бетона и стройматериалов. Чтобы качество нашей продукции оставалось на высоте, мы применяем в производстве бетонных смесей инновационные технологии. Это позволяет улучшить прочность и подвижность, время схватывания, устойчивость к разным температурам. </p>
+            <p>Наша компания уже около 20 лет специализируется на выпуске бетона и стройматериалов. Чтобы качество продукции оставалось на высоте, мы производим бетонные смеси по всем стандартам. Это позволяет улучшить подвижность, время схватывания, устойчивость к разным температурам. </p>
             <p>Наши специалисты предоставляют всю нужную информацию, чтобы вы могли спланировать бюджет.</p>
           </div>
         </div>
@@ -49,8 +49,8 @@
     <div class="row">
       <div class="col-lg-7">
         <div class="section-title text-left">
-          <h6>Факторы, за которые вы можете быть спокойны</h6>
-          <h2>Всегда гарантируем...</h2>
+          <div class="subtitle">Твердые элементы вашего спокойствия</div>
+          <div class="title">Всегда гарантируем...</div>
         </div>
       </div>
       <div class="col-lg-5">
@@ -58,8 +58,18 @@
       </div>
       <div class="col-lg-3">
         <div class="step-box">
-          <figure class="image"><img src="images/step01.jpg" alt="Image"></figure>
+          <figure class="image"><img src="images/step04.jpg" alt="Image"></figure>
           <div class="content"> <span>01.</span>
+            <figure class="icon"><img src="images/icons/quality.png" alt="Image"></figure>
+            <h6>Качество</h6>
+            <p>профессиональный уровень всех работ </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="step-box">
+          <figure class="image"><img src="images/step01.jpg" alt="Image"></figure>
+          <div class="content"> <span>02.</span>
             <figure class="icon"><img src="images/icons/stamp.png" alt="Image"></figure>
             <h6>Обязательность</h6>
             <p> четкое соблюдение всех условий договора </p>
@@ -69,7 +79,7 @@
       <div class="col-lg-3">
         <div class="step-box">
           <figure class="image"><img src="images/step02.jpg" alt="Image"></figure>
-          <div class="content"> <span>02.</span>
+          <div class="content"> <span>03.</span>
             <figure class="icon"><img src="images/icons/time.png" alt="Image"></figure>
             <h6>Дедлайны</h6>
             <p>четкое соблюдение сроков поставки </p>
@@ -79,20 +89,10 @@
       <div class="col-lg-3">
         <div class="step-box">
           <figure class="image"><img src="images/step03.jpg" alt="Image"></figure>
-          <div class="content"> <span>03.</span>
+          <div class="content"> <span>04.</span>
             <figure class="icon"><img src="images/icons/economy.png" alt="Image"></figure>
             <h6>Экономию</h6>
             <p>демократичные расценки на услуги и товары </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="step-box">
-          <figure class="image"><img src="images/step04.jpg" alt="Image"></figure>
-          <div class="content"> <span>04.</span>
-            <figure class="icon"><img src="images/icons/quality.png" alt="Image"></figure>
-            <h6>Качество</h6>
-            <p>профессиональный уровень всех работ </p>
           </div>
         </div>
       </div>
@@ -106,8 +106,8 @@
     <div class="row align-items-center no-gutters tab-content">
         <div class="col-lg-5">
           <div class="tab-left">
-            <h2>Закажите обратный звонок</h2>
-            <h5>Наш менеджер свяжется с вами в ближайшее время</h5>
+            <div class="subtitle">Закажите обратный звонок</div>
+            <div class="title">Наш менеджер свяжется с вами в ближайшее время</div>
             <div class="form-list">
               <form>
                 <input type="tel" required name="phone" id="phone" class="phone" placeholder="+7(___)___-__-__">

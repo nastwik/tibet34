@@ -1,0 +1,144 @@
+.section__button {
+   background-color: transparent;
+   border: 2px solid white;
+   color: white;
+   font-weight: 900;
+   padding: 10px 20px;
+   cursor: pointer;
+   outline: 2px solid transparent;
+   outline-offset: 3px;
+   transition: background-color .2s ease-in-out, color .2s ease-in-out;
+   :hover {
+      /* background-color: #fff; */
+      color: #000;
+    }
+    :focus-visible {
+      outline-color: $color-main;
+    }
+ }
+ 
+.modal {
+   position: fixed;
+   inset: 0;
+   background-color: rgba(0, 0, 0, 0.5);
+   cursor: pointer;
+   padding: 30px;
+   display: none;
+   overflow-y: auto;
+   a:hover{text-decoration: none;}
+   .modal__main {
+   position: relative;
+   width: 600px;
+   max-width: 100%;
+   min-width: 280px;
+   background-color: #feed01;
+   margin: auto;
+   color: #000;
+   padding: 30px 60px;
+   cursor: default;
+ }
+  .modal__title {
+   font-size: 40px;
+   margin: 30px 0;
+   font-weight: 700;
+   line-height: 50px;
+ }
+ .modal-subtitle{
+  font-size: 1.25rem;
+  margin: -20px 0 30px 0;
+ }
+ .modal__container {
+   font-size: 18px;
+   margin-bottom: 30px;
+ }
+ .modal__container p{
+   font-size: 18px;
+ }
+ .modal__close {
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+   font-size: 22px;
+   position: absolute;
+   top: 25px;
+   right: 25px;
+   outline: 1px solid transparent;
+   outline-offset: 3px;
+   transition: outline-color .15s ease-in-out;
+   border-radius: 3px;
+   padding: 0;
+   text-align: center;
+   display: block;
+   width: 30px;
+   height: 30px;
+   &:focus-visible{outline-color: #000;}
+ }
+ .modal-form{
+  form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  gap: 20px;}
+   input[type=text]{
+      padding: 10px;
+      margin: auto;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      width: 100%;
+     }
+     input[type=tel]{
+      padding: 10px;
+      margin: auto;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      width: 100%;
+     }
+     input[type=submit] {
+      background-color: $color-dark;
+      color: #fff;
+      font-size: 16px;
+      padding: 10px;
+      margin: auto;
+      border: none;
+      cursor: pointer;
+      @include transition;
+      margin-bottom: 30px;
+      width: 100%;
+    }
+    input[type=submit]:hover{text-decoration: none; box-shadow: 0 10px 10px #000;}
+ }
+ }
+
+ .section__button:focus-visible {
+  outline-color: yellow;
+}
+
+ @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+   .modal {
+   padding: 0 15px;
+ }
+ .modal__main {
+   padding: 15px 30px;
+   cursor: default;
+   overflow: none;
+ }
+   .modal__title {
+   font-size: 20px;
+ }
+ }
+ @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+   .modal-form input[type=tel]{
+     width: 100%;
+     margin: 10px 0;
+    }
+    .modal-form input[type=text]{
+     width: 100%;
+     margin: 10px 0;
+    }
+    .modal-form input[type=submit]{
+     width: 100%;
+     margin: 10px 0;
+   }
+ }

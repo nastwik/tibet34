@@ -244,6 +244,19 @@ a:hover {
   text-decoration-thickness: 5px;
   margin-top: -5px;
 }
+.decorate a:hover {
+  text-decoration: none;
+}
+
+.decorate-dark {
+  text-decoration: underline;
+  text-decoration-color: #0b0b0b;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
+.decorate-dark a:hover {
+  text-decoration: none !important;
+}
 
 /* ODOMETER */
 .odometer-formatting-mark {
@@ -1065,6 +1078,45 @@ a:hover {
   margin-bottom: 28px;
   font-size: 25px;
 }
+.slider .slider-content .inner .inner__button {
+  display: flex;
+  gap: 20px;
+}
+.slider .slider-content .inner .inner__button a {
+  display: inline-block;
+  height: 68px;
+  line-height: 68px;
+  padding: 0 40px;
+  background: #feed01;
+  color: #0b0b0b;
+  font-size: 16px;
+  font-weight: 800;
+  transition: all 0.25s ease-in-out;
+}
+.slider .slider-content .inner .inner__button a i {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 20px;
+  transform: translateY(3px);
+  transition: all 0.25s ease-in-out;
+}
+.slider .slider-content .inner .inner__button a:hover {
+  text-decoration: none;
+  box-shadow: 0 20px 20px #000;
+  background-color: #0b0b0b;
+  color: #feed01;
+}
+.slider .slider-content .inner .inner__button a:last-child {
+  color: #feed01;
+  background-color: #0b0b0b;
+  border: 1px solid #feed01;
+}
+.slider .slider-content .inner .inner__button a:last-child:hover {
+  background-color: #feed01;
+  color: #0b0b0b;
+  box-shadow: 0 20px 20px #000;
+  border: transparent;
+}
 .slider .slider-content .inner a {
   display: inline-block;
   height: 68px;
@@ -1301,7 +1353,7 @@ a:hover {
   text-align: center;
   margin-bottom: 50px;
 }
-.section-title h6 {
+.section-title .subtitle {
   display: inline-block;
   position: relative;
   z-index: 1;
@@ -1310,7 +1362,7 @@ a:hover {
   font-size: 18px;
   text-transform: uppercase;
 }
-.section-title h6:before {
+.section-title .subtitle:before {
   content: "";
   width: 100%;
   height: 6px;
@@ -1321,7 +1373,7 @@ a:hover {
   z-index: -1;
   mix-blend-mode: difference;
 }
-.section-title h2 {
+.section-title .title {
   width: 100%;
   display: block;
   margin-bottom: 0;
@@ -1386,11 +1438,12 @@ a:hover {
 .icon-content figure img {
   height: 70px;
 }
-.icon-content h3 {
+.icon-content .heading {
   width: 100%;
   display: block;
   margin-bottom: 30px;
   font-weight: 700;
+  font-size: 25px;
 }
 .icon-content small {
   width: 100%;
@@ -1476,7 +1529,7 @@ a:hover {
   font-weight: 600;
   margin-bottom: 2px;
 }
-.side-content h5 {
+.side-content .caption {
   font-weight: 600;
   margin-bottom: 20px;
   font-size: 22px;
@@ -1574,7 +1627,7 @@ a:hover {
   display: block;
   position: relative;
   border: 1px solid #e8e8e8;
-  padding: 30px 30px 120px;
+  padding: 30px 30px 100px;
   transition: all 0.25s ease-in-out;
 }
 .contact-box:hover {
@@ -2607,6 +2660,9 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
   font-weight: 800;
   margin-bottom: 30px;
 }
+.tab-left a {
+  color: #feed01;
+}
 .tab-left ul {
   width: 100%;
   display: block;
@@ -2849,9 +2905,8 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
   font-size: 16px;
   font-weight: 800;
   border: 1px solid #feed01;
-  line-height: 30px;
   height: 58px;
-  line-height: 58px;
+  line-height: 40px;
   position: absolute;
   bottom: 0;
   transition: all 0.25s ease-in-out;
@@ -2944,9 +2999,8 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
   font-size: 16px;
   font-weight: 800;
   border: 1px solid #feed01;
-  line-height: 30px;
   height: 58px;
-  line-height: 58px;
+  line-height: 40px;
   position: absolute;
   bottom: 0;
   transition: all 0.25s ease-in-out;
@@ -3310,6 +3364,7 @@ ul{width: 100%; display: block; padding-left: 20px; margin-bottom: 30px;
   font-size: 16px;
   font-weight: 800;
   transition: all 0.25s ease-in-out;
+  border: none;
 }
 .footer-bar .button i {
   display: inline-block;
@@ -3871,7 +3926,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   .search-box .inner {
     width: 90vw;
   }
-  .section-title h2 {
+  .section-title .title {
     font-size: 30px;
   }
   .navbar .navbar-button span {
@@ -3909,9 +3964,6 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   }
   .icon-content small {
     margin-bottom: 30px;
-  }
-  .icon-content h3 {
-    font-size: 26px;
   }
   .project-slider .swiper-slide .project-box figcaption {
     width: 100%;
@@ -4293,12 +4345,12 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   border: 1px solid #e8e8e8;
   transition: all 0.25s ease-in-out;
 }
-.line-card .box-1 {
+.line-card .line-card__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.line-card .box-1 .box-1-1 {
+.line-card .line-card__content .line-card__left {
   display: flex;
   gap: 30px;
 }
@@ -4356,6 +4408,19 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   background-size: 100% 100%;
 }
 
+@media (max-width: 767px) {
+  .line-card .line-img {
+    width: 100%;
+  }
+  .line-card__content {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .line-card__left {
+    flex-direction: column;
+  }
+}
 /* для элемента input c type="checkbox" */
 .custom-checkbox {
   position: absolute;
@@ -4416,19 +4481,6 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23000' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }
 
-@media (max-width: 767px) {
-  .line-card .line-img {
-    width: 100%;
-  }
-  .box-1 {
-    flex-direction: column;
-    gap: 10px;
-    align-items: flex-start;
-  }
-  .box-1-1 {
-    flex-direction: column;
-  }
-}
 .main {
   display: flex;
   flex-flow: row nowrap;
@@ -4592,4 +4644,155 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 .more p {
   padding: 20px 0 0 0;
   text-align: justify;
+}
+
+.section__button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-weight: 900;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: 2px solid transparent;
+  outline-offset: 3px;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.section__button :hover {
+  /* background-color: #fff; */
+  color: #000;
+}
+.section__button :focus-visible {
+  outline-color: #feed01;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  padding: 30px;
+  display: none;
+  overflow-y: auto;
+}
+.modal a:hover {
+  text-decoration: none;
+}
+.modal .modal__main {
+  position: relative;
+  width: 600px;
+  max-width: 100%;
+  min-width: 280px;
+  background-color: #feed01;
+  margin: auto;
+  color: #000;
+  padding: 30px 60px;
+  cursor: default;
+}
+.modal .modal__title {
+  font-size: 40px;
+  margin: 30px 0;
+  font-weight: 700;
+  line-height: 50px;
+}
+.modal .modal-subtitle {
+  font-size: 1.25rem;
+  margin: -20px 0 30px 0;
+}
+.modal .modal__container {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.modal .modal__container p {
+  font-size: 18px;
+}
+.modal .modal__close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  outline: 1px solid transparent;
+  outline-offset: 3px;
+  transition: outline-color 0.15s ease-in-out;
+  border-radius: 3px;
+  padding: 0;
+  text-align: center;
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+.modal .modal__close:focus-visible {
+  outline-color: #000;
+}
+.modal .modal-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.modal .modal-form input[type=text] {
+  padding: 10px;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 100%;
+}
+.modal .modal-form input[type=tel] {
+  padding: 10px;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 100%;
+}
+.modal .modal-form input[type=submit] {
+  background-color: #0b0b0b;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.modal .modal-form input[type=submit]:hover {
+  text-decoration: none;
+  box-shadow: 0 10px 10px #000;
+}
+
+.section__button:focus-visible {
+  outline-color: yellow;
+}
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  .modal {
+    padding: 0 15px;
+  }
+  .modal__main {
+    padding: 15px 30px;
+    cursor: default;
+    overflow: none;
+  }
+  .modal__title {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  .modal-form input[type=tel] {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .modal-form input[type=text] {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .modal-form input[type=submit] {
+    width: 100%;
+    margin: 10px 0;
+  }
 }

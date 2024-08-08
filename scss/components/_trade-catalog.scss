@@ -27,8 +27,8 @@
 }
 .line-card{
  padding: 30px; margin-bottom: 30px; border:1px solid #e8e8e8; @include transition;
-  .box-1{display: flex; justify-content: space-between; align-items: center;
-  .box-1-1{display: flex; gap: 30px}}
+  .line-card__content{display: flex; justify-content: space-between; align-items: center;
+  .line-card__left{display: flex; gap: 30px}}
   .line-img { width: 150px;
     img{width: 100%; object-fit: cover;}}
   .card-status{display: flex; flex-direction: column; gap: 10px;}
@@ -41,6 +41,13 @@
     &:hover{transform: translateY(-20px); box-shadow: 0 30px 30px #eee; border-top: none;}
     &:hover .content span a{ background-size: 100% 100%;}
 }
+
+@media (max-width: 767px) {
+  .line-card{
+  .line-img{width: 100%;}}
+    .line-card__content{flex-direction: column; gap: 10px; align-items: flex-start;}
+    .line-card__left{flex-direction: column;}
+    }
 
 /* для элемента input c type="checkbox" */
     .custom-checkbox {
@@ -99,10 +106,3 @@
       background-color: #feed01;
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23000' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
     }
-@media (max-width: 767px) {
-.line-card{
-.line-img{width: 100%;}}
-	.box-1{flex-direction: column; gap: 10px; align-items: flex-start;}
-  .box-1-1{flex-direction: column;}
-  }
-

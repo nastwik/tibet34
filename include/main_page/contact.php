@@ -3,8 +3,8 @@
     <div class="row">
       <div class="col-12">
         <div class="section-title">
-          <h6>Контакты для связи</h6>
-          <h2>Вдумчиво проконсультируем!</h2>
+          <div class="subtitle">Контакты для связи</div>
+          <div class="title">Профессиональная консультация</div>
         </div>
       </div>
       <div class="col-lg-3 col-md-6">
@@ -33,7 +33,7 @@
         <div class="contact-box"> 	
 			    <figure><img src="images/icons/massangers.png" alt="Image"></figure>
           <h6>Мессенджеры</h6>
-          <p><a href="#">WhatsApp</a> <br><a href="#">Viber</a> <br><a href="#">Telegram</a></p>
+          <p><a href="#">WhatsApp</a></p>
         </div>
       </div>
     </div>
