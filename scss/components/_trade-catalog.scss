@@ -20,7 +20,6 @@
       tr.gray {background-color: #efeff6;}}
 }
 .centred {text-align: center;}
-
 .concrete-price{
   p{text-align: left;}
   i{color: $color-main;}
@@ -42,12 +41,16 @@
     &:hover{transform: translateY(-20px); box-shadow: 0 30px 30px #eee; border-top: none;}
     &:hover .content span a{ background-size: 100% 100%;}
 }
-
-@media (max-width: 767px) {
+@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+  .pricing-section {padding: 70px 0px 0px 0px;}
+}
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
   .line-card{
   .line-img{width: 100%;}}
     .line-card__content{flex-direction: column; gap: 10px; align-items: flex-start;}
     .line-card__left{flex-direction: column;}
+    .pricing-section {padding: 50px 0px 0px 0px;}
+    .fl-table {/* overflow:auto; */}
     }
 
 /* для элемента input c type="checkbox" */

@@ -495,7 +495,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 .page-header{width: 100%; height: 500px; display: flex; flex-wrap: wrap; align-items: center; background-color:$color-dark; background-image: url("../images/header-pattern.png"); background-size: cover; position: relative;
 	.container{position: relative; color: #fff; padding-top: 98px;
 		h6{ width: 100%; display: block; opacity: 0.7; margin-bottom: 50px;}
-		h1{ width: 100%; display: block; font-size: 4vw; font-weight: 800; line-height: 1;}
+		h1{ width: 100%; display: block; font-size: 70px; font-weight: 800; line-height: 1;}
 		ul{width: 100%; display: block; margin: 0; padding: 0;
 			li{display: inline-block; margin-right: 10px; padding: 0; font-size: 13px; font-weight: 600;
 				&:last-child{color: $color-main;}
@@ -711,7 +711,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 	*{@include transition;}
 	.image{width: 100%; display: block; padding-right: 30px;
 		 img{width: 100%; filter: grayscale(1);} }
-	.content{width: 80%; position: absolute; right: 0; bottom: -30px; z-index: 1; background: #fff; padding: 40px; box-shadow: 0 0 50px rgba(0,0,0,0.1);
+	.content{width: 80%; position: absolute; right: 0; bottom: -20px; z-index: 1; background: #fff; padding: 40px; box-shadow: 0 0 50px rgba(0,0,0,0.1);
 		.icon{width: 100%; display: block; margin-bottom: 20px;
 			img{height: 70px;}}
 		span{position: absolute; right: 30px; top: 30px; font-weight: 800; opacity: 0.3; font-size: 19px;}
@@ -1172,6 +1172,21 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
 	.open{display: block;}
 	.hide{display: none;}
+	.mt-30{margin-top: 0;}
+	.mt-70{margin-top: 0;}
+	.mt-80{margin-top: 0;}
+	.mb-80{margin-bottom: 0;}
+	.mt-95{margin-top: 0;}
+	.mb-100{margin-bottom: 0;}
+	.mt-160{margin-top: 0;}
+	.mb-160{margin-bottom: 0;}
+	.no-spacing{ padding: 70px 0 !important;}
+	.bottom-form p:first-child{margin-top: -30px;}
+	.content-section{padding: 70px 0;}
+	.section-title .title{line-height: 50px;}
+	.section-title .subtitle{margin-bottom: 15px;}
+	.section-title .caption{margin: 15px 0;}
+	.form-list-box{padding: 70px 0;}
 	.side-widget{box-shadow: none;}
 	.side-widget .show-mobile{display: block;}
 	.side-widget .hide-mobile{display: none;}
@@ -1181,7 +1196,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.counter-box .value{margin-right: 20px;}
 	.step-box {margin: 15px 0;}
 	.step-box .image{padding-right: 0;}
-	.step-box .content{bottom: 30px; right: 30px;}
+	.step-box .content{bottom: 30px; right: 30px; min-height: 292px;}
 	.accordion{padding-right: 0;}
 	.cta-box-yellow{width: 100%;}
 	.custom-list{margin-top: 30px;}
@@ -1193,7 +1208,6 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.navbar .navbar-button span{display: inline-block; margin-left: 6px;}
 	.navbar .search{padding-top: 5px;}
 	.slider {height: auto;}
-	/* were pt-120px; I did it`s for offer img */
 	.slider .container{ padding:120px 0;}
 	.slider .slider-main{width: 100%; height:600px; position: static; margin-bottom:40px;}
 	.slider .slider-content{width: 100%; margin-right: 0;}
@@ -1216,6 +1230,9 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.form-inline{flex-direction: column; align-items: stretch;}
 	.form-inline input {margin: 10px 0;}
 	.form-inline__item{width: 100%;}
+	.form-list-section{margin-top: -50px;}
+	.footer-bar{padding: 70px 0;}
+	.footer-bar .caption{font-size: 47px; margin-bottom: 30px;}
 	.footer-bar .sales-representive{margin-left: 0;}
 	.footer-bar .button{margin-right: 30px;}
 	.footer address{margin-bottom: 50px;}
@@ -1224,21 +1241,19 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 
 /* RESPONSIVE MOBILE */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
-	.mt-30{margin-top: 0;}
-	.mt-70{margin-top: 0;}
-	.mt-80{margin-top: 0;}
-	.mb-80{margin-bottom: 0;}
-	.mt-95{margin-top: 0;}
-	.mb-100{margin-bottom: 0;}
-	.mt-160{margin-top: 0;}
-	.mb-160{margin-bottom: 0;}
+	.no-spacing{ padding: 0 0 50px 0 !important;}
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+  }
 	.content-section{padding: 50px 0;}
-
 	.side-widget{width: 240px;}
 	.search-box .inner{width: 90vw;}
 	.section-title{ margin-bottom: 35px;}
 	.section-title .title{font-size: 35px; line-height: 45px;}
-	.section-title .subtitle{font-size: 16px; margin-bottom: 15px;}
+	.section-title .subtitle{font-size: 16px;}
+	.bottom-form p:first-child{margin-top: -20px;}
 	.navbar .logo{width: 120px;}
 	.navbar .navbar-button span{display: none;}
 	.navbar .languages{display: none;}
@@ -1255,6 +1270,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.slider .slider-content .inner .inner__button a {width: 100%;}
 	.side-content .caption{font-size: 18px;}
 	.side-content .text {margin-bottom: 15px;}
+	.side-image::after{width: 0;}
 	.icon-content{width: 100%;}
 	.icon-content small{margin-bottom: 30px;}
 	.project-slider .swiper-slide .project-box figcaption{width: 100%; position: static; }
@@ -1267,6 +1283,13 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.form-list-box{padding: 0 0 90px 0; margin-bottom: 0;}
 	.form-list-box .title{font-size: 35px; line-height: 45px;}
 	.form-list-box .subtitle{font-size: 18px; margin-bottom: 20px;}
+	.page-header {height: 320px; margin-bottom: 50px;}
+	.page-header .container{padding-top: 30px;}
+	.page-header .container h1{font-size: 35px;}
+	.tab-left{padding: 50px 30px;}
+	.tab-left .title{font-size: 24px; line-height: 28px; margin-bottom: 20px;}
+	.tab-left .subtitle{font-size: 1rem; margin-bottom: 10px;}
+	.tab-left p{font-size: 1rem;}
 	.calculator .bg-image{display: none;}
 	.row.no-gutters .col{width: 80%; flex-basis: 80%; margin: 15px 10%;}
 	.testimonials-slider{width: 100%; margin: 0;}

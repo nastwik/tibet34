@@ -43,7 +43,7 @@
       <div class="col-lg-5">
         <p>Что касается ценностей, наша команда берет курс на интересы клиента. Мы за долгосрочные и доверительные отношения с заказчиками!</p>
       </div>
-      <div class="col-lg-3">
+      <div class="col-xl-3 col-lg-6 col-md-6 col-xs-12">
         <div class="step-box">
           <figure class="image"><img src="images/step04.jpg" alt="Image"></figure>
           <div class="content"> <span>01.</span>
@@ -53,7 +53,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-xl-3 col-lg-6 col-md-6 col-xs-12">
         <div class="step-box">
           <figure class="image"><img src="images/step01.jpg" alt="Image"></figure>
           <div class="content"> <span>02.</span>
@@ -63,7 +63,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-xl-3 col-lg-6 col-md-6 col-xs-12">
         <div class="step-box">
           <figure class="image"><img src="images/step02.jpg" alt="Image"></figure>
           <div class="content"> <span>03.</span>
@@ -73,7 +73,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-xl-3 col-lg-6 col-md-6 col-xs-12">
         <div class="step-box">
           <figure class="image"><img src="images/step03.jpg" alt="Image"></figure>
           <div class="content"> <span>04.</span>

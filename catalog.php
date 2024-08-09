@@ -135,28 +135,30 @@
       
 <section class="content-section" data-background="#f7f6f1">
   <div class="container">
-    <div class="row">
-    <div class="col-lg-7">
-        <div class="section-title text-left">
-          <div class="title">Оставьте заявку</div>
-          <div class="caption" style="margin-bottom: -50px">Укажите свой номер</div>
-        </div>
-      </div>
-      <div class="col-lg-5">
-        <p>Широкий ассортимент товаров и спецтехника для вашего объекта! Наш специалист поможет с выбором подходящей марки для конкретных конструкций.</p>
-      </div>
-      <div class="col-12">
-            <div class="form-list-section">
-                <form class="form-inline" action="/action_page.php">
-                    <input type="tel" required name="phone" id="phone" class="phone form-inline__item" placeholder="+7(___)___-__-__">
-                    <input type="text" id="pwd" class="form-inline__item" placeholder="Имя">
-                <button type="submit" class="form-inline__item">Отправить</button>
-                </form>
-                <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <span class="decorate"><a href="">Политикой конфиденциальности</a></span></p>
+    <div class="bottom-form">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="section-title text-left">
+                <div class="title">Оставьте заявку</div>
+                <div class="caption">Укажите свой номер</div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <p>Широкий ассортимент товаров и спецтехника для вашего объекта! Наш специалист поможет с выбором подходящей марки для конкретных конструкций.</p>
+            </div>
+            <div class="col-12">
+                <div class="form-list-section">
+                    <form class="form-inline" action="/action_page.php">
+                        <input type="tel" required name="phone" id="phone" class="phone form-inline__item" placeholder="+7(___)___-__-__">
+                        <input type="text" id="pwd" class="form-inline__item" placeholder="Имя">
+                    <button type="submit" class="form-inline__item">Отправить</button>
+                    </form>
+                    <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <span class="decorate"><a href="">Политикой конфиденциальности</a></span></p>
+                </div>
             </div>
         </div>
+        </div>
     </div>
-  </div>
 </section>
 
 <? require_once 'footer.php' ?>	
