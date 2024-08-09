@@ -8,14 +8,6 @@
   <meta name="theme-color" content="#feed01" />
   <title>ВАРЯГ - Качественный бетон и спецтехника в Волгограде и Волжском</title>
 
-  <!-- SOCIAL MEDIA META -->
-  <!-- <meta property="og:description" content="Consto | Industrial Construction Company">
-  <meta property="og:image" content="http://www.themezinho.net/consto/preview.png">
-  <meta property="og:site_name" content="consto">
-  <meta property="og:title" content="consto">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="http://www.themezinho.net/consto">-->
-
   <!-- GOOGLE FONTS FILES -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -64,7 +56,7 @@
             <ul>
               <li><a href="concrete-delivery.php">Бетон</a></li>
               <li><a href="trade-concrete.php">Товарный бетон</a></li>
-              <li><a href="reinforced-concrete.php">Усиленный бетон</a></li>
+              <li><a href="">Усиленный бетон</a></li>
               <li><a href="">Цементный раствор</a></li>
               <li><a href="">Плитка, бордюры</a></li>
             </ul>
@@ -89,7 +81,7 @@
           <ul>
               <li><a href="concrete-delivery.php">Бетон</a></li>
               <li><a href="trade-concrete.php">Товарный бетон</a></li>
-              <li><a href="reinforced-concrete.php">Усиленный бетон</a></li>
+              <li><a href="">Усиленный бетон</a></li>
               <li><a href="">Цементный раствор</a></li>
               <li><a href="">Плитка, бордюры</a></li>
             </ul>

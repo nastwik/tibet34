@@ -1,11 +1,11 @@
 <? require_once 'header.php' ?>
 <header class="page-header">
   <div class="container">
-    <h2>Товарный бетон</h2>
+    <h1>Товарный бетон</h1>
 	  <ul>
-	  	<li><a href="#">Главная</a></li>
-		<li>Каталог</li>
-		<li>Бетон с доставкой</li>
+	  	<li><a href="index.php">Главная</a></li>
+		<li><a href="catalog.php">Каталог</a></li>
+		<li><a href="concrete-delivery.php">Бетон с доставкой</a></li>
 	  	<li>Товарный бетон</li>
 	  </ul>
   </div> 
@@ -16,7 +16,7 @@
 				<div class="col-lg-3">
 					<aside class="sidebar hide">
                     <div class="widget">
-							<h6 class="widget-title">КАТЕГОРИИ</h6>
+							<div class="widget-title">КАТЕГОРИИ</div>
 							<ul class="categories">
 								<li><a href="trade-concrete.php" class="active-page">Бетон товарный</a></li>
 								<li><a href="reinforced-concrete.php">Бетон усиленный</a></li>
@@ -27,7 +27,7 @@
 							</ul>
 						</div>
                         <div class="widget">
-							<h6 class="widget-title">ФИЛЬТР</h6>
+							<div class="widget-title">ФИЛЬТР</div>
                             <ul>
                                 <li> <input type="checkbox" class="custom-checkbox" id="check1" name="check1"/>
                                 <label for="check1">В 12,5</label></li>
@@ -190,28 +190,27 @@
                             <button class="card-button"><a href="">Оставить заявку</a></button>
                         </div>
                     </div>
-
                     <br>
                     <p>Бетон доставляют в бетоносмесителе. Дополнительно доступны услуги бетононасоса.</p>
                     </div>
                 </div>
             </div>
     </section>
-    <section class="content-section" data-background="#f7f6f1">
-  <div class="container">
-    <div class="row">
-      <div class="form-list-section">
-            <h2>Оставьте заявку</h2>
-            <h5>Наш специалист перезвонит и сориентирует по стоимости!</h5>
-            <form class="form-inline" action="/action_page.php">
-                <input type="tel" required name="phone" id="phone" class="phone form-inline__item" placeholder="+7(___)___-__-__">
-                <input type="text" id="pwd" class="form-inline__item" placeholder="Имя">
-               <button type="submit" class="form-inline__item">Отправить</button>
-            </form>
-            <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <span class="decorate"><a href="">Политикой конфиденциальности</a></span></p>
-         </div>
+<section class="content-section" data-background="#f7f6f1">
+    <div class="container">
+        <div class="row">
+            <div class="form-list-section">
+                <div class="title">Оставьте заявку</div>
+                <div class="caption">Наш специалист перезвонит и сориентирует по стоимости!</div>
+                <form class="form-inline" action="/action_page.php">
+                    <input type="tel" required name="phone" id="phone" class="phone form-inline__item" placeholder="+7(___)___-__-__">
+                    <input type="text" id="pwd" class="form-inline__item" placeholder="Имя">
+                <button type="submit" class="form-inline__item">Отправить</button>
+                </form>
+                <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <span class="decorate"><a href="privacy-policy.php">Политикой конфиденциальности</a></span></p>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
 <div class="modal modal2">

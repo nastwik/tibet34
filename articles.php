@@ -1,9 +1,9 @@
 <? require_once 'header.php' ?>
 <header class="page-header">
   <div class="container">
-    <h2>Статьи</h2>
+    <h1>Статьи</h1>
 	  <ul>
-	  	<li><a href="#">Главная</a></li>
+      <li><a href="index.php">Главная</a></li>
 	  	<li>Статьи</li>
 	  </ul>
   </div>
@@ -17,7 +17,7 @@
           <div class="recent-article">
               <figure> <img src="images/slide01.jpg" alt="Image"> </figure>
               <div class="content"> <small>29 February, 2020</small>
-                <h3><a href="article-single.php">Result of a challenge I participated in as a guest on The Futuristic</a></h3>
+                <div class="title"><a href="article-single.php">Result of a challenge I participated in as a guest on The Futuristic</a></div>
           </div>
             </div>
           </div>
@@ -25,7 +25,7 @@
           <div class="recent-article">
                   <figure> <img src="images/slide02.jpg" alt="Image"> </figure>
                   <div class="content"> <small>29 February, 2020</small>
-                      <h3><a href="article-single.php">Result of a challenge I participated in as a guest on The Futuristic</a></h3>
+                      <div class="title"><a href="article-single.php">Result of a challenge I participated in as a guest on The Futuristic</a></div>
                 </div>
                 </div>
           </div>
@@ -33,7 +33,7 @@
           <div class="recent-article">
                   <figure> <img src="images/slide03.jpg" alt="Image"> </figure>
                   <div class="content"> <small>29 February, 2020</small>
-                        <h3><a href="article-single.php">Result of a challenge I participated in as a guest on The Futuristic</a></h3>
+                        <div class="title"><a href="article-single.php">Result of a challenge I participated in as a guest on The Futuristic</a></div>
                   </div>
                   </div>
                 </div>

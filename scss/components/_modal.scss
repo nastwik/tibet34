@@ -10,7 +10,7 @@
    transition: background-color .2s ease-in-out, color .2s ease-in-out;
    :hover {
       /* background-color: #fff; */
-      color: #000;
+      color: $color-dark;
     }
     :focus-visible {
       outline-color: $color-main;
@@ -33,7 +33,7 @@
    min-width: 280px;
    background-color: #feed01;
    margin: auto;
-   color: #000;
+   color: $color-dark;
    padding: 30px 60px;
    cursor: default;
  }
@@ -71,7 +71,7 @@
    display: block;
    width: 30px;
    height: 30px;
-   &:focus-visible{outline-color: #000;}
+   &:focus-visible{outline-color: $color-dark;}
  }
  .modal-form{
   form{
@@ -118,27 +118,42 @@
  @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
    .modal {
    padding: 0 15px;
- }
- .modal__main {
-   padding: 15px 30px;
-   cursor: default;
-   overflow: none;
- }
-   .modal__title {
-   font-size: 20px;
- }
- }
- @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+   .modal__main {
+    padding: 30px;
+    cursor: default;
+    overflow: none;
+  }
+    .modal__title {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 30px 0 20px 0;
+  }
+  .modal-subtitle{
+    font-size: 1rem;
+    margin: -10px 0 20px 0;
+   }
+  .modal__close {
+    top: 20px;
+    right: 20px;
+  }
    .modal-form input[type=tel]{
      width: 100%;
-     margin: 10px 0;
-    }
-    .modal-form input[type=text]{
-     width: 100%;
-     margin: 10px 0;
-    }
-    .modal-form input[type=submit]{
-     width: 100%;
-     margin: 10px 0;
+     font-size: 16px;
    }
+   .modal-form input[type=text]{
+     width: 100%;
+     font-size: 16px;
+   }
+   .modal-form input[type=submit]{
+     width: 100%;
+     font-size: 16px;
+     margin-bottom: 20px;
+   }
+   .modal-form{
+    form{
+    gap: 15px;}}
+   .modal__container p{
+    font-size: 1rem;
+  }
+ }
  }

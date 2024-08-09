@@ -1,10 +1,10 @@
 <? require_once 'header.php' ?>
 <header class="page-header">
   <div class="container">
-  <h2>Бетон с доставкой</h2>
+  <h1>Бетон с доставкой</h1>
 	  <ul>
-	  	<li><a href="#">Главная</a></li>
-		<li>Каталог</li>
+        <li><a href="index.php">Главная</a></li>
+		<li><a href="catalog.php">Каталог</a></li>
 	  	<li>Бетон с доставкой</li>
 	  </ul>
   </div> 
@@ -15,7 +15,7 @@
 				<div class="col-lg-3">
 					<aside class="sidebar hide">
 					<div class="widget">
-							<h6 class="widget-title">КАТЕГОРИИ</h6>
+							<div class="widget-title">КАТЕГОРИИ</div>
 							<ul class="categories">
 								<li><a href="trade-concrete.php">Бетон товарный</a></li>
 								<li><a href="reinforced-concrete.php">Бетон усиленный</a></li>
@@ -31,7 +31,7 @@
                     <div class="catalog-container">
                         <div class="concrete-card">
                             <div class="concrete-card__img">
-                                <img src="images/commodity.jpg" alt="concrete">
+                                <img src="images/category01.jpg" alt="concrete">
                             </div>
                             <div class="content">
                                 <span><a href="trade-concrete.php">Бетон товарный</a></span>
@@ -39,7 +39,7 @@
                         </div>
                         <div class="concrete-card">
                             <div class="concrete-card__img">
-                                <img src="images/reinforced.jpeg" alt="concrete">
+                                <img src="images/category02.jpeg" alt="concrete">
                             </div>
                             <div class="content">
                                 <span><a href="trade-concrete.php">Бетон усиленный</a></span>

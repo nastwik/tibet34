@@ -3,7 +3,7 @@
       &:hover {box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);}
       &-img {height: 200px;
       img{max-height: 140px; max-width: 100%; object-fit: contain;}}
-      &-title a {color: #000; font-weight: 700; text-transform: uppercase;}
+      &-title a {color: $color-dark; font-weight: 700; text-transform: uppercase;}
       &-desc {overflow: hidden; font-size: 14px;
          svg{color: #2ed653;}
          p{margin: 0px}
@@ -12,11 +12,11 @@
       &-price {position: absolute; bottom: 0; left: 0; width: 100%; color: #d51e08; font-size: 18px; font-weight: 700;}
   } 
 
-.pricing-section {position: relative; padding: 115px 0px 0px 0px; margin: 0 auto; 
+.pricing-section {position: relative; padding: 160px 0px 80px 0px; margin: 0 auto; 
   .fl-table {/* overflow:auto; */}
   table {width: 100%; background-color: #fff; box-shadow: 0 30px 30px #eee; margin-bottom: 30px;
       th, td {padding: 16px; margin: auto;}
-      th {background-color: $color-main; color: #000;}
+      th {background-color: $color-main; color: $color-dark;}
       tr.gray {background-color: #efeff6;}}
 }
 .centred {text-align: center;}
@@ -27,6 +27,7 @@
 }
 .line-card{
  padding: 30px; margin-bottom: 30px; border:1px solid #e8e8e8; @include transition;
+ &:last-child{margin-bottom: 0px;}
   .line-card__content{display: flex; justify-content: space-between; align-items: center;
   .line-card__left{display: flex; gap: 30px}}
   .line-img { width: 150px;

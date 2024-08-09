@@ -12,7 +12,7 @@
           <div class="concrete-pump">
               <figure> <img src="images/cars/bet_01.jpg" alt="Image"> </figure>
               <div class="content">
-                <h3><a href="#">Бетононасос Putzmeister на шасси «Мерседес» Zoomlion 43X-5RZ</a></h3>
+                <div class="title"><a href="#">Бетононасос Putzmeister на шасси «Мерседес» Zoomlion 43X-5RZ</a></div>
               </div>
               <a><div class="button-order section__button section__button2">Заказать</div></a>
             </div>
@@ -21,7 +21,7 @@
           <div class="concrete-pump">
                   <figure> <img src="images/cars/bet_02.jpg" alt="Image"> </figure>
                   <div class="content">
-                    <h3><a href="#">Бетононасос Putzmeister M 38-5 на шасси «МАН»</a></h3>
+                    <div class="title"><a href="#">Бетононасос Putzmeister M 38-5 на шасси «МАН»</a></div>
                   </div>
                   <a><div class="button-order section__button section__button3">Заказать</div></a>
                 </div>
@@ -30,7 +30,7 @@
           <div class="concrete-pump">
                   <figure> <img src="images/cars/bet_03.jpg" alt="Image"> </figure>
                   <div class="content">
-                    <h3><a href="#">Бетононасос Putzmeister M 36-4 на шасси «Мерседес» Z</a></h3>
+                    <div class="title"><a href="#">Бетононасос Putzmeister M 36-4 на шасси «Мерседес» Z</a></div>
                   </div>
                   <a><div class="button-order section__button section__button4">Заказать</div></a>
           </div>

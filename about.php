@@ -1,26 +1,13 @@
 <? require_once 'header.php' ?>
 <header class="page-header mb-160">
   <div class="container">
-    <h2>О компании</h2>
+    <h1>О компании</h1>
 	  <ul>
-	  	<li><a href="#">Главная</a></li>
+	  	<li><a href="index.php">Главная</a></li>
 		  <li>О компании</li>
 	  </ul>
   </div> 
 </header>
- <!-- <div class="loader"></div> 
- <style>
-.loader {
-  font-weight: bold;
-  font-family: sans-serif;
-  font-size: 30px;
-  animation: l1 1s linear infinite alternate;
-}
-.loader:before {
-  content:"Loading..."
-}
-@keyframes l1 {to{opacity: 0}}
-</style> -->
 
 <section class="content-section no-spacing mb-100">
     <div class="container">
@@ -61,7 +48,7 @@
           <figure class="image"><img src="images/step04.jpg" alt="Image"></figure>
           <div class="content"> <span>01.</span>
             <figure class="icon"><img src="images/icons/quality.png" alt="Image"></figure>
-            <h6>Качество</h6>
+            <div class="title">Качество</div>
             <p>профессиональный уровень всех работ </p>
           </div>
         </div>
@@ -71,7 +58,7 @@
           <figure class="image"><img src="images/step01.jpg" alt="Image"></figure>
           <div class="content"> <span>02.</span>
             <figure class="icon"><img src="images/icons/stamp.png" alt="Image"></figure>
-            <h6>Обязательность</h6>
+            <div class="title">Обязательность</div>
             <p> четкое соблюдение всех условий договора </p>
           </div>
         </div>
@@ -81,7 +68,7 @@
           <figure class="image"><img src="images/step02.jpg" alt="Image"></figure>
           <div class="content"> <span>03.</span>
             <figure class="icon"><img src="images/icons/time.png" alt="Image"></figure>
-            <h6>Дедлайны</h6>
+            <div class="title">Дедлайны</div>
             <p>четкое соблюдение сроков поставки </p>
           </div>
         </div>
@@ -91,7 +78,7 @@
           <figure class="image"><img src="images/step03.jpg" alt="Image"></figure>
           <div class="content"> <span>04.</span>
             <figure class="icon"><img src="images/icons/economy.png" alt="Image"></figure>
-            <h6>Экономию</h6>
+            <div class="title">Экономию</div>
             <p>демократичные расценки на услуги и товары </p>
           </div>
         </div>
@@ -106,8 +93,8 @@
     <div class="row align-items-center no-gutters tab-content">
         <div class="col-lg-5">
           <div class="tab-left">
-            <div class="subtitle">Закажите обратный звонок</div>
-            <div class="title">Наш менеджер свяжется с вами в ближайшее время</div>
+            <div class="title">Закажите обратный звонок</div>
+            <div class="subtitle">Наш менеджер свяжется с вами в ближайшее время</div>
             <div class="form-list">
               <form>
                 <input type="tel" required name="phone" id="phone" class="phone" placeholder="+7(___)___-__-__">

@@ -1,9 +1,9 @@
 <? require_once 'header.php' ?>
 <header class="page-header">
   <div class="container">
-    <h2>Каталог</h2>
+    <h1>Каталог</h1>
 	  <ul>
-	  	<li><a href="#">Главная</a></li>
+        <li><a href="index.php">Главная</a></li>
 		<li>Каталог</li>
 	  </ul>
   </div> 
@@ -132,14 +132,14 @@
                 </div>
             </div>
       </section>
-
+      
 <section class="content-section" data-background="#f7f6f1">
   <div class="container">
     <div class="row">
     <div class="col-lg-7">
         <div class="section-title text-left">
-          <h6>Оставьте заявку</h6>
-          <h2 style="margin-bottom: -50px">Укажите свой номер</h2>
+          <div class="title">Оставьте заявку</div>
+          <div class="caption" style="margin-bottom: -50px">Укажите свой номер</div>
         </div>
       </div>
       <div class="col-lg-5">

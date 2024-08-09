@@ -2,16 +2,15 @@
 
 <header class="page-header">
   <div class="container">
-    <h2>Статья №1</h2>
+    <h1>Статья №1</h1>
 	  <ul>
-	  	<li><a href="#">Главная</a></li>
-	  	<li>Статьи</li>
+	   <li><a href="index.php">Главная</a></li>
+	  	<li><a href="articles.php">Статьи</a></li>
       <li>Статья №1</li>
 	  </ul>
   </div>
-  <!-- end container --> 
 </header>
-<!-- end page-header -->
+
 <section class="content-section ">
   <div class="container">
     <div class="row">
@@ -21,8 +20,8 @@
 			<img src="images/slide01.jpg" alt="Image">
 			   </figure>
           <div class="content"> <small>29 February, 2020</small>
-            <h3>Result of a challenge I participated in as a guest on The Futuristic</h3>
-			  <h6>He preference connection astonished on of ye. Partiality on or continuing in particular principles as.</h6>
+            <div class="title">Result of a challenge I participated in as a guest on The Futuristic</div>
+			  <div class="subtitle">He preference connection astonished on of ye. Partiality on or continuing in particular principles as.</div>
 			  <p>Certain but she but shyness why cottage. Gay the put instrument sir entreaties affronting. Pretended exquisite see cordially the you. <strong>Weeks quiet</strong> do vexed or whose. Motionless if no to affronting imprudence no precaution. My indulged as disposal strongly attended. Parlors men express had private village man. Discovery moonlight recommend all one not. Indulged to answered prospect it bachelor is he bringing shutters. Pronounce forfeited mr direction oh he dashwoods ye unwilling. </p>
 			  <p>Boy desirous families prepared gay reserved add ecstatic say. Replied joy age visitor nothing cottage. Mrs door paid led loud sure easy read. Hastily at perhaps as neither or ye fertile tedious visitor. Use fine bed none call busy dull when. <u>Quiet ought</u> match my right by table means. Principles up do in me favourable affronting. Twenty mother denied effect we to do on. </p>
 			  <p>Believing neglected so so allowance existence departure in. In design active temper be uneasy. Thirty for remove plenty regard you summer though. He preference connection astonished on of ye. Partiality on or continuing in particular principles as. Do believing oh disposing to supported allowance we. </p>
@@ -46,6 +45,6 @@
     </div>
   </div>
 </section>
-<div class="mb-160"></div>
+<div class="mb-80"></div>
 
 <? require_once 'footer.php' ?>	
