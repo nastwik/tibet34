@@ -10,7 +10,7 @@
 	  </ul>
   </div> 
 </header>
-	<section class="content-section ">
+	<section class="content-section no-mobil-spacing">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
@@ -191,14 +191,13 @@
                         </div>
                     </div>
                     <br>
-                    <p>Бетон доставляют в бетоносмесителе. Дополнительно доступны услуги бетононасоса.</p>
-                    </div>
-                </div>
+                    <div class="excerpt">Бетон доставляют в бетоносмесителе. Дополнительно доступны услуги бетононасоса.</div>
             </div>
-    </section>
+        </div>
+    </div>
+</section>
 <section class="content-section" data-background="#f7f6f1">
     <div class="container">
-        <div class="row">
             <div class="form-list-section">
                 <div class="title">Оставьте заявку</div>
                 <div class="caption">Наш специалист перезвонит и сориентирует по стоимости!</div>
@@ -208,7 +207,6 @@
                 <button type="submit" class="form-inline__item">Отправить</button>
                 </form>
                 <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <span class="decorate"><a href="privacy-policy.php">Политикой конфиденциальности</a></span></p>
-            </div>
         </div>
     </div>
 </section>

@@ -1034,11 +1034,11 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 /* SIDEBAR */
 .sidebar{width: 100%; display: block;
-	.widget{width: 100%; display: block; border: 1px solid #e8e8e8; padding: 50px; margin-bottom: 33px;
+	.widget{width: 100%; display: block; border: 1px solid #e8e8e8; padding: 30px;
 		ul{ margin-left: 0; padding-left: 0;
 			li{list-style-type: none;}
 		}
-		&:last-child{margin-bottom: 40px;}
+		&:first-child{ margin-bottom: 33px;}
 		.widget-title{ width: 100%; color: $color-dark; display: block; position: relative; z-index: 1; font-weight: 800; letter-spacing: 3px; font-size: 18px; margin-bottom: 30px; padding-bottom: 30px;
 			&:before{content: ""; width: 100%; height: 6px; background: $color-main; position: absolute; left: 0; bottom: 0; z-index: -1; mix-blend-mode: difference;}}
 		form{width:100%; display: block;
@@ -1241,12 +1241,9 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 
 /* RESPONSIVE MOBILE */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+	table {display: block; overflow-x: auto; white-space: nowrap;}
 	.no-spacing{ padding: 0 0 50px 0 !important;}
-	table {
-		display: block;
-		overflow-x: auto;
-		white-space: nowrap;
-  }
+	.no-mobil-spacing{ margin: 0 !important; padding: 0 !important;}
 	.content-section{padding: 50px 0;}
 	.side-widget{width: 240px;}
 	.search-box .inner{width: 90vw;}

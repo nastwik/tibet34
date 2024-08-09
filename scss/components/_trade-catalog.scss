@@ -20,16 +20,18 @@
       tr.gray {background-color: #efeff6;}}
 }
 .centred {text-align: center;}
+.excerpt{margin-top: -2%;}
 .concrete-price{
   p{text-align: left;}
   i{color: $color-main;}
 }
+
+
 .line-card{
  padding: 30px; margin-bottom: 30px; border:1px solid #e8e8e8; @include transition;
- &:last-child{margin-bottom: 0px;}
   .line-card__content{display: flex; justify-content: space-between; align-items: center;
   .line-card__left{display: flex; gap: 30px}}
-  .line-img { width: 150px;
+  .line-img { width: 150px; margin: auto;
     img{width: 100%; object-fit: cover;}}
   .card-status{display: flex; flex-direction: column; gap: 10px;}
   .card-price{color: $color-dark; font-size: 18px; font-weight: 700;}
@@ -43,14 +45,17 @@
 }
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
   .pricing-section {padding: 70px 0px 0px 0px;}
+  .excerpt{margin-top: -5%;}
 }
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
   .line-card{
-  .line-img{width: 100%;}}
+  .line-img{width: 100%;}
+  .card-button{width: 100%;}}
     .line-card__content{flex-direction: column; gap: 10px; align-items: flex-start;}
     .line-card__left{flex-direction: column;}
     .pricing-section {padding: 50px 0px 0px 0px;}
     .fl-table {/* overflow:auto; */}
+    .excerpt{margin-bottom: 50px;}
     }
 
 /* для элемента input c type="checkbox" */
