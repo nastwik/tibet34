@@ -11,7 +11,7 @@
 	  </ul>
   </div> 
 </header>
-	<section class="content-section ">
+	<section class="content-section no-mobil-spacing">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
@@ -125,12 +125,12 @@
   </div>
 </section>
 
-<section class="content-section no-spacing mb-100">
+<section class="content-section no-spacing no-tablet-spacing mb-100">
     <div class="container">
       <div class="mixer-box">
         <div class="row align-items-center">
           <div class="col-lg-6">
-            <div class="side-content">
+            <div class="side-content side-content-left">
               <p>Усиленный бетон и цементные растворы мы по умолчанию доставляем в автобетоносмесителе для общего удобства. Чтобы ускорить процесс заливки, воспользуйтесь услугой аренды бетононасоса. Актуально для марок бетона, подходящих для АБН. </p>
             </div>
           </div>

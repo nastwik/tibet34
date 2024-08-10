@@ -2354,6 +2354,7 @@ a:hover {
 .our-history .swiper-slide {
   z-index: 1;
   transition: all 0.25s ease-in-out;
+  text-align: center;
 }
 .our-history .swiper-slide a:hover {
   text-decoration: underline;
@@ -2369,9 +2370,6 @@ a:hover {
   display: block;
   padding: 0 15px;
   font-size: 14px;
-}
-.our-history a {
-  margin-left: 15px;
 }
 .our-history b {
   width: 100%;
@@ -3792,6 +3790,10 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   .no-spacing {
     padding: 70px 0 !important;
   }
+  .no-tablet-spacing {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
   .bottom-form p:first-child {
     margin-top: -30px;
   }
@@ -3919,6 +3921,9 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   .side-content {
     padding-left: 0;
     margin-top: 30px;
+  }
+  .side-content-left {
+    margin-top: 0 !important;
   }
   .col-lg-3:nth-child(even) .counter-box {
     margin-top: 0;
@@ -4735,7 +4740,18 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   color: #feed01;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+  .main-details-price {
+    margin-top: 10px;
+  }
+  .card-section {
+    margin-bottom: 0px;
+  }
+  .mixer-box {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
   .main {
     flex-flow: column nowrap;
     align-items: start;
@@ -4749,6 +4765,13 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   .main-details {
     margin-right: 0px;
     margin-left: 45px;
+  }
+  .main-details-name {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .main-details-price {
+    font-size: 18px;
   }
 }
 /* .characters{

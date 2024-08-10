@@ -49,8 +49,12 @@
          color: $color-main;
       }
 }
-
-@media (max-width: 768px){
+@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+   .main-details-price{margin-top: 10px;}
+   .card-section{margin-bottom: 0px;} 
+   .mixer-box{margin-bottom: 0;} 
+}
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
    .main{
       flex-flow: column nowrap;
       align-items: start;
@@ -64,6 +68,8 @@
          margin-right: 0px;
          margin-left: 45px;
       }
+      &-details-name{margin-bottom: 20px; font-size: 20px;}
+      &-details-price{font-size: 18px;} 
    }
 }
 
