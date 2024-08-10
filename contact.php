@@ -8,7 +8,7 @@
 	  </ul>
   </div> 
 </header>
-<section class="content-section mb-80">
+<section class="content-section no-mobil-top-spacing">
   <div class="container">
     <div class="row">
       <div class="col-lg-3 col-md-6">

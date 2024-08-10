@@ -190,6 +190,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 /* SPACINGS */
 .no-spacing{ margin: 0 !important; padding: 0 !important;}
+.no-spacing-pro{ margin: 0 !important; padding: 0 !important;}
 .no-bottom-spacing{margin-bottom: 0 !important; padding-bottom: 0 !important;}
 
 /* CUSTOM CONTAINER */
@@ -603,7 +604,7 @@ a:hover{text-decoration: underline; color:$color-dark; cursor: pointer;}
 
 
 /* CONTACT BOX */
-.contact-box{width:100%;  display: block; position: relative; border: 1px solid #e8e8e8; padding: 30px 30px 100px; @include transition;
+.contact-box{width:100%;  display: block; position: relative; border: 1px solid #e8e8e8; padding: 30px 30px 100px; @include transition; margin-bottom: 0;
 	&:hover{transform: translateY(-20px); box-shadow: 0 30px 30px #eee;}
 	&:hover h6:before{width: 0;}
 	&:after{content: ""; width: 0; height: 0; border-style: solid; border-width: 0 0 14px 14px; border-color: transparent transparent #e8e8e8 transparent; position: absolute; right: 4px; bottom: 4px;}
@@ -1180,6 +1181,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.mt-160{margin-top: 0;}
 	.mb-160{margin-bottom: 0;}
 	.no-spacing{ padding: 70px 0 !important;}
+	.no-spacing-pro{ padding: 70px 0 !important;}
 	.no-tablet-spacing{ margin: 0 !important; padding: 0 !important;}
 	.bottom-form p:first-child{margin-top: -30px;}
 	.content-section{padding: 70px 0;}
@@ -1190,7 +1192,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.side-widget{box-shadow: none;}
 	.side-widget .show-mobile{display: block;}
 	.side-widget .hide-mobile{display: none;}
-	.contact-box{margin-bottom: 30px;}
+	.contact-box{margin-bottom: 30px !important;}
 	.contact-box p{font-size: 18px;}
 	.contact-form{margin-bottom: -10%;}
 	.counter-box .value{margin-right: 20px;}
@@ -1227,7 +1229,9 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.row.no-gutters .col{width: 33%; flex-basis: 33%; flex-grow: inherit; margin: 0 auto;}
 	.sales-team{margin: 15px 0;}
 	.logo-item{margin: 15px 0;}
-	.concrete-pump{margin-bottom: 30px;}
+	/* RECENT ARTICLES */
+	.recent-article{ margin: 0 15px;}
+	.pagination{margin: 25px 0 0 25px;}
 	.form-inline{flex-direction: column; align-items: stretch;}
 	.form-inline input {margin: 10px 0;}
 	.form-inline__item{width: 100%;}
@@ -1244,7 +1248,9 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
 	table {display: block; overflow-x: auto; white-space: nowrap;}
 	.no-spacing{ padding: 0 0 50px 0 !important;}
+	.no-spacing-pro{ padding: 0 !important;}
 	.no-mobil-spacing{ margin: 0 !important; padding: 0 !important;}
+	.no-mobil-top-spacing{ margin: 0 !important; padding: 0 0 50px 0 !important;}
 	.content-section{padding: 50px 0;}
 	.side-widget{width: 240px;}
 	.search-box .inner{width: 90vw;}
@@ -1268,6 +1274,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.slider .slider-content .inner .inner__button a {width: 100%;}
 	.side-content .caption{font-size: 18px;}
 	.side-content .text {margin-bottom: 15px;}
+	.contact-box:last-child{margin-bottom: 0px;}
 	.side-image::after{width: 0;}
 	.icon-content{width: 100%;}
 	.icon-content small{margin-bottom: 30px;}
@@ -1278,6 +1285,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.cell{width: 100% !important;}
 	.product__container{flex-direction: column;}
 	.product{width: 100% !important;}
+	.pagination{margin: 25px 0 0 15px;}
 	.form-list-box{padding: 0 0 90px 0; margin-bottom: 0;}
 	.form-list-box .title{font-size: 35px; line-height: 45px;}
 	.form-list-box .subtitle{font-size: 18px; margin-bottom: 20px;}
@@ -1307,6 +1315,8 @@ input::-moz-focus-inner, input::-moz-focus-outer {  border: 0;}
 	.cta-box-yellow{padding: 30px;}
 	.cta-box-yellow h4{font-size: 34px;}
 	.calculator .form{padding: 30px;}
+	.policy-box .title{font-size: 35px; line-height: 45px;}
+	.policy-box .subtitle{font-size: 24px; margin: 50px 0 30px;}
 	.footer{padding-top: 50px;}
 	.footer-bar{padding: 50px 0;}
 	.footer-bar .caption{font-size: 35px; margin-bottom: 20px;}

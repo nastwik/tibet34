@@ -218,6 +218,11 @@ a:hover {
   padding: 0 !important;
 }
 
+.no-spacing-pro {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 .no-bottom-spacing {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
@@ -1645,6 +1650,7 @@ a:hover {
   border: 1px solid #e8e8e8;
   padding: 30px 30px 100px;
   transition: all 0.25s ease-in-out;
+  margin-bottom: 0;
 }
 .contact-box:hover {
   transform: translateY(-20px);
@@ -3790,6 +3796,9 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   .no-spacing {
     padding: 70px 0 !important;
   }
+  .no-spacing-pro {
+    padding: 70px 0 !important;
+  }
   .no-tablet-spacing {
     margin: 0 !important;
     padding: 0 !important;
@@ -3822,7 +3831,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     display: none;
   }
   .contact-box {
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
   }
   .contact-box p {
     font-size: 18px;
@@ -3954,8 +3963,12 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   .logo-item {
     margin: 15px 0;
   }
-  .concrete-pump {
-    margin-bottom: 30px;
+  /* RECENT ARTICLES */
+  .recent-article {
+    margin: 0 15px;
+  }
+  .pagination {
+    margin: 25px 0 0 25px;
   }
   .form-inline {
     flex-direction: column;
@@ -3997,9 +4010,16 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   .no-spacing {
     padding: 0 0 50px 0 !important;
   }
+  .no-spacing-pro {
+    padding: 0 !important;
+  }
   .no-mobil-spacing {
     margin: 0 !important;
     padding: 0 !important;
+  }
+  .no-mobil-top-spacing {
+    margin: 0 !important;
+    padding: 0 0 50px 0 !important;
   }
   .content-section {
     padding: 50px 0;
@@ -4065,6 +4085,9 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   .side-content .text {
     margin-bottom: 15px;
   }
+  .contact-box:last-child {
+    margin-bottom: 0px;
+  }
   .side-image::after {
     width: 0;
   }
@@ -4096,6 +4119,9 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   }
   .product {
     width: 100% !important;
+  }
+  .pagination {
+    margin: 25px 0 0 15px;
   }
   .form-list-box {
     padding: 0 0 90px 0;
@@ -4197,6 +4223,14 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   }
   .calculator .form {
     padding: 30px;
+  }
+  .policy-box .title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .policy-box .subtitle {
+    font-size: 24px;
+    margin: 50px 0 30px;
   }
   .footer {
     padding-top: 50px;

@@ -31,7 +31,7 @@
     </div>
   </section>
   <div class="mt-160"></div>
-<section class="content-section no-spacing">
+<section class="content-section no-spacing-pro no-tablet-spacing">
   <div class="container">
     <div class="row align-items-center no-gutters tab-content">
       <div class="col-lg-5">

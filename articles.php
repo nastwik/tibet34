@@ -9,7 +9,7 @@
   </div>
 </header>
 
-<section class="content-section ">
+<section class="content-section no-mobil-top-spacing">
   <div class="container">
     <div class="row">
     <div class="catalog">
@@ -43,6 +43,5 @@
           <li class="page-item"> <a class="page-link" href="#">ДАЛЕЕ</a> </li>
         </ul>	  
 </section>
-<div class="mb-160"></div>
 
 <? require_once 'footer.php' ?>	

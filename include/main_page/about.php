@@ -1,4 +1,4 @@
-<section class="content-section no-spacing">
+<section class="content-section no-spacing no-tablet-spacing">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-12">

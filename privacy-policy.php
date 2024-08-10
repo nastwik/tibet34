@@ -9,7 +9,7 @@
   </div>
 </header>
 
-<section class="content-section ">
+<section class="content-section no-mobil-spacing">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
