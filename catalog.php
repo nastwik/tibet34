@@ -150,7 +150,7 @@
                 <div class="form-list-section">
                     <form class="form-inline" action="/action_page.php">
                         <input type="tel" required name="phone" id="phone" class="phone form-inline__item" placeholder="+7(___)___-__-__">
-                        <input type="text" id="pwd" class="form-inline__item" placeholder="Имя">
+                        <input type="text" class="form-inline__item" placeholder="Имя">
                     <button type="submit" class="form-inline__item">Отправить</button>
                     </form>
                     <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <span class="decorate"><a href="">Политикой конфиденциальности</a></span></p>

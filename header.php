@@ -25,15 +25,10 @@
 </head>
 
 <body>
-  <!-- <div class="first-transition"></div>
-  <div class="page-transition">Loading...</div> -->
-  <!-- <div class="loading-page" id="preloader-active">
-      <div class="counter">
-          <p class="text text-capitalize">Загрузка...</p>
-          <span class="number">0%</span>
-          <span class="line"></span>
-      </div>
-    </div> -->
+  <div class="first-transition">
+    <div class="loader"></div>
+  </div>
+  <div class="page-transition"></div>
 
   <div class="search-box">
     <div class="inner">
@@ -60,7 +55,7 @@
               <li><a href="">Цементный раствор</a></li>
               <li><a href="">Плитка, бордюры</a></li>
             </ul>
-          <li><a href="rental-equipment.php">Аренда спецтехники</a></li>
+          <li><a href="rental-equipment.php">Аренда автобетононасоса</a></li>
           <li><a href="articles.php">Статьи</a></li>
           <li><a href="contact.php">Контакты</a></li>
         </ul>
@@ -78,7 +73,7 @@
           <li><a href="index.php">Главная</a></li>
           <li><a href="about.php">О компании</a></li>
           <li><a href="catalog.php">Каталог</a>
-          <ul>
+            <ul>
               <li><a href="concrete-delivery.php">Бетон</a></li>
               <li><a href="trade-concrete.php">Товарный бетон</a></li>
               <li><a href="">Усиленный бетон</a></li>
@@ -86,7 +81,7 @@
               <li><a href="">Плитка, бордюры</a></li>
             </ul>
           </li>
-          <li><a href="rental-equipment.php">Аренда спецтехники</a></li>
+          <li><a href="rental-equipment.php">Аренда автобетононасоса</a></li>
           <li><a href="articles.php">Статьи</a></li>
           <li><a href="contact.php">Контакты</a></li>
         </ul>
@@ -95,14 +90,12 @@
       <div style="display: flex; gap: 30px; justify-content: center">
         <div class="search"> <span class="material-symbols-outlined">search</span></div>
         <a href="tel:8443337908" class="navbar-button hiden"><span>(8443) 33-79-08</span></a>
-      
         <div class="open">
           <div class="hamburger">
             <div id="hamburger"> <span></span> <span></span> <span></span> </div>
             <div id="cross"> <span></span> <span></span> </div>
           </div>
+        </div>
       </div>
-    </div>
-
     </div>
   </nav>

@@ -1,7 +1,7 @@
 <? require_once 'header.php' ?>
 <header class="page-header">
   <div class="container">
-    <h1>Аренда спецтехники</h1>
+    <h1>Аренда автобетононасоса</h1>
 	  <ul>
       <li><a href="index.php">Главная</a></li>
 	  	<li>Аренда спецтехники</li>

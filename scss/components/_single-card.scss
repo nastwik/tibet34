@@ -41,12 +41,13 @@
          font-weight: 700;
       }
       &-details-application{
-         background-color: $color-main;
+         background-color: $color-main !important;
+         color: $color-dark !important;
       }
       &-details-application:hover{
-         background-color: $color-dark;
-         border: 2px solid $color-dark;
-         color: $color-main;
+         background-color: $color-dark !important;
+         border: 2px solid $color-dark !important;
+         color: $color-main !important;
       }
 }
 @media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {

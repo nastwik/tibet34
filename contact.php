@@ -15,7 +15,7 @@
         <div class="contact-box"> 
 			    <figure><img src="images/icons/location.png" alt="Image"></figure>
           <div class="title">Адрес</div>
-          <p>г. Волжский, ул. Александрова, 78 г</p>
+          <p>г. Волжский, ул.<br> Александрова, 78 г</p>
         </div>
       </div>
       <div class="col-lg-3 col-md-6">

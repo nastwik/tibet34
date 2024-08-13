@@ -1,7 +1,7 @@
 <? require_once 'header.php' ?>
 <header class="page-header">
   <div class="container">
-    <h1>Политика конфиденциальности</h1>
+    <h1>Политика конфиденциаль<wbr>ности</h1>
 	  <ul>
 	  	<li><a href="index.php">Главная</a></li>
 	  	<li>Политика конфиденциальности</li>

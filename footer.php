@@ -1,7 +1,7 @@
 <section class="footer-bar">
 	  <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 text-align-center">
           <figure class="logo hide"> <a href="index.php"><img src="images/logo/logo.png" alt="Image"></a> </figure>
           <div class="caption">Нужен бетон?</div>
           <a href="#" class="button section__button section__button1">Оставить заявку</a> 
@@ -14,32 +14,32 @@
 		</section>
     
     <div class="modal modal1">
-  <div class="modal__main">
-    <div class="modal__title">Оставьте заявку</div>
-    <div class="modal__container">
-      <div class="modal-form">
-          <form>
-            <input type="tel" required name="phone" id="phone" class="phone" placeholder="+7(___)___-__-__">
-            <input type="text" placeholder="Имя">
-            <input type="submit" value="Отправить">
-          </form>
+      <div class="modal__main">
+        <div class="modal__title">Оставьте заявку</div>
+        <div class="modal__container">
+          <div class="modal-form">
+              <form>
+                <input type="tel" required name="phone" id="phone" class="phone" placeholder="+7(___)___-__-__">
+                <input type="text" placeholder="Имя">
+                <input type="submit" value="Отправить">
+              </form>
+            </div>
+            <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <a href="privacy-policy.php"><span class="decorate-dark">Политикой конфиденциальности</span></a></p>
         </div>
-        <p>Нажимая кнопку "Отправить", Вы соглашаетесь с <a href="privacy-policy.php"><span class="decorate-dark">Политикой конфиденциальности</span></a></p>
+        <button class="modal__close">&#10006;</button>
+      </div>
     </div>
-    <button class="modal__close">&#10006;</button>
-  </div>
-</div>
 
 <footer class="footer">
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-6">
         <div class="widget-title">КОНТАКТЫ</div>
-	 <ul>
-				<li class="single-list">г. Волжский,<br> ул. Александрова, 78 г</li>
-				<li class="single-list"><a class="single-link" href="tel:8443337908">(8443) 33-79-08</a></li>
-				<li class="single-list"><a class="single-link" href="tel:8443338466">(8443) 33-84-66</a></li>
-				<li class="single-list"><a class="single-link" href="mailto:beton.volga@mail.ru">beton.volga@mail.ru</a></li>
+	      <ul>
+          <li class="single-list">г. Волжский,<br> ул. Александрова, 78 г</li>
+          <li class="single-list"><a class="single-link" href="tel:8443337908">(8443) 33-79-08</a></li>
+          <li class="single-list"><a class="single-link" href="tel:8443338466">(8443) 33-84-66</a></li>
+          <li class="single-list"><a class="single-link" href="mailto:beton.volga@mail.ru">beton.volga@mail.ru</a></li>
 		  </ul>
       </div>
 		<div class="col-lg-4 col-md-6">
@@ -73,11 +73,7 @@
   <script src="js/odometer.min.js"></script>
   <script src="js/isotope.min.js"></script>
   <script src="js/modal.js"></script>
+  <script src="js/inputmask.js"></script>
   <script src="js/scripts.js"></script>
-  <script>
-    $(document).ready(function(){
-      $("#phone").inputmask("9(999)999-99-99");
-    })
-  </script>
 	</body>
 </html>

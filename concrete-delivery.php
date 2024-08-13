@@ -9,11 +9,11 @@
 	  </ul>
   </div> 
 </header>
-<section class="content-section no-mobil-spacing">
+<section class="content-section no-mobil-top-spacing">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
-					<aside class="sidebar hide">
+					<aside class="sidebar">
 					<div class="widget">
 							<div class="widget-title">КАТЕГОРИИ</div>
 							<ul class="categories">

@@ -11,11 +11,11 @@
 	  </ul>
   </div> 
 </header>
-	<section class="content-section no-mobil-spacing">
+	<section class="content-section no-mobil-top-spacing">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
-					<aside class="sidebar hide">
+					<aside class="sidebar">
                <div class="widget">
 							<div class="widget-title">КАТЕГОРИИ</div>
 							<ul class="categories">
@@ -40,7 +40,7 @@
                           <span class="main-details-desc"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"/></svg>
                           В наличии</span><hr class="hide">
                           <div class="main-details-price">7500 руб/м3</div>
-                          <button class="main-details-application">Оставить заявку</button>
+                          <button class="main-details-application section__button section__button1">Оставить заявку</button>
                       </div>
                     </div>
                     <div class="characters">
