@@ -1,0 +1,270 @@
+.product {
+  width: calc(100% / 3);
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+  padding: 25px 15px;
+  margin: 0 15px 15px 0;
+  position: relative;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+
+  &:hover {
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  }
+
+  &__container {
+    display: flex;
+    width: 100%;
+  }
+
+  &-img {
+    height: 200px;
+
+    img {
+      max-height: 140px;
+      max-width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &-title {
+    a {
+      color: $color-dark;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+  }
+
+  &-desc {
+    overflow: hidden;
+    font-size: 14px;
+
+    svg {
+      color: #2ed653;
+    }
+
+    p {
+      margin: 0px;
+    }
+
+    p:last-child {
+      margin-bottom: 40px;
+    }
+  }
+
+  &-price {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #d51e08;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+.pricing-section {
+  position: relative;
+  padding: 160px 0px 80px 0px;
+  margin: 0 auto;
+
+  table {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 30px 30px #eee;
+    margin-bottom: 30px;
+
+    th,
+    td {
+      padding: 16px;
+      margin: auto;
+    }
+
+    th {
+      background-color: $color-main;
+      color: $color-dark;
+    }
+
+    tr.gray {
+      background-color: #efeff6;
+    }
+
+  }
+}
+.centred {
+  text-align: center;
+}
+
+.excerpt {
+  margin-top: -2%;
+}
+
+.concrete-price {
+  p {
+    text-align: left;
+  }
+  i {
+    color: $color-main;
+  }
+}
+
+.line-card {
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #e8e8e8;
+  @include transition;
+
+  &.related {
+    margin: 0;
+    width:calc(100% / 4);
+    &:hover {
+      box-shadow: none;
+      transform: none;
+    }
+    .line-card__content {
+      flex-direction: column;
+    }
+    .line-card__left {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .line-img {
+      max-width: none;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+
+    .card-price {
+      margin-top: 20px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .line-card__left {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+  }
+
+  &-img {
+    width: 150px;
+    margin: auto;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .card-status {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .card-price {
+    color: $color-dark;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 1;
+  }
+
+  .card-button {
+    padding: 15px 30px;
+    @include transition;
+    color: $color-dark;
+    background: $color-main;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid $color-main;
+
+    a {
+      text-decoration: none;
+    }
+
+    i {
+      font-size: 20px;
+      display: inline-block;
+      transform: translateY(3px);
+      margin-right: 5px;
+    }
+    
+    &:hover {
+      text-decoration: none;
+      background-color: $color-dark;
+      color: $color-main !important;
+      border: 1px solid $color-dark;
+    }
+
+  }
+  .card-button:hover a {
+    color: $color-main;
+  }
+
+  &:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 30px 30px #eee;
+  }
+
+  &:hover .content span a {
+    background-size: 100% 100%;
+  }
+}
+
+@media only screen and (max-width: 991px),
+  only screen and (max-device-width: 991px) {
+
+  .pricing-section {
+    padding: 70px 0px 0px 0px;
+  }
+
+  .excerpt {
+    margin-top: -5%;
+  }
+
+}
+@media only screen and (max-width: 767px),
+  only screen and (max-device-width: 767px) {
+
+  .line-card {
+    .line-img {
+      width: 100%;
+      max-width: 250px;
+    }
+    .card-button {
+      width: 100%;
+    }
+  }
+
+  .line-card__content {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .line-card__left {
+    flex-direction: column;
+  }
+
+  .pricing-section {
+    padding: 50px 0px 0px 0px;
+  }
+  
+  .excerpt {
+    margin-bottom: 50px;
+  }
+}

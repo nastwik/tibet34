@@ -1,0 +1,24 @@
+.odometer-formatting-mark {
+    display: none;
+}
+.odometer.odometer-auto-theme,
+.odometer.odometer-theme-car {
+padding: 0;
+}
+.odometer.odometer-auto-theme .odometer-digit,
+.odometer.odometer-theme-car .odometer-digit {
+padding: 0;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-value,
+.odometer.odometer-theme-car .odometer-digit .odometer-value {
+text-indent: -5px;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+.odometer.odometer-theme-car .odometer-digit .odometer-digit-inner {
+left: 0;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-value,
+.odometer.odometer-theme-car .odometer-digit .odometer-value {
+text-indent: 0;
+}
+  

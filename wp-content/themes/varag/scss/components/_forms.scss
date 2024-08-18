@@ -1,0 +1,118 @@
+.wpcf7-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wpcf7-not-valid {
+    border: 2px solid red !important;
+}
+
+.wpcf7-not-valid-tip {
+    display: none !important;
+}
+
+.wpcf7-form {
+
+    &.invalid {
+        & .wpcf7-response-output {
+            display: none;
+        }
+    }
+
+    &.sent {
+        & .wpcf7-response-output {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: -36px;
+            left: -9px;
+            border: none;
+            background-color: $color-main;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 32px;
+            text-align: center;
+        }
+    }
+
+    p {
+        margin-bottom: 0 !important;
+    }
+}
+
+.form-about .wpcf7-form.sent .wpcf7-response-output {
+    background-color: $color-dark !important;
+}
+
+.leadform-section {
+    form {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        margin-bottom: 24px;
+
+        & p {
+            &:nth-child(2) {
+                width: 40%;
+            }
+            &:nth-child(3) {
+                width: 40%;
+            }
+            &:nth-child(4) {
+                width: 20%;
+                
+                & input {
+                    margin: 0;
+                }
+            }
+    
+            & input {
+                width: 100%;
+            }
+        }
+    }
+
+    .wpcf7-form.sent .wpcf7-response-output {
+        background-color: $color-dark !important;
+        left: -8px;
+    }
+    
+}
+
+.catalog-form {
+    form {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        margin-bottom: 24px;
+
+        & p {
+            &:nth-child(2) {
+                width: 40%;
+            }
+            &:nth-child(3) {
+                width: 40%;
+            }
+            &:nth-child(4) {
+                width: 20%;
+                
+                & input {
+                    margin: 0;
+                }
+            }
+    
+            & input {
+                width: 100%;
+            }
+        }
+    }
+
+    .wpcf7-form.sent .wpcf7-response-output {
+        background-color: rgb(247, 246, 241) !important;
+        left: -8px;
+        top: -34px;
+    }
+}
